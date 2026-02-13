@@ -71,7 +71,7 @@ msgstr "Cliquez <0>ici</0> pour continuer"
 
 ## Adding a New Language
 
-If you'd like to add support for a new language, please open an issue first so we can discuss it.
+If you start translating a language, please open an issue to let people know you're working on it.
 
 ## License
 
