@@ -1,6 +1,6 @@
 # War Era Translations
 
-This repository contains the translation files for [War Era](https://warera.com). Community contributions are welcome!
+This repository contains the translation files for [War Era](https://app.warera.io). Community contributions are welcome!
 
 ## Structure
 
