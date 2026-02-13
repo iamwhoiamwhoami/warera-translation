@@ -1,6 +1,6 @@
 # War Era Translations
 
-This repository contains the translation files for [War Era](https://warera.com). Community contributions are welcome!
+This repository contains the translation files for [War Era](https://app.warera.io). Community contributions are welcome!
 
 ## Structure
 
@@ -22,7 +22,7 @@ uk/messages.po   # Ukrainian
 ## How to Contribute
 
 1. **Fork** this repository
-2. **Edit** the `.po` file for the language you want to translate
+2. **Edit** the `.po` file for the language you want to translate, you can create new language folder if it doesn't exist
 3. **Submit a Pull Request**
 
 ### Editing `.po` files
@@ -68,11 +68,10 @@ msgstr "Cliquez <0>ici</0> pour continuer"
 - Do not translate the `en/messages.po` file (it is the source locale, auto-generated)
 - Keep the tone consistent with the game's style
 - If you're unsure about a translation, leave a comment on your PR
-- Test your changes if possible by running the game locally
 
 ## Adding a New Language
 
-If you'd like to add support for a new language, please open an issue first so we can discuss it.
+If you start translating a language, please open an issue to let people know you're working on it.
 
 ## License
 

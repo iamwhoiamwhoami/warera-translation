@@ -988,7 +988,7 @@ msgstr "Напредне Панталоне"
 #: src/components/_political/party/party.frontConfig.tsx:297
 #: src/components/_political/party/party.frontConfig.tsx:314
 msgid "Agrarian"
-msgstr "Agrarian"
+msgstr "Aграрна"
 
 #: src/components/_economy/itemOffer/ItemOfferList.tsx:92
 #: src/components/_military/battle/ActiveBattlesList.tsx:132
