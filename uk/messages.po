@@ -1024,7 +1024,6 @@ msgstr "Дії адміна"
 msgid "Admin notification"
 msgstr "Сповіщення адміна"
 
-
 #: src/components/_user/user/militaryRankings.frontConfig.tsx:136
 msgid "Admiral"
 msgstr "Адмірал"
@@ -1658,7 +1657,6 @@ msgstr "Встановити податок на {0}:"
 #: src/components/_other/ActionLogList.tsx:66
 #~ msgid "Changed username"
 #~ msgstr "Зміна прізвиська"
-
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:83
 msgid "Check your loot!"
@@ -2923,7 +2921,6 @@ msgstr "Самоцвіти використовуються для купівл�
 msgid "General"
 msgstr "Генерал"
 
-
 #: src/components/_user/mission/MissionsList.tsx:232
 msgid "Generate Missions"
 msgstr "Згенерувати місії"
@@ -3491,7 +3488,6 @@ msgstr "Ліміт споживання їжі"
 #: src/components/_layout/LayoutMapOptions.tsx:326
 msgid "Line"
 msgstr "Лінії"
-
 
 #: src/utils/translations.tsx:64
 msgid "Little cuties used to make steaks :("
@@ -4155,7 +4151,6 @@ msgstr "Торгових замовлень немає"
 #: src/components/_economy/transaction/TransactionList.tsx:114
 msgid "No transactions found"
 msgstr "Транзакції не знайдено"
-
 
 #: src/pages/country/[countryId]/wars.tsx:32
 msgid "No wars found"
@@ -5210,7 +5205,6 @@ msgstr "Немає скріншоту - нічого не сталось"
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:64
 msgid "Screenshot this or no one will believe you"
 msgstr "Роби скріншот, інакше ніхто не повірить"
-
 
 #: src/components/_political/country/CountrySelectV2.tsx:210
 msgid "Search countries..."

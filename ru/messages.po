@@ -974,7 +974,6 @@ msgstr "Админдействия"
 msgid "Admin notification"
 msgstr "Уведомления Админа"
 
-
 #: src/components/_user/user/militaryRankings.frontConfig.tsx:136
 msgid "Admiral"
 msgstr "Адмирал"
@@ -1599,7 +1598,6 @@ msgstr "Изменить налог с {0} до"
 #: src/components/_other/ActionLogList.tsx:66
 #~ msgid "Changed username"
 #~ msgstr "Изменён никнейм"
-
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:83
 msgid "Check your loot!"
@@ -3362,7 +3360,6 @@ msgstr "Ограничивает потребление еды"
 msgid "Line"
 msgstr "Линии"
 
-
 #: src/utils/translations.tsx:64
 msgid "Little cuties used to make steaks :("
 msgstr "Милые крошки, из которых делают стейки :("
@@ -4025,7 +4022,6 @@ msgstr "Нет торговых заявок"
 #: src/components/_economy/transaction/TransactionList.tsx:114
 msgid "No transactions found"
 msgstr "Транзакции не найдены"
-
 
 #: src/pages/country/[countryId]/wars.tsx:32
 msgid "No wars found"
@@ -5055,7 +5051,6 @@ msgstr "Скриншот или это не произошло"
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:64
 msgid "Screenshot this or no one will believe you"
 msgstr "Сделай скрин, иначе никто не поверит"
-
 
 #: src/components/_political/country/CountrySelectV2.tsx:210
 msgid "Search countries..."

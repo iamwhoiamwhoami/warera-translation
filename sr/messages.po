@@ -1007,7 +1007,6 @@ msgstr "Акције админа"
 msgid "Admin notification"
 msgstr "Админ обавештење"
 
-
 #: src/components/_user/user/militaryRankings.frontConfig.tsx:136
 msgid "Admiral"
 msgstr "Адмирал"
@@ -1649,7 +1648,6 @@ msgstr "Промени порез за {0} на"
 #: src/components/_other/ActionLogList.tsx:66
 #~ msgid "Changed username"
 #~ msgstr "Промењено корисничко име"
-
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:83
 msgid "Check your loot!"
@@ -2888,7 +2886,6 @@ msgstr "Драгуљи се користе за куповину средста�
 msgid "General"
 msgstr "Генерал"
 
-
 #: src/components/_user/mission/MissionsList.tsx:232
 msgid "Generate Missions"
 msgstr "Генериши мисије"
@@ -3456,7 +3453,6 @@ msgstr "Ограничење потрошње хране"
 #: src/components/_layout/LayoutMapOptions.tsx:326
 msgid "Line"
 msgstr "Линија"
-
 
 #: src/utils/translations.tsx:64
 msgid "Little cuties used to make steaks :("
@@ -4120,7 +4116,6 @@ msgstr "Нема налога за трговину"
 #: src/components/_economy/transaction/TransactionList.tsx:114
 msgid "No transactions found"
 msgstr "Трансакције нису пронађене"
-
 
 #: src/pages/country/[countryId]/wars.tsx:32
 msgid "No wars found"
@@ -5171,7 +5166,6 @@ msgstr "Скриншот или се није десило"
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:64
 msgid "Screenshot this or no one will believe you"
 msgstr "Скриншотуј ово или ти нико неће веровати"
-
 
 #: src/components/_political/country/CountrySelectV2.tsx:210
 msgid "Search countries..."

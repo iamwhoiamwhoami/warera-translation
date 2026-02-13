@@ -996,7 +996,6 @@ msgstr "Azioni admin"
 msgid "Admin notification"
 msgstr "Notifica admin"
 
-
 #: src/components/_user/user/militaryRankings.frontConfig.tsx:136
 msgid "Admiral"
 msgstr "Ammiraglio"
@@ -1626,7 +1625,6 @@ msgstr "Cambia la tassa di {0} in"
 #: src/components/_other/ActionLogList.tsx:66
 #~ msgid "Changed username"
 #~ msgstr "Nome utente cambiato"
-
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:83
 msgid "Check your loot!"
@@ -2849,7 +2847,6 @@ msgstr "Le gemme servono per comprare asset nel negozio e regalare mesi supporte
 msgid "General"
 msgstr "Generale"
 
-
 #: src/components/_user/mission/MissionsList.tsx:232
 msgid "Generate Missions"
 msgstr "Genera missioni"
@@ -3405,7 +3402,6 @@ msgstr "Limite di consumo di cibo"
 #: src/components/_layout/LayoutMapOptions.tsx:326
 msgid "Line"
 msgstr "Linea"
-
 
 #: src/utils/translations.tsx:64
 msgid "Little cuties used to make steaks :("
@@ -4069,7 +4065,6 @@ msgstr "Nessun ordine di trading"
 #: src/components/_economy/transaction/TransactionList.tsx:114
 msgid "No transactions found"
 msgstr "Nessuna transazione trovata"
-
 
 #: src/pages/country/[countryId]/wars.tsx:32
 msgid "No wars found"
@@ -5104,7 +5099,6 @@ msgstr "Screenshot o non è mai successo"
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:64
 msgid "Screenshot this or no one will believe you"
 msgstr "Fai uno screenshot o nessuno ti crederà"
-
 
 #: src/components/_political/country/CountrySelectV2.tsx:210
 msgid "Search countries..."

@@ -1036,7 +1036,6 @@ msgstr "Yönetici Eylemleri"
 msgid "Admin notification"
 msgstr "Yönetici bildirimi"
 
-
 #: src/components/_user/user/militaryRankings.frontConfig.tsx:136
 msgid "Admiral"
 msgstr "Amiral"
@@ -1702,7 +1701,6 @@ msgstr "{0} vergisini şu şekilde değiştir"
 #: src/components/_other/ActionLogList.tsx:66
 #~ msgid "Changed username"
 #~ msgstr "Kullanıcı adı değiştirildi"
-
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:83
 msgid "Check your loot!"
@@ -3023,7 +3021,6 @@ msgstr "Mücevherler mağazadan varlık almak ve diğer oyunculara destekçi ayl
 msgid "General"
 msgstr "General"
 
-
 #: src/components/_user/mission/MissionsList.tsx:232
 msgid "Generate Missions"
 msgstr "Görevler Oluştur"
@@ -3611,7 +3608,6 @@ msgstr "Yiyecek tüketim limiti"
 #: src/components/_layout/LayoutMapOptions.tsx:326
 msgid "Line"
 msgstr "Çizgi"
-
 
 #: src/utils/translations.tsx:64
 msgid "Little cuties used to make steaks :("
@@ -4283,7 +4279,6 @@ msgstr "Alım satım emri yok"
 #: src/components/_economy/transaction/TransactionList.tsx:114
 msgid "No transactions found"
 msgstr "İşlem bulunamadı"
-
 
 #: src/pages/country/[countryId]/wars.tsx:32
 msgid "No wars found"
@@ -5350,7 +5345,6 @@ msgstr "Ekran görüntüsü yoksa olmamıştır"
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:64
 msgid "Screenshot this or no one will believe you"
 msgstr "Ekran görüntüsü al yoksa kimse inanmaz"
-
 
 #: src/components/_political/country/CountrySelectV2.tsx:210
 msgid "Search countries..."

@@ -974,7 +974,6 @@ msgstr "管理員行為"
 msgid "Admin notification"
 msgstr "管理員通知"
 
-
 #: src/components/_user/user/militaryRankings.frontConfig.tsx:136
 msgid "Admiral"
 msgstr "中將"
@@ -1599,7 +1598,6 @@ msgstr "將 {0} 的稅率更改為"
 #: src/components/_other/ActionLogList.tsx:66
 #~ msgid "Changed username"
 #~ msgstr "更改了用戶名稱"
-
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:83
 msgid "Check your loot!"
@@ -3362,7 +3360,6 @@ msgstr "食物使用上限"
 msgid "Line"
 msgstr "線條"
 
-
 #: src/utils/translations.tsx:64
 msgid "Little cuties used to make steaks :("
 msgstr "用來做成牛排的小可愛們 :("
@@ -4025,7 +4022,6 @@ msgstr "沒有交易訂單"
 #: src/components/_economy/transaction/TransactionList.tsx:114
 msgid "No transactions found"
 msgstr "找不到交易紀錄"
-
 
 #: src/pages/country/[countryId]/wars.tsx:32
 msgid "No wars found"
@@ -5055,7 +5051,6 @@ msgstr "現在就截圖，不然它就沒發生過"
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:64
 msgid "Screenshot this or no one will believe you"
 msgstr "截圖這個，不然沒人會相信你"
-
 
 #: src/components/_political/country/CountrySelectV2.tsx:210
 msgid "Search countries..."
