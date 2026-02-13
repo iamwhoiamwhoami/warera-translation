@@ -419,7 +419,7 @@ msgstr "<0>{0}</0> от приказа <1/>"
 #. placeholder {0}: sideBonus.pacifismBonusPercent
 #: src/components/_military/battle/BattleDamageBonuses.tsx:232
 msgid "<0>{0}</0> from Pacifist ethics (defending)"
-msgstr "<0>{0}</0> от Пацифистских принципов (defending)"
+msgstr "<0>{0}</0> от Пацифистских принципов (оборона)"
 
 #. placeholder {0}: region.strategicBonus
 #: src/components/_economy/company/RecommendedCompanyRegions.tsx:121
