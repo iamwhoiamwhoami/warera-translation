@@ -172,6 +172,10 @@ msgstr "<0/> ha donato <1>{0}</1> a <2/>"
 msgid "<0/> fired you from your <1>{0}</1> wage job in <2/>"
 msgstr "<0/> ti ha licenziato dal tuo lavoro da <1>{0}</1> in <2/>"
 
+#: src/components/_political/message/systemMessage.frontConfig.tsx:44
+msgid "<0/> gifted a sub to <1/>"
+msgstr ""
+
 #: src/components/_user/notification/notification.frontConfig.tsx:1155
 msgid "<0/> gifted you a premium subscription!"
 msgstr "<0/> ti ha regalato un abbonamento premium!"
@@ -234,6 +238,10 @@ msgstr "<0/> si è unito al gioco con il tuo link referral!"
 #: src/components/_user/notification/notification.frontConfig.tsx:515
 msgid "<0/> joined your company <1/> for <2>{0}</2> wage"
 msgstr "<0/> si è unito alla tua azienda <1/> con salario <2>{0}</2>"
+
+#: src/components/_political/message/systemMessage.frontConfig.tsx:33
+msgid "<0/> kicked <1/> from the conversation"
+msgstr ""
 
 #. placeholder {0}: data.company && <CompanyNameById companyId={data.company} />
 #: src/components/_user/notification/notification.frontConfig.tsx:531

@@ -184,6 +184,10 @@ msgstr "تبرع <0/> بـ <1>{0}</1> إلى <2/>"
 msgid "<0/> fired you from your <1>{0}</1> wage job in <2/>"
 msgstr "قام <0/> بطردك من وظيفتك بأجر <1>{0}</1> في <2/>"
 
+#: src/components/_political/message/systemMessage.frontConfig.tsx:44
+msgid "<0/> gifted a sub to <1/>"
+msgstr ""
+
 #: src/components/_user/notification/notification.frontConfig.tsx:1155
 msgid "<0/> gifted you a premium subscription!"
 msgstr "أهداك <0/> اشتراكًا مميزًا!"
@@ -254,6 +258,10 @@ msgstr "انضم <0/> إلى شركتك <1/> بأجر <2>{0}</2>"
 #: src/components/_user/notification/notification.frontConfig.tsx:1155
 #~ msgid "<0/> just started!"
 #~ msgstr "بدأت <0/> للتو!"
+
+#: src/components/_political/message/systemMessage.frontConfig.tsx:33
+msgid "<0/> kicked <1/> from the conversation"
+msgstr ""
 
 #. placeholder {0}: data.company && <CompanyNameById companyId={data.company} />
 #: src/components/_user/notification/notification.frontConfig.tsx:531

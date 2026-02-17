@@ -176,6 +176,10 @@ msgstr "<0/> пожертвував <1>{0}</1> до <2/>"
 msgid "<0/> fired you from your <1>{0}</1> wage job in <2/>"
 msgstr "<0/> звільнив вас з роботи у <2/> (зарплата <1>{0}</1>)"
 
+#: src/components/_political/message/systemMessage.frontConfig.tsx:44
+msgid "<0/> gifted a sub to <1/>"
+msgstr ""
+
 #: src/components/_user/notification/notification.frontConfig.tsx:1155
 msgid "<0/> gifted you a premium subscription!"
 msgstr "<0/> подарував вам преміум-підписку!"
@@ -238,6 +242,10 @@ msgstr "<0/> приєднався до гри за вашим посилання
 #: src/components/_user/notification/notification.frontConfig.tsx:515
 msgid "<0/> joined your company <1/> for <2>{0}</2> wage"
 msgstr "<0/> приєднався до вашої фабрики <1/> з зарплатнею <2>{0}</2>"
+
+#: src/components/_political/message/systemMessage.frontConfig.tsx:33
+msgid "<0/> kicked <1/> from the conversation"
+msgstr ""
 
 #. placeholder {0}: data.company && <CompanyNameById companyId={data.company} />
 #: src/components/_user/notification/notification.frontConfig.tsx:531

@@ -183,6 +183,10 @@ msgstr "<0/> ziedoja <2/> <1>{0}</1>"
 msgid "<0/> fired you from your <1>{0}</1> wage job in <2/>"
 msgstr "<0/> atlaida tevi no darba uzņēmumā <1>{0}</1> ar algu <2/>"
 
+#: src/components/_political/message/systemMessage.frontConfig.tsx:44
+msgid "<0/> gifted a sub to <1/>"
+msgstr ""
+
 #: src/components/_user/notification/notification.frontConfig.tsx:1155
 msgid "<0/> gifted you a premium subscription!"
 msgstr "<0/> tev uzdāvināja premium abonementu!"
@@ -253,6 +257,10 @@ msgstr "<0/> pievienojās tavam uzņēmumam <1/> par <2>{0}</2> algu"
 #: src/components/_user/notification/notification.frontConfig.tsx:1155
 #~ msgid "<0/> just started!"
 #~ msgstr "<0/> tikko sākās!"
+
+#: src/components/_political/message/systemMessage.frontConfig.tsx:33
+msgid "<0/> kicked <1/> from the conversation"
+msgstr ""
 
 #. placeholder {0}: data.company && <CompanyNameById companyId={data.company} />
 #: src/components/_user/notification/notification.frontConfig.tsx:531

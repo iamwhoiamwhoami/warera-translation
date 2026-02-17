@@ -180,6 +180,10 @@ msgstr "<0/> a donné <1>{0}</1> à <2/>"
 msgid "<0/> fired you from your <1>{0}</1> wage job in <2/>"
 msgstr "<0/> vous a licencié de votre emploi de <1>{0}</1> dans <2/>"
 
+#: src/components/_political/message/systemMessage.frontConfig.tsx:44
+msgid "<0/> gifted a sub to <1/>"
+msgstr ""
+
 #: src/components/_user/notification/notification.frontConfig.tsx:1155
 msgid "<0/> gifted you a premium subscription!"
 msgstr "<0/> t'a offert un abonnement premium !"
@@ -250,6 +254,10 @@ msgstr "<0/> a rejoint ton entreprise <1/> pour un salaire de <2>{0}</2>"
 #: src/components/_user/notification/notification.frontConfig.tsx:1155
 #~ msgid "<0/> just started!"
 #~ msgstr "<0/> vient de commencer !"
+
+#: src/components/_political/message/systemMessage.frontConfig.tsx:33
+msgid "<0/> kicked <1/> from the conversation"
+msgstr ""
 
 #. placeholder {0}: data.company && <CompanyNameById companyId={data.company} />
 #: src/components/_user/notification/notification.frontConfig.tsx:531
