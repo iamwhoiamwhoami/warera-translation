@@ -9,9 +9,9 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: \n"
-"Last-Translator: LuGe"
-"Language-Team: \n"
+"Last-Translator: LuGeLanguage-Team:\n"
 "Plural-Forms: \n"
+"Language-Team: \n"
 
 #. placeholder {0}: user.data.mute.reason
 #: src/components/_user/user/UserHeader.tsx:409
@@ -2238,6 +2238,7 @@ msgid "Delete account"
 msgstr "Konto löschen"
 
 #: src/pages/index.tsx:159
+#: src/pages/rules.tsx:40
 msgid "Delete your account"
 msgstr "Dein Konto löschen"
 
@@ -3480,7 +3481,6 @@ msgid "Market"
 msgstr "Markt"
 
 #: src/components/_political/country/CountryTaxes.tsx:24
-#: src/components/_political/law/LawFormModal.crit.tsx:211
 #: src/components/_political/law/LawFormModal.tsx:211
 msgid "Market tax"
 msgstr "Marktsteuer"
@@ -4441,6 +4441,7 @@ msgid "Priority from declaring wars or winning battles is <0>{0} hours</0> inste
 msgstr "Die Priorität durch Kriegserklärungen oder gewonnene Schlachten beträgt <0>{0} Stunden</0> statt 24."
 
 #: src/pages/index.tsx:155
+#: src/pages/rules.tsx:36
 msgid "Privacy"
 msgstr "Privatsphäre"
 
@@ -5559,6 +5560,7 @@ msgid "Taxes"
 msgstr "Steuern"
 
 #: src/pages/index.tsx:151
+#: src/pages/rules.tsx:32
 msgid "Terms"
 msgstr "Bedingungen"
 

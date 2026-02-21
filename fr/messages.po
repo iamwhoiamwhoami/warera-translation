@@ -2238,6 +2238,7 @@ msgid "Delete account"
 msgstr "Supprimer le compte"
 
 #: src/pages/index.tsx:159
+#: src/pages/rules.tsx:40
 msgid "Delete your account"
 msgstr "Supprimer votre compte"
 
@@ -4440,6 +4441,7 @@ msgid "Priority from declaring wars or winning battles is <0>{0} hours</0> inste
 msgstr "La priorité obtenue en déclarant des guerres ou en gagnant des batailles est de <0>{0} heures</0> au lieu de 24."
 
 #: src/pages/index.tsx:155
+#: src/pages/rules.tsx:36
 msgid "Privacy"
 msgstr "Confidentialité"
 
@@ -5558,6 +5560,7 @@ msgid "Taxes"
 msgstr "Impôts"
 
 #: src/pages/index.tsx:151
+#: src/pages/rules.tsx:32
 msgid "Terms"
 msgstr "Conditions"
 

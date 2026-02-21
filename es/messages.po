@@ -953,7 +953,8 @@ msgstr ""
 #: src/components/_user/user/UserHeader.tsx:162
 #: src/pages/country/[countryId]/account.tsx:36
 #: src/pages/country/[countryId]/index.tsx:328
-#: src/pages/user/[userId]/account.tsx:25 src/pages/user/[userId]/index.tsx:149
+#: src/pages/user/[userId]/account.tsx:25
+#: src/pages/user/[userId]/index.tsx:149
 msgid "Account"
 msgstr "Cuenta"
 
@@ -1122,7 +1123,8 @@ msgstr "Casi parece trampa"
 msgid "Almost ready..."
 msgstr "Casi listo..."
 
-#: src/components/_user/UserEquipments.tsx:116 src/utils/translations.tsx:35
+#: src/components/_user/UserEquipments.tsx:116
+#: src/utils/translations.tsx:35
 msgid "Ammo"
 msgstr "Munición"
 
@@ -1395,7 +1397,8 @@ msgstr "Recompensa de clasificación de batalla"
 #: src/components/_layout/LayoutMenu.tsx:152
 #: src/components/_military/battle/BattlesHeader.tsx:19
 #: src/components/_military/war/WarHeader.tsx:83
-#: src/pages/region/[regionId]/index.tsx:132 src/pages/war/[warId]/index.tsx:75
+#: src/pages/region/[regionId]/index.tsx:132
+#: src/pages/war/[warId]/index.tsx:75
 msgid "Battles"
 msgstr "Batallas"
 
@@ -1437,7 +1440,8 @@ msgstr "Daño extra"
 msgid "Boost your production!"
 msgstr "¡Aumenta tu producción!"
 
-#: src/components/_user/UserEquipments.tsx:180 src/utils/translations.tsx:180
+#: src/components/_user/UserEquipments.tsx:180
+#: src/utils/translations.tsx:180
 msgid "Boots"
 msgstr "Botas"
 
@@ -1622,7 +1626,8 @@ msgstr "Cambiar el impuesto de {0} a"
 msgid "Check your loot!"
 msgstr "¡Revisa tu botín!"
 
-#: src/components/_user/UserEquipments.tsx:146 src/utils/translations.tsx:171
+#: src/components/_user/UserEquipments.tsx:146
+#: src/utils/translations.tsx:171
 msgid "Chest"
 msgstr "Pechera"
 
@@ -1770,7 +1775,6 @@ msgstr "Comodoro"
 
 #: src/components/_layout/LayoutMenu.tsx:182
 #: src/components/_user/user/MyAvatar.tsx:48
-#: src/components/_user/user/UserHeader.tsx:194 src/pages/companies.tsx:107
 #: src/components/_user/user/UserHeader.tsx:194
 #: src/pages/companies.tsx:96
 msgid "Companies"
@@ -2234,6 +2238,7 @@ msgid "Delete account"
 msgstr "Eliminar cuenta"
 
 #: src/pages/index.tsx:159
+#: src/pages/rules.tsx:40
 msgid "Delete your account"
 msgstr "Eliminar tu cuenta"
 
@@ -2537,7 +2542,8 @@ msgstr "Introduce el código que te enviamos a tu correo."
 msgid "Entrepreneurship"
 msgstr "Emprendimiento"
 
-#: src/pages/market/index.tsx:71 src/pages/user/[userId]/index.tsx:90
+#: src/pages/market/index.tsx:71
+#: src/pages/user/[userId]/index.tsx:90
 #: src/pages/user/[userId]/inventory.tsx:58
 msgid "Equipment"
 msgstr "Equipo"
@@ -2691,7 +2697,7 @@ msgstr "Financiar una Resistencia para liberar una region ocupada"
 msgid "Finance a revolt to liberate <0/>"
 msgstr "Financiar una revuelta para liberar <0/>"
 
-#: src/components/_political/law/law.frontConfig.tsx:410
+#: src/components/_political/law/law.frontConfig.tsx:424
 msgid "Finance foreign resistance"
 msgstr "Financiar una resistencia extranjera"
 
@@ -2874,7 +2880,8 @@ msgstr "¡Sorteo ganado!"
 msgid "Globe (experimental)"
 msgstr "Globo (experimental)"
 
-#: src/components/_user/UserEquipments.tsx:196 src/utils/translations.tsx:189
+#: src/components/_user/UserEquipments.tsx:196
+#: src/utils/translations.tsx:189
 msgid "Gloves"
 msgstr "Guantes"
 
@@ -2935,7 +2942,8 @@ msgstr "Salud"
 msgid "Heavy Ammo"
 msgstr "Munición Pesada"
 
-#: src/components/_user/UserEquipments.tsx:131 src/utils/translations.tsx:162
+#: src/components/_user/UserEquipments.tsx:131
+#: src/utils/translations.tsx:162
 msgid "Helmet"
 msgstr "Casco"
 
@@ -4197,7 +4205,8 @@ msgstr "Pacifista"
 msgid "Packs"
 msgstr ""
 
-#: src/components/_user/UserEquipments.tsx:163 src/utils/translations.tsx:198
+#: src/components/_user/UserEquipments.tsx:163
+#: src/utils/translations.tsx:198
 msgid "Pants"
 msgstr "Pantalones"
 
@@ -4432,6 +4441,7 @@ msgid "Priority from declaring wars or winning battles is <0>{0} hours</0> inste
 msgstr "Priority from declaring wars or winning battles is <0>{0} hours</0> instead of 24."
 
 #: src/pages/index.tsx:155
+#: src/pages/rules.tsx:36
 msgid "Privacy"
 msgstr "Privacidad"
 
@@ -4658,8 +4668,8 @@ msgid "Recipe"
 msgstr "Receta"
 
 #: src/components/_other/shop/SkinPackModal.tsx:232
-msgid "Recipient Username"
-msgstr "Nombre de usuario del destinatario"
+msgid "Recipient"
+msgstr ""
 
 #: src/components/_economy/company/RecommendedCompanyRegions.tsx:84
 msgid "Recommended regions"
@@ -4798,7 +4808,8 @@ msgstr "Remover <0/> del partido del consejo"
 msgid "Remove a member from the party council"
 msgstr "Remover un miembro del partido del consejo"
 
-#: src/pages/market/index.tsx:174 src/pages/market/index.tsx:234
+#: src/pages/market/index.tsx:174
+#: src/pages/market/index.tsx:234
 msgid "Remove all"
 msgstr "Eliminar todo"
 
@@ -5549,6 +5560,7 @@ msgid "Taxes"
 msgstr "Impuestos"
 
 #: src/pages/index.tsx:151
+#: src/pages/rules.tsx:32
 msgid "Terms"
 msgstr "Términos"
 
@@ -5709,7 +5721,8 @@ msgstr "total"
 #: src/components/_economy/inventoryAccount/InventoryAccount.tsx:153
 #: src/components/_economy/inventoryAccount/InventoryAccount.tsx:180
 #: src/components/_economy/work/WorkChart.tsx:198
-#: src/pages/market/index.tsx:153 src/pages/market/index.tsx:202
+#: src/pages/market/index.tsx:153
+#: src/pages/market/index.tsx:202
 msgid "Total"
 msgstr "Total"
 
@@ -5773,7 +5786,8 @@ msgid "Transac."
 msgstr "Transac."
 
 #: src/components/_political/country/CountryHeader.tsx:76
-#: src/pages/market/index.tsx:83 src/pages/user/[userId]/index.tsx:221
+#: src/pages/market/index.tsx:83
+#: src/pages/user/[userId]/index.tsx:221
 msgid "Transactions"
 msgstr "Transacciones"
 
@@ -5934,11 +5948,6 @@ msgstr "Usa tu <0>Emprendimiento</0> para trabajar en tu propia empresa y llenar
 msgid "Use your <0>Hunger</0> to eat food and refill your <1>Health</1>. Then get back to fighting!"
 msgstr "Usa tu <0>Hambre</0> para comer y rellenar tu <1>Salud</1>. ¡Luego vuelve a luchar!"
 
-#: src/components/_economy/itemOffer/ItemOfferList.tsx:86
-msgid "Used"
-msgstr "Usado"
-
-#: src/utils/translations.tsx:78 src/utils/translations.tsx:84
 #: src/utils/translations.tsx:78
 #: src/utils/translations.tsx:84
 #: src/utils/translations.tsx:89
@@ -6012,10 +6021,6 @@ msgstr "El usuario ya tiene todas las skins"
 #: src/components/_user/user/UserDropdown.tsx:124
 msgid "User blocked"
 msgstr "Usuario bloqueado"
-
-#: src/components/_other/shop/SkinPackModal.tsx:247
-msgid "User not found"
-msgstr "Usuario no encontrado"
 
 #: src/components/_military/damageRanking/DamageRankingSides.tsx:122
 msgid "User participation to the ground points."
@@ -6769,183 +6774,3 @@ msgstr "tu@email.com"
 #: src/components/_social/ArticleList.tsx:167
 msgid "Yours"
 msgstr "Tuyos"
-
-#~ msgid "+{0}% from deposit"
-#~ msgstr "+{0}% del depósito"
-
-#~ msgid "+{0}% from pacifist ethics"
-#~ msgstr "+{0}% de ideología pacifista"
-
-#~ msgid "+{0}% from strategic resources"
-#~ msgstr "+{0}% de recursos estratégicos"
-
-#~ msgid "<0/> at <1>{0}</1> wage."
-#~ msgstr "<0/> a <1>{0}</1> de salario."
-
-#~ msgid "<0/> gifted you the skin \"{0}\"!"
-#~ msgstr "¡<0/> te regaló la skin \"{0}\"!"
-
-#~ msgid "<0/> has been created, you can now register!"
-#~ msgstr "¡<0/> ha sido creado, ¡ya puedes registrarte!"
-
-#~ msgid "<0/> just started!"
-#~ msgstr "¡<0/> acaba de empezar!"
-
-#~ msgid "<0>{0}</0> from defense of your country's core region"
-#~ msgstr "<0>{0}</0> por la defensa de la región núcleo de tu país"
-
-#~ msgid "<0>{0}</0> from Militarist ethics"
-#~ msgstr "<0>{0}</0> por ideología militarista"
-
-#~ msgid "<0>{citizenBonus}</0> from <1/> militarist ethics (citizen owner bonus)."
-#~ msgstr "<0>{citizenBonus}</0> por <1/> ideología militarista (bono por propietario ciudadano)."
-
-#~ msgid "<0>{pacifistBonus}</0> from <1/> pacifist ethics."
-#~ msgstr "<0>{pacifistBonus}</0> from <1/> pacifist ethics."
-
-#~ msgid "<0>+{0}</0> bonus towards ammo or construction specialization good."
-#~ msgstr "<0>+{0}</0> bono towards ammo or construction specialization good."
-
-#~ msgid "<0>+{0}</0> from deposits in your country."
-#~ msgstr "<0>+{0}</0> por depósitos en tu país."
-
-#~ msgid "All law enactment costs are doubled."
-#~ msgstr "Todos los costos de promulgación de leyes se duplican."
-
-#~ msgid "Assets"
-#~ msgstr "Activos"
-
-#~ msgid "Changed citizenship"
-#~ msgstr "Ciudadanía cambiada"
-
-#~ msgid "Changed description"
-#~ msgstr "Descripción cambiada"
-
-#~ msgid "Changed username"
-#~ msgstr "Usuario cambiado"
-
-#~ msgid "Citizens get an additional <0>10%</0> battle bonus against sworn enemies."
-#~ msgstr "Los ciudadanos obtienen un bono de batalla adicional del <0>10%</0> contra enemigos jurados."
-
-#~ msgid "Citizens get an additional <0>10%</0> battle bonus fighting for allies."
-#~ msgstr "Los ciudadanos obtienen un bono de batalla adicional del <0>10%</0> luchando por aliados."
-
-#~ msgid "Citizens get an additional <0>10%</0> battle bonus."
-#~ msgstr "Los ciudadanos obtienen un bono de batalla adicional del <0>10%</0>."
-
-#~ msgid "Citizens get an additional <0>10%</0> production bonus."
-#~ msgstr "Los ciudadanos obtienen un bono de producción adicional del <0>10%</0>."
-
-#~ msgid "Citizens get an additional <0>5%</0> battle bonus against sworn enemies."
-#~ msgstr "Los ciudadanos obtienen un bono de batalla adicional del <0>5%</0> contra enemigos jurados."
-
-#~ msgid "Citizens get an additional <0>5%</0> battle bonus fighting for allies."
-#~ msgstr "Los ciudadanos obtienen un bono de batalla adicional del <0>5%</0> luchando por aliados."
-
-#~ msgid "Citizens get an additional <0>5%</0> battle bonus."
-#~ msgstr "Los ciudadanos obtienen un bono de batalla adicional del <0>5%</0>."
-
-#~ msgid "Citizens get an additional <0>5%</0> production bonus."
-#~ msgstr "Los ciudadanos obtienen un bono de producción adicional del <0>5%</0>."
-
-#~ msgid "Claim finished mission"
-#~ msgstr "Reclamar misión terminada"
-
-#~ msgid "Claim mission XP"
-#~ msgstr "Reclamar XP de misión"
-
-#~ msgid "Congress has a minimum of <0>10 seats</0>."
-#~ msgstr "El Congreso tiene un mínimo de <0>10 escaños</0>."
-
-#~ msgid "Daily production (last 14 days)"
-#~ msgstr "Producción diaria (últimos 14 días)"
-
-#~ msgid "Daily stats (last 14 days)"
-#~ msgstr "Estadísticas diarias (últimos 14 días)"
-
-#~ msgid "Does not gain development from conquered regions."
-#~ msgstr "No gana desarrollo de regiones conquistadas."
-
-#~ msgid "Equipment sets"
-#~ msgstr "Conjuntos de equipo"
-
-#~ msgid "Filter by action type"
-#~ msgstr "Filtrar por tipo de acción"
-
-#~ msgid "Filter by event type"
-#~ msgstr "Filtrar por tipo de evento"
-
-#~ msgid "for companies producing {0} located in <0/>."
-#~ msgstr "para empresas que producen {0} ubicadas en <0/>."
-
-#~ msgid "Gain <0>XP</0> by <1>Working</1> or <2>Fighting</2>."
-#~ msgstr "Gana <0>XP</0> <1>Trabajando</1> o <2>Luchando</2>."
-
-#~ msgid "Income from development increases by <0>10%</0>."
-#~ msgstr "Los ingresos por desarrollo aumentan en un <0>10%</0>."
-
-#~ msgid "Income from development increases by <0>20%</0>."
-#~ msgstr "Los ingresos por desarrollo aumentan en un <0>20%</0>."
-
-#~ msgid "Income from taxes increases by <0>10%</0>."
-#~ msgstr "Los ingresos por impuestos aumentan en un <0>10%</0>."
-
-#~ msgid "Income from taxes increases by <0>20%</0>."
-#~ msgstr "Los ingresos por impuestos aumentan en un <0>20%</0>."
-
-#~ msgid "Inner countries (performance)"
-#~ msgstr "Países interiores (rendimiento)"
-
-#~ msgid "Last"
-#~ msgstr "Últimos"
-
-#~ msgid "Max:"
-#~ msgstr "Máx:"
-
-#~ msgid "Mercenary contracts"
-#~ msgstr "Contratos mercenarios"
-
-#~ msgid "Min:"
-#~ msgstr "Mín:"
-
-#~ msgid "No action logs found"
-#~ msgstr "No se encontraron registros de acciones"
-
-#~ msgid "No bans yet"
-#~ msgstr "Aún no hay baneos"
-
-#~ msgid "Popular"
-#~ msgstr "Populares"
-
-#~ msgid "Priority from declaring wars or winning battles is <0>12 hours</0> instead of 24."
-#~ msgstr "La prioridad por declarar guerras o ganar batallas es de <0>12 horas</0> en lugar de 24."
-
-#~ msgid "Production bonus from deposit resources in this region."
-#~ msgstr "Bonificación de producción de recursos del depósito en esta región."
-
-#~ msgid "Registration"
-#~ msgstr "Registro"
-
-#~ msgid "Remove mercenary"
-#~ msgstr "Eliminar mercenario"
-
-#~ msgid "Set order"
-#~ msgstr "Establecer orden"
-
-#~ msgid "Top offer:"
-#~ msgstr "Mejor oferta:"
-
-#~ msgid "Unset order"
-#~ msgstr "Quitar orden"
-
-#~ msgid "Update order"
-#~ msgstr "Actualizar orden"
-
-#~ msgid "Wage info"
-#~ msgstr "Info de salario"
-
-#~ msgid "You have been transferred from <0/> to <1/> for <2>{0}</2> wage"
-#~ msgstr "Has sido transferido de <0/> a <1/> con un salario de <2>{0}</2>"
-
-#~ msgid "You successfully gifted a banner to <0/>!"
-#~ msgstr "¡Regalaste exitosamente un banner a <0/>!"

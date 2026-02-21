@@ -2236,6 +2236,7 @@ msgid "Delete account"
 msgstr "Șterge contul"
 
 #: src/pages/index.tsx:159
+#: src/pages/rules.tsx:40
 msgid "Delete your account"
 msgstr "Ștergere cont"
 
@@ -4438,6 +4439,7 @@ msgid "Priority from declaring wars or winning battles is <0>{0} hours</0> inste
 msgstr ""
 
 #: src/pages/index.tsx:155
+#: src/pages/rules.tsx:36
 msgid "Privacy"
 msgstr "Confidențialitate"
 
@@ -5556,6 +5558,7 @@ msgid "Taxes"
 msgstr "Taxe"
 
 #: src/pages/index.tsx:151
+#: src/pages/rules.tsx:32
 msgid "Terms"
 msgstr "Termeni"
 

@@ -2238,6 +2238,7 @@ msgid "Delete account"
 msgstr "刪除帳號"
 
 #: src/pages/index.tsx:159
+#: src/pages/rules.tsx:40
 msgid "Delete your account"
 msgstr "刪除你的帳號"
 
@@ -4440,6 +4441,7 @@ msgid "Priority from declaring wars or winning battles is <0>{0} hours</0> inste
 msgstr "宣戰或贏得戰鬥的優先級是 <0>{0} 小時</0> 而不是24。"
 
 #: src/pages/index.tsx:155
+#: src/pages/rules.tsx:36
 msgid "Privacy"
 msgstr "隱私權"
 
@@ -5558,6 +5560,7 @@ msgid "Taxes"
 msgstr "稅金"
 
 #: src/pages/index.tsx:151
+#: src/pages/rules.tsx:32
 msgid "Terms"
 msgstr "期限"
 

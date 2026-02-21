@@ -2238,6 +2238,7 @@ msgid "Delete account"
 msgstr "Hesabı sil"
 
 #: src/pages/index.tsx:159
+#: src/pages/rules.tsx:40
 msgid "Delete your account"
 msgstr "Hesabını sil"
 
@@ -4440,6 +4441,7 @@ msgid "Priority from declaring wars or winning battles is <0>{0} hours</0> inste
 msgstr "Savaş ilan etme veya savaş kazanma önceliği 24 saat yerine <0>{0} hours</0>'tir."
 
 #: src/pages/index.tsx:155
+#: src/pages/rules.tsx:36
 msgid "Privacy"
 msgstr "Gizlilik"
 
@@ -5558,6 +5560,7 @@ msgid "Taxes"
 msgstr "Vergiler"
 
 #: src/pages/index.tsx:151
+#: src/pages/rules.tsx:32
 msgid "Terms"
 msgstr "Şartlar"
 
