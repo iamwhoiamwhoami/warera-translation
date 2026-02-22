@@ -2227,7 +2227,7 @@ msgstr "Definieer <0/> als een vijand, waardoor de schade toeneemt wanneer je te
 
 #: src/components/_political/law/law.frontConfig.tsx:167
 msgid "Define a country as an enemy to get bonus against"
-msgstr "Definieer een land als een vijand om bonus er tegen te krijgen"
+msgstr "Definieer een land als een vijand om er bonus tegen te krijgen"
 
 #: src/components/_political/law/law.frontConfig.tsx:166
 msgid "Define a sworn enemy"
