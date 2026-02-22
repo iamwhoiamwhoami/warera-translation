@@ -2062,7 +2062,7 @@ msgstr "Aangemaakt:"
 #: src/components/_user/user/skills.frontConfig.tsx:49
 #: src/components/_user/user/skills.frontConfig.tsx:50
 msgid "Crit. chance"
-msgstr "Kritieke. kans"
+msgstr "Kritieke kans"
 
 #: src/components/_user/user/skills.frontConfig.tsx:61
 #: src/components/_user/user/skills.frontConfig.tsx:62
