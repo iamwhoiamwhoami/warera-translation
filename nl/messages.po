@@ -5622,11 +5622,11 @@ msgstr "Het universum is je iets groots verschuldigd"
 
 #: src/components/_economy/company/CompanyTags.tsx:66
 msgid "This company is disabled because the owner reached the company limit."
-msgstr "Dit bedrijf is uitgeschakeld omdat de eigenaar het bedrijfslimiet heeft bereikt."
+msgstr "Dit bedrijf is uitgeschakeld omdat de eigenaar de bedrijfslimiet heeft bereikt."
 
 #: src/pages/country/[countryId]/index.tsx:119
 msgid "This country has no president or active congress member, you can take control of it."
-msgstr "Dit land heeft geen president of actief congreslid, je kunt er controle over nemen."
+msgstr "Dit land heeft geen president of actief congreslid, je kunt de controle overnemen."
 
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:42
 msgid "This equipment is green and so is grass"
