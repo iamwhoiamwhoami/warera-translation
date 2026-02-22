@@ -102,11 +102,11 @@ msgstr "Yatırımın %{0} kadarı"
 
 #: src/components/_military/battle/BattleName.tsx:141
 msgid "{battleIcon}Resistance battle for {regionName} {score}"
-msgstr "{battleIcon}{regionName} {score} bölgesinde ihtilâl savaşı"
+msgstr "{battleIcon}{regionName} {score} bölgesinde isyan"
 
 #: src/components/_military/battle/BattleName.tsx:146
 msgid "{battleIcon}Revolution battle {score}"
-msgstr "battleIcon} İhtilâl savaşı {score}"
+msgstr "battleIcon} İsyan cephesi {score}"
 
 #: src/components/_military/battle/BattleName.tsx:151
 msgid "{battleIcon}Tournament battle for {tournamentName} {score}"
@@ -216,7 +216,7 @@ msgstr "<0/>, <1/> ülkesinin başkanı seçildi"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:1077
 msgid "<0/> has started a revolution in <1/>"
-msgstr "<1/> bölgesinde <0/> tarafından bir ihtilâl mücadelesi başlatıldı"
+msgstr "<1/> ülkesinde <0/> tarafından bir ihtilâl mücadelesi başlatıldı"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:1438
 msgid "<0/> has started! Let the battles begin!"
@@ -4951,15 +4951,15 @@ msgstr "İsyan başladı!"
 
 #: src/components/_political/event/EventList.tsx:77
 msgid "Revolution ended"
-msgstr "İhtilâl bitti"
+msgstr "İhtilâl mücadelesi bitti"
 
 #: src/components/_political/event/EventList.tsx:76
 msgid "Revolution started"
-msgstr "İhtilâl başladı!"
+msgstr "İhtilâl mücadelesi başladı!"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:1075
 msgid "Revolution started!"
-msgstr "İhtilâl başladı!"
+msgstr "İhtilâl mücadelesi başladı!"
 
 #: src/utils/translations.tsx:24
 msgid "Rifle"
