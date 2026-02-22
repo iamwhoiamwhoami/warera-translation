@@ -5863,7 +5863,7 @@ msgstr "Размьютить игрока"
 
 #: src/components/_user/user/UserHeader.tsx:405
 msgid "Unmuted <0/>"
-msgstr "Заглушен <0/>"
+msgstr "Заглушён <0/>"
 
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:93
 msgid "Unreal. This doesn't happen"
