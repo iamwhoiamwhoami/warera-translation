@@ -996,7 +996,9 @@ msgid "Add User"
 msgstr "新增用戶"
 
 #: src/components/_political/law/Law.tsx:87
+#: src/components/_political/law/LawFormModal.tsx:304
 #: src/components/_political/partyMotion/PartyMotion.tsx:97
+#: src/components/_political/partyMotion/PartyMotionFormModal.tsx:172
 msgid "Additional cost"
 msgstr "額外花費"
 
@@ -1128,8 +1130,8 @@ msgstr "快準備好了..."
 msgid "Ammo"
 msgstr "子彈"
 
-#: src/components/_political/law/LawFormModal.tsx:229
-#: src/components/_political/law/LawFormModal.tsx:230
+#: src/components/_political/law/LawFormModal.tsx:252
+#: src/components/_political/law/LawFormModal.tsx:253
 msgid "Amount"
 msgstr "數量"
 
@@ -1228,7 +1230,7 @@ msgstr "你確定要跳過本次教學嗎？"
 msgid "Armor"
 msgstr "護甲值"
 
-#: src/components/_political/law/LawFormModal.tsx:196
+#: src/components/_political/law/LawFormModal.tsx:219
 msgid "Article ID"
 msgstr "文章 ID"
 
@@ -1982,7 +1984,7 @@ msgstr "下士"
 msgid "Cost"
 msgstr "費用"
 
-#: src/components/_political/partyMotion/PartyMotionFormModal.tsx:110
+#: src/components/_political/partyMotion/PartyMotionFormModal.tsx:134
 msgid "Council member to remove"
 msgstr "要移除的中常委"
 
@@ -2133,7 +2135,7 @@ msgstr "可惡，你真幸運"
 msgid "Danger zone"
 msgstr "危險區域"
 
-#: src/components/_political/law/LawFormModal.tsx:250
+#: src/components/_political/law/LawFormModal.tsx:273
 msgid "Dark"
 msgstr "暗黑"
 
@@ -2528,7 +2530,7 @@ msgstr "能量"
 msgid "Ensign"
 msgstr "少尉"
 
-#: src/components/_political/law/LawFormModal.tsx:197
+#: src/components/_political/law/LawFormModal.tsx:220
 msgid "Enter article ID"
 msgstr "輸入文章ID"
 
@@ -3071,7 +3073,7 @@ msgid "Income from taxes increases by <0>{0}</0>."
 msgstr "來自於稅收的收入增加 <0>{0}</0>。"
 
 #: src/components/_political/country/CountryTaxes.tsx:21
-#: src/components/_political/law/LawFormModal.tsx:207
+#: src/components/_political/law/LawFormModal.tsx:230
 msgid "Income tax"
 msgstr "所得稅"
 
@@ -3251,7 +3253,7 @@ msgstr "開始初選"
 msgid "Law failed"
 msgstr "法案失敗"
 
-#: src/components/_political/law/LawFormModal.tsx:72
+#: src/components/_political/law/LawFormModal.tsx:77
 #: src/components/_user/notification/notification.frontConfig.tsx:627
 msgid "Law proposed"
 msgstr "法案已提出"
@@ -3328,7 +3330,7 @@ msgstr "解放一個地區"
 msgid "Lieutenant"
 msgstr "中尉"
 
-#: src/components/_political/law/LawFormModal.tsx:248
+#: src/components/_political/law/LawFormModal.tsx:271
 msgid "Light"
 msgstr "淺色"
 
@@ -3467,7 +3469,7 @@ msgstr "管理"
 msgid "map"
 msgstr "地圖"
 
-#: src/components/_political/law/LawFormModal.tsx:245
+#: src/components/_political/law/LawFormModal.tsx:268
 msgid "Map Accent"
 msgstr "地圖深淺"
 
@@ -3481,7 +3483,7 @@ msgid "Market"
 msgstr "市場"
 
 #: src/components/_political/country/CountryTaxes.tsx:24
-#: src/components/_political/law/LawFormModal.tsx:211
+#: src/components/_political/law/LawFormModal.tsx:234
 msgid "Market tax"
 msgstr "市場稅"
 
@@ -3657,7 +3659,7 @@ msgstr "更多高級訂閱功能即將推出！"
 msgid "Motion failed"
 msgstr "提案失敗"
 
-#: src/components/_political/partyMotion/PartyMotionFormModal.tsx:46
+#: src/components/_political/partyMotion/PartyMotionFormModal.tsx:51
 msgid "Motion proposed"
 msgstr "提案已提出"
 
@@ -3795,7 +3797,7 @@ msgstr "新留言"
 msgid "New equipment"
 msgstr "新裝備"
 
-#: src/components/_political/partyMotion/PartyMotionFormModal.tsx:133
+#: src/components/_political/partyMotion/PartyMotionFormModal.tsx:157
 msgid "New ethics configuration"
 msgstr "新的傳統配置"
 
@@ -4040,7 +4042,7 @@ msgstr "指派 {title}"
 msgid "Nominated at government"
 msgstr "被指派進入政府"
 
-#: src/components/_political/law/LawFormModal.tsx:249
+#: src/components/_political/law/LawFormModal.tsx:272
 msgid "Normal"
 msgstr "普通"
 
@@ -4060,7 +4062,7 @@ msgstr "這才像話！"
 msgid "Number of Donors:"
 msgstr "捐款人數："
 
-#: src/components/_political/partyMotion/PartyMotionFormModal.tsx:118
+#: src/components/_political/partyMotion/PartyMotionFormModal.tsx:142
 msgid "Occupied region"
 msgstr "被佔領地區"
 
@@ -4507,7 +4509,7 @@ msgstr "個人檔案"
 msgid "Promoted to Commander"
 msgstr "晉升為指揮官"
 
-#: src/components/_political/partyMotion/PartyMotionFormModal.tsx:101
+#: src/components/_political/partyMotion/PartyMotionFormModal.tsx:125
 #: src/components/_political/partyMotion/PartyMotionList.tsx:48
 msgid "Propose a motion"
 msgstr "提出一個提案"
@@ -4525,11 +4527,11 @@ msgstr "向 <0/> 提議結盟，你的公民為他們作戰時會增加 <1>{0}</
 msgid "Propose an alliance to another country"
 msgstr "向其他國家提議結盟"
 
-#: src/components/_political/law/LawFormModal.tsx:290
+#: src/components/_political/law/LawFormModal.tsx:319
 msgid "Propose law"
 msgstr "出台法案"
 
-#: src/components/_political/partyMotion/PartyMotionFormModal.tsx:157
+#: src/components/_political/partyMotion/PartyMotionFormModal.tsx:187
 msgid "Propose motion"
 msgstr "提出提案"
 
@@ -4655,7 +4657,7 @@ msgid "Rear Admiral"
 msgstr "少將"
 
 #: src/components/_political/law/Law.tsx:71
-#: src/components/_political/law/LawFormModal.tsx:157
+#: src/components/_political/law/LawFormModal.tsx:180
 msgid "Reason"
 msgstr "原因"
 
@@ -5081,7 +5083,7 @@ msgstr "選擇一個地區"
 msgid "Select all"
 msgstr "全選"
 
-#: src/components/_political/partyMotion/PartyMotionFormModal.tsx:119
+#: src/components/_political/partyMotion/PartyMotionFormModal.tsx:143
 msgid "Select an occupied region"
 msgstr "選擇一個被占領地區"
 
@@ -5093,7 +5095,7 @@ msgstr "選擇橫幅"
 msgid "Select law type"
 msgstr "選擇法案類型"
 
-#: src/components/_political/law/LawFormModal.tsx:246
+#: src/components/_political/law/LawFormModal.tsx:269
 msgid "Select map accent"
 msgstr "選擇地圖深淺"
 
@@ -5340,7 +5342,7 @@ msgstr "專長兵"
 msgid "Specialization"
 msgstr "特產"
 
-#: src/components/_political/law/LawFormModal.tsx:272
+#: src/components/_political/law/LawFormModal.tsx:295
 msgid "Specialization item"
 msgstr "特產物品"
 
@@ -5539,19 +5541,19 @@ msgstr "將礦藏納入考量"
 msgid "Tank"
 msgstr "坦克"
 
-#: src/components/_political/law/LawFormModal.tsx:171
+#: src/components/_political/law/LawFormModal.tsx:194
 msgid "Target country"
 msgstr "目標國家"
 
-#: src/components/_political/law/LawFormModal.tsx:184
+#: src/components/_political/law/LawFormModal.tsx:207
 msgid "Target region"
 msgstr "目標地區"
 
-#: src/components/_political/law/LawFormModal.tsx:259
+#: src/components/_political/law/LawFormModal.tsx:282
 msgid "Target user"
 msgstr "目標用戶"
 
-#: src/components/_political/law/LawFormModal.tsx:204
+#: src/components/_political/law/LawFormModal.tsx:227
 msgid "Tax type"
 msgstr "稅種"
 
@@ -6270,7 +6272,7 @@ msgstr "當你的 <0>生命值</0> 用盡時，開啟此選單即可透過食物
 msgid "Whole Production"
 msgstr "所有產量"
 
-#: src/components/_political/law/LawFormModal.tsx:158
+#: src/components/_political/law/LawFormModal.tsx:181
 msgid "Why do you want to propose this law?"
 msgstr "你為何想提出這項法律？"
 
@@ -6329,7 +6331,7 @@ msgstr "在新手時期為他人工作是個賺錢的好方法"
 msgid "Wow congratulations! Anyway have you considered buying premium?"
 msgstr "恭喜你啦！啊你有想試試高級方案嗎？"
 
-#: src/components/_political/law/LawFormModal.tsx:147
+#: src/components/_political/law/LawFormModal.tsx:170
 #: src/components/_political/law/LawList.tsx:58
 msgid "Write a law"
 msgstr "制定法案"

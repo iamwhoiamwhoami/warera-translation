@@ -996,7 +996,9 @@ msgid "Add User"
 msgstr "Kullanıcı Ekle"
 
 #: src/components/_political/law/Law.tsx:87
+#: src/components/_political/law/LawFormModal.tsx:304
 #: src/components/_political/partyMotion/PartyMotion.tsx:97
+#: src/components/_political/partyMotion/PartyMotionFormModal.tsx:172
 msgid "Additional cost"
 msgstr "Ek maliyet"
 
@@ -1128,8 +1130,8 @@ msgstr "Neredeyse hazır..."
 msgid "Ammo"
 msgstr "Mermi"
 
-#: src/components/_political/law/LawFormModal.tsx:229
-#: src/components/_political/law/LawFormModal.tsx:230
+#: src/components/_political/law/LawFormModal.tsx:252
+#: src/components/_political/law/LawFormModal.tsx:253
 msgid "Amount"
 msgstr "Miktar"
 
@@ -1228,7 +1230,7 @@ msgstr "Bu eğitimi atlamak istediğinizden emin misiniz?"
 msgid "Armor"
 msgstr "Zırh"
 
-#: src/components/_political/law/LawFormModal.tsx:196
+#: src/components/_political/law/LawFormModal.tsx:219
 msgid "Article ID"
 msgstr "Makale ID"
 
@@ -1982,7 +1984,7 @@ msgstr "Onbaşı"
 msgid "Cost"
 msgstr "Maliyet"
 
-#: src/components/_political/partyMotion/PartyMotionFormModal.tsx:110
+#: src/components/_political/partyMotion/PartyMotionFormModal.tsx:134
 msgid "Council member to remove"
 msgstr "Görevden alınacak meclis üyesi"
 
@@ -2133,7 +2135,7 @@ msgstr "Çok şanslısın"
 msgid "Danger zone"
 msgstr "Tehlikeli bölge"
 
-#: src/components/_political/law/LawFormModal.tsx:250
+#: src/components/_political/law/LawFormModal.tsx:273
 msgid "Dark"
 msgstr "Koyu"
 
@@ -2528,7 +2530,7 @@ msgstr "Enerji"
 msgid "Ensign"
 msgstr "Teğmen"
 
-#: src/components/_political/law/LawFormModal.tsx:197
+#: src/components/_political/law/LawFormModal.tsx:220
 msgid "Enter article ID"
 msgstr "Makale ID girin"
 
@@ -3071,7 +3073,7 @@ msgid "Income from taxes increases by <0>{0}</0>."
 msgstr "Vergilerden elde edilen gelir <0>{0}</0> artar."
 
 #: src/components/_political/country/CountryTaxes.tsx:21
-#: src/components/_political/law/LawFormModal.tsx:207
+#: src/components/_political/law/LawFormModal.tsx:230
 msgid "Income tax"
 msgstr "Gelir vergisi"
 
@@ -3251,7 +3253,7 @@ msgstr "Aday seçimi başlat"
 msgid "Law failed"
 msgstr "Yasa arızalandı"
 
-#: src/components/_political/law/LawFormModal.tsx:72
+#: src/components/_political/law/LawFormModal.tsx:77
 #: src/components/_user/notification/notification.frontConfig.tsx:627
 msgid "Law proposed"
 msgstr "Yasa önerildi"
@@ -3328,7 +3330,7 @@ msgstr "Bölgeyi kurtar"
 msgid "Lieutenant"
 msgstr "Üsteğmen"
 
-#: src/components/_political/law/LawFormModal.tsx:248
+#: src/components/_political/law/LawFormModal.tsx:271
 msgid "Light"
 msgstr "Açık"
 
@@ -3467,7 +3469,7 @@ msgstr "Yönetim"
 msgid "map"
 msgstr "harita"
 
-#: src/components/_political/law/LawFormModal.tsx:245
+#: src/components/_political/law/LawFormModal.tsx:268
 msgid "Map Accent"
 msgstr "Harita Aksanı"
 
@@ -3481,7 +3483,7 @@ msgid "Market"
 msgstr "Pazar"
 
 #: src/components/_political/country/CountryTaxes.tsx:24
-#: src/components/_political/law/LawFormModal.tsx:211
+#: src/components/_political/law/LawFormModal.tsx:234
 msgid "Market tax"
 msgstr "Pazar vergisi"
 
@@ -3657,7 +3659,7 @@ msgstr "Daha fazla premium özellik yakında!"
 msgid "Motion failed"
 msgstr "Önerge reddedildi"
 
-#: src/components/_political/partyMotion/PartyMotionFormModal.tsx:46
+#: src/components/_political/partyMotion/PartyMotionFormModal.tsx:51
 msgid "Motion proposed"
 msgstr "Önerge sunuldu"
 
@@ -3795,7 +3797,7 @@ msgstr "Yeni yorum"
 msgid "New equipment"
 msgstr "Yeni ekipman"
 
-#: src/components/_political/partyMotion/PartyMotionFormModal.tsx:133
+#: src/components/_political/partyMotion/PartyMotionFormModal.tsx:157
 msgid "New ethics configuration"
 msgstr "Yeni ilke yapılandırması"
 
@@ -4040,7 +4042,7 @@ msgstr "Bir {title} aday göster"
 msgid "Nominated at government"
 msgstr "Hükümete aday gösterildi"
 
-#: src/components/_political/law/LawFormModal.tsx:249
+#: src/components/_political/law/LawFormModal.tsx:272
 msgid "Normal"
 msgstr "Normal"
 
@@ -4060,7 +4062,7 @@ msgstr "Daha yeni başlıyoruz"
 msgid "Number of Donors:"
 msgstr "Bağışçı sayısı:"
 
-#: src/components/_political/partyMotion/PartyMotionFormModal.tsx:118
+#: src/components/_political/partyMotion/PartyMotionFormModal.tsx:142
 msgid "Occupied region"
 msgstr "İşgal edilmiş bölge"
 
@@ -4507,7 +4509,7 @@ msgstr "Profil"
 msgid "Promoted to Commander"
 msgstr "Komutanlığa Terfi Etti"
 
-#: src/components/_political/partyMotion/PartyMotionFormModal.tsx:101
+#: src/components/_political/partyMotion/PartyMotionFormModal.tsx:125
 #: src/components/_political/partyMotion/PartyMotionList.tsx:48
 msgid "Propose a motion"
 msgstr "Bir hareket öner"
@@ -4525,11 +4527,11 @@ msgstr "<0/> ülkesine bir ittifak teklif et; bu ittifak sayesinde her iki taraf
 msgid "Propose an alliance to another country"
 msgstr "Başka bir ülkeye ittifak öner"
 
-#: src/components/_political/law/LawFormModal.tsx:290
+#: src/components/_political/law/LawFormModal.tsx:319
 msgid "Propose law"
 msgstr "Yasa öner"
 
-#: src/components/_political/partyMotion/PartyMotionFormModal.tsx:157
+#: src/components/_political/partyMotion/PartyMotionFormModal.tsx:187
 msgid "Propose motion"
 msgstr "Önerge öner"
 
@@ -4655,7 +4657,7 @@ msgid "Rear Admiral"
 msgstr "Tuğamiral"
 
 #: src/components/_political/law/Law.tsx:71
-#: src/components/_political/law/LawFormModal.tsx:157
+#: src/components/_political/law/LawFormModal.tsx:180
 msgid "Reason"
 msgstr "Sebep"
 
@@ -5081,7 +5083,7 @@ msgstr "Bir bölge seçin"
 msgid "Select all"
 msgstr "Tümünü seç"
 
-#: src/components/_political/partyMotion/PartyMotionFormModal.tsx:119
+#: src/components/_political/partyMotion/PartyMotionFormModal.tsx:143
 msgid "Select an occupied region"
 msgstr "İşgal edilmiş bir bölge seç"
 
@@ -5093,7 +5095,7 @@ msgstr "Banner seç"
 msgid "Select law type"
 msgstr "Yasa türü seç"
 
-#: src/components/_political/law/LawFormModal.tsx:246
+#: src/components/_political/law/LawFormModal.tsx:269
 msgid "Select map accent"
 msgstr "Harita tonu seç"
 
@@ -5340,7 +5342,7 @@ msgstr "Uzman"
 msgid "Specialization"
 msgstr "Uzmanlık"
 
-#: src/components/_political/law/LawFormModal.tsx:272
+#: src/components/_political/law/LawFormModal.tsx:295
 msgid "Specialization item"
 msgstr "Uzmanlık eşyası"
 
@@ -5539,19 +5541,19 @@ msgstr "Maden kaynaklarını hesaba kat"
 msgid "Tank"
 msgstr "Tank"
 
-#: src/components/_political/law/LawFormModal.tsx:171
+#: src/components/_political/law/LawFormModal.tsx:194
 msgid "Target country"
 msgstr "Hedef ülke"
 
-#: src/components/_political/law/LawFormModal.tsx:184
+#: src/components/_political/law/LawFormModal.tsx:207
 msgid "Target region"
 msgstr "Hedef bölge"
 
-#: src/components/_political/law/LawFormModal.tsx:259
+#: src/components/_political/law/LawFormModal.tsx:282
 msgid "Target user"
 msgstr "Hedef kullanıcı"
 
-#: src/components/_political/law/LawFormModal.tsx:204
+#: src/components/_political/law/LawFormModal.tsx:227
 msgid "Tax type"
 msgstr "Vergi türü"
 
@@ -6270,7 +6272,7 @@ msgstr "<0>Sağlığın</0> bittiğinde, yiyecekle yenilemek için bu menüyü a
 msgid "Whole Production"
 msgstr "Tüm üretim"
 
-#: src/components/_political/law/LawFormModal.tsx:158
+#: src/components/_political/law/LawFormModal.tsx:181
 msgid "Why do you want to propose this law?"
 msgstr "Bu yasayı neden önermek istiyorsunuz?"
 
@@ -6329,7 +6331,7 @@ msgstr "Başlarken başkaları için çalışmak para kazanmanın harika bir yol
 msgid "Wow congratulations! Anyway have you considered buying premium?"
 msgstr "Oha aferin! Neyse, premium almayı düşünür müydün?"
 
-#: src/components/_political/law/LawFormModal.tsx:147
+#: src/components/_political/law/LawFormModal.tsx:170
 #: src/components/_political/law/LawList.tsx:58
 msgid "Write a law"
 msgstr "Yasa yaz"

@@ -994,7 +994,9 @@ msgid "Add User"
 msgstr "Adaugă utilizator"
 
 #: src/components/_political/law/Law.tsx:87
+#: src/components/_political/law/LawFormModal.tsx:304
 #: src/components/_political/partyMotion/PartyMotion.tsx:97
+#: src/components/_political/partyMotion/PartyMotionFormModal.tsx:172
 msgid "Additional cost"
 msgstr ""
 
@@ -1126,8 +1128,8 @@ msgstr "Aproape gata..."
 msgid "Ammo"
 msgstr "Muniție"
 
-#: src/components/_political/law/LawFormModal.tsx:229
-#: src/components/_political/law/LawFormModal.tsx:230
+#: src/components/_political/law/LawFormModal.tsx:252
+#: src/components/_political/law/LawFormModal.tsx:253
 msgid "Amount"
 msgstr "Sumă"
 
@@ -1226,7 +1228,7 @@ msgstr "Ești sigur că vrei să sari peste acest tutorial?"
 msgid "Armor"
 msgstr "Armură"
 
-#: src/components/_political/law/LawFormModal.tsx:196
+#: src/components/_political/law/LawFormModal.tsx:219
 msgid "Article ID"
 msgstr "ID articol"
 
@@ -1980,7 +1982,7 @@ msgstr "Caporal"
 msgid "Cost"
 msgstr "Cost"
 
-#: src/components/_political/partyMotion/PartyMotionFormModal.tsx:110
+#: src/components/_political/partyMotion/PartyMotionFormModal.tsx:134
 msgid "Council member to remove"
 msgstr ""
 
@@ -2131,7 +2133,7 @@ msgstr "Cât noroc să ai?!"
 msgid "Danger zone"
 msgstr "Zona periculoasă"
 
-#: src/components/_political/law/LawFormModal.tsx:250
+#: src/components/_political/law/LawFormModal.tsx:273
 msgid "Dark"
 msgstr "Întunecată"
 
@@ -2526,7 +2528,7 @@ msgstr "Energie"
 msgid "Ensign"
 msgstr "Sublocotenent"
 
-#: src/components/_political/law/LawFormModal.tsx:197
+#: src/components/_political/law/LawFormModal.tsx:220
 msgid "Enter article ID"
 msgstr "Introdu ID articol"
 
@@ -3069,7 +3071,7 @@ msgid "Income from taxes increases by <0>{0}</0>."
 msgstr ""
 
 #: src/components/_political/country/CountryTaxes.tsx:21
-#: src/components/_political/law/LawFormModal.tsx:207
+#: src/components/_political/law/LawFormModal.tsx:230
 msgid "Income tax"
 msgstr "Impozit pe venit"
 
@@ -3249,7 +3251,7 @@ msgstr ""
 msgid "Law failed"
 msgstr "Lege eșuată"
 
-#: src/components/_political/law/LawFormModal.tsx:72
+#: src/components/_political/law/LawFormModal.tsx:77
 #: src/components/_user/notification/notification.frontConfig.tsx:627
 msgid "Law proposed"
 msgstr "Lege propusă"
@@ -3326,7 +3328,7 @@ msgstr "Eliberează o regiune"
 msgid "Lieutenant"
 msgstr "Locotenent"
 
-#: src/components/_political/law/LawFormModal.tsx:248
+#: src/components/_political/law/LawFormModal.tsx:271
 msgid "Light"
 msgstr "Luminoasă"
 
@@ -3465,7 +3467,7 @@ msgstr "Management"
 msgid "map"
 msgstr "harta"
 
-#: src/components/_political/law/LawFormModal.tsx:245
+#: src/components/_political/law/LawFormModal.tsx:268
 msgid "Map Accent"
 msgstr "Tentă"
 
@@ -3479,7 +3481,7 @@ msgid "Market"
 msgstr "Piață"
 
 #: src/components/_political/country/CountryTaxes.tsx:24
-#: src/components/_political/law/LawFormModal.tsx:211
+#: src/components/_political/law/LawFormModal.tsx:234
 msgid "Market tax"
 msgstr "TVA"
 
@@ -3655,7 +3657,7 @@ msgstr "Mai multe funcții premium în curând!"
 msgid "Motion failed"
 msgstr ""
 
-#: src/components/_political/partyMotion/PartyMotionFormModal.tsx:46
+#: src/components/_political/partyMotion/PartyMotionFormModal.tsx:51
 msgid "Motion proposed"
 msgstr ""
 
@@ -3793,7 +3795,7 @@ msgstr "Comentariu nou"
 msgid "New equipment"
 msgstr "Echipament nou"
 
-#: src/components/_political/partyMotion/PartyMotionFormModal.tsx:133
+#: src/components/_political/partyMotion/PartyMotionFormModal.tsx:157
 msgid "New ethics configuration"
 msgstr ""
 
@@ -4038,7 +4040,7 @@ msgstr "Numește în funcție: {title}"
 msgid "Nominated at government"
 msgstr "Numit în guvern"
 
-#: src/components/_political/law/LawFormModal.tsx:249
+#: src/components/_political/law/LawFormModal.tsx:272
 msgid "Normal"
 msgstr "Neutră"
 
@@ -4058,7 +4060,7 @@ msgstr "Așa mai vorbim!"
 msgid "Number of Donors:"
 msgstr "Număr de donatori:"
 
-#: src/components/_political/partyMotion/PartyMotionFormModal.tsx:118
+#: src/components/_political/partyMotion/PartyMotionFormModal.tsx:142
 msgid "Occupied region"
 msgstr ""
 
@@ -4505,7 +4507,7 @@ msgstr "Profil"
 msgid "Promoted to Commander"
 msgstr "Promovat la comandant"
 
-#: src/components/_political/partyMotion/PartyMotionFormModal.tsx:101
+#: src/components/_political/partyMotion/PartyMotionFormModal.tsx:125
 #: src/components/_political/partyMotion/PartyMotionList.tsx:48
 msgid "Propose a motion"
 msgstr ""
@@ -4523,11 +4525,11 @@ msgstr "Propune o alianță cu <0/>, crescând daunele cauzate de cetățeni cu 
 msgid "Propose an alliance to another country"
 msgstr "Propune o alianță cu o altă țară"
 
-#: src/components/_political/law/LawFormModal.tsx:290
+#: src/components/_political/law/LawFormModal.tsx:319
 msgid "Propose law"
 msgstr "Propune lege"
 
-#: src/components/_political/partyMotion/PartyMotionFormModal.tsx:157
+#: src/components/_political/partyMotion/PartyMotionFormModal.tsx:187
 msgid "Propose motion"
 msgstr ""
 
@@ -4653,7 +4655,7 @@ msgid "Rear Admiral"
 msgstr "Contraamiral"
 
 #: src/components/_political/law/Law.tsx:71
-#: src/components/_political/law/LawFormModal.tsx:157
+#: src/components/_political/law/LawFormModal.tsx:180
 msgid "Reason"
 msgstr "Motiv"
 
@@ -5079,7 +5081,7 @@ msgstr "Selectați o regiune"
 msgid "Select all"
 msgstr "Selectează tot"
 
-#: src/components/_political/partyMotion/PartyMotionFormModal.tsx:119
+#: src/components/_political/partyMotion/PartyMotionFormModal.tsx:143
 msgid "Select an occupied region"
 msgstr ""
 
@@ -5091,7 +5093,7 @@ msgstr "Selectează copertă"
 msgid "Select law type"
 msgstr ""
 
-#: src/components/_political/law/LawFormModal.tsx:246
+#: src/components/_political/law/LawFormModal.tsx:269
 msgid "Select map accent"
 msgstr "Selectează tentă"
 
@@ -5338,7 +5340,7 @@ msgstr "Specialist"
 msgid "Specialization"
 msgstr "Specializare"
 
-#: src/components/_political/law/LawFormModal.tsx:272
+#: src/components/_political/law/LawFormModal.tsx:295
 msgid "Specialization item"
 msgstr "Produs de specialitate"
 
@@ -5537,19 +5539,19 @@ msgstr "Ia în considerare zăcămintele de resurse"
 msgid "Tank"
 msgstr "Tanc"
 
-#: src/components/_political/law/LawFormModal.tsx:171
+#: src/components/_political/law/LawFormModal.tsx:194
 msgid "Target country"
 msgstr "Țară target"
 
-#: src/components/_political/law/LawFormModal.tsx:184
+#: src/components/_political/law/LawFormModal.tsx:207
 msgid "Target region"
 msgstr "Regiune target"
 
-#: src/components/_political/law/LawFormModal.tsx:259
+#: src/components/_political/law/LawFormModal.tsx:282
 msgid "Target user"
 msgstr "Jucător target"
 
-#: src/components/_political/law/LawFormModal.tsx:204
+#: src/components/_political/law/LawFormModal.tsx:227
 msgid "Tax type"
 msgstr "Tip taxă"
 
@@ -6268,7 +6270,7 @@ msgstr "Când nu mai ai <0>Viață</0>, deschide acest meniu pentru a o reîncă
 msgid "Whole Production"
 msgstr "Producție completă"
 
-#: src/components/_political/law/LawFormModal.tsx:158
+#: src/components/_political/law/LawFormModal.tsx:181
 msgid "Why do you want to propose this law?"
 msgstr "Care este motivul legii?"
 
@@ -6327,7 +6329,7 @@ msgstr "Munca pentru alții e o cale bună de a câștiga niște bani la începu
 msgid "Wow congratulations! Anyway have you considered buying premium?"
 msgstr "Wow felicitări! Mă rog, te-ai gândit să cumperi plan Susținător?"
 
-#: src/components/_political/law/LawFormModal.tsx:147
+#: src/components/_political/law/LawFormModal.tsx:170
 #: src/components/_political/law/LawList.tsx:58
 msgid "Write a law"
 msgstr "Propune o lege"

@@ -996,7 +996,9 @@ msgid "Add User"
 msgstr "Добавить Игрока"
 
 #: src/components/_political/law/Law.tsx:87
+#: src/components/_political/law/LawFormModal.tsx:304
 #: src/components/_political/partyMotion/PartyMotion.tsx:97
+#: src/components/_political/partyMotion/PartyMotionFormModal.tsx:172
 msgid "Additional cost"
 msgstr "Дополнительные расходы"
 
@@ -1128,8 +1130,8 @@ msgstr "Почти готово...."
 msgid "Ammo"
 msgstr "Экспансивные патроны"
 
-#: src/components/_political/law/LawFormModal.tsx:229
-#: src/components/_political/law/LawFormModal.tsx:230
+#: src/components/_political/law/LawFormModal.tsx:252
+#: src/components/_political/law/LawFormModal.tsx:253
 msgid "Amount"
 msgstr "Количество"
 
@@ -1228,7 +1230,7 @@ msgstr "Вы действительно хотите пропустить обу
 msgid "Armor"
 msgstr "Броня"
 
-#: src/components/_political/law/LawFormModal.tsx:196
+#: src/components/_political/law/LawFormModal.tsx:219
 msgid "Article ID"
 msgstr "ID Статьи"
 
@@ -1982,7 +1984,7 @@ msgstr "Капрал"
 msgid "Cost"
 msgstr "Цена"
 
-#: src/components/_political/partyMotion/PartyMotionFormModal.tsx:110
+#: src/components/_political/partyMotion/PartyMotionFormModal.tsx:134
 msgid "Council member to remove"
 msgstr "Член Совета для удаления"
 
@@ -2133,7 +2135,7 @@ msgstr "Чёрт, да ты везунчик"
 msgid "Danger zone"
 msgstr "Опасная зона"
 
-#: src/components/_political/law/LawFormModal.tsx:250
+#: src/components/_political/law/LawFormModal.tsx:273
 msgid "Dark"
 msgstr "Тёмное"
 
@@ -2528,7 +2530,7 @@ msgstr "Энергия"
 msgid "Ensign"
 msgstr "Старший прапорщик"
 
-#: src/components/_political/law/LawFormModal.tsx:197
+#: src/components/_political/law/LawFormModal.tsx:220
 msgid "Enter article ID"
 msgstr "Введите ID статьи"
 
@@ -3071,7 +3073,7 @@ msgid "Income from taxes increases by <0>{0}</0>."
 msgstr "Поступления от налогов увеличены на <0>{0}</0>."
 
 #: src/components/_political/country/CountryTaxes.tsx:21
-#: src/components/_political/law/LawFormModal.tsx:207
+#: src/components/_political/law/LawFormModal.tsx:230
 msgid "Income tax"
 msgstr "Подоходный налог"
 
@@ -3251,7 +3253,7 @@ msgstr "Начать праймериз"
 msgid "Law failed"
 msgstr "Закон отклонён"
 
-#: src/components/_political/law/LawFormModal.tsx:72
+#: src/components/_political/law/LawFormModal.tsx:77
 #: src/components/_user/notification/notification.frontConfig.tsx:627
 msgid "Law proposed"
 msgstr "Закон принят"
@@ -3328,7 +3330,7 @@ msgstr "Освободить регион"
 msgid "Lieutenant"
 msgstr "Лейтенант"
 
-#: src/components/_political/law/LawFormModal.tsx:248
+#: src/components/_political/law/LawFormModal.tsx:271
 msgid "Light"
 msgstr "Мягкое"
 
@@ -3467,7 +3469,7 @@ msgstr "Управление"
 msgid "map"
 msgstr "карта"
 
-#: src/components/_political/law/LawFormModal.tsx:245
+#: src/components/_political/law/LawFormModal.tsx:268
 msgid "Map Accent"
 msgstr "Оттенок на карте"
 
@@ -3481,7 +3483,7 @@ msgid "Market"
 msgstr "Рынок"
 
 #: src/components/_political/country/CountryTaxes.tsx:24
-#: src/components/_political/law/LawFormModal.tsx:211
+#: src/components/_political/law/LawFormModal.tsx:234
 msgid "Market tax"
 msgstr "Налог на продажу"
 
@@ -3657,7 +3659,7 @@ msgstr "Ожидайте больше премиумных приколюх!"
 msgid "Motion failed"
 msgstr "Постановление отклонено"
 
-#: src/components/_political/partyMotion/PartyMotionFormModal.tsx:46
+#: src/components/_political/partyMotion/PartyMotionFormModal.tsx:51
 msgid "Motion proposed"
 msgstr "Постановление принято"
 
@@ -3795,7 +3797,7 @@ msgstr "Новый комментарий"
 msgid "New equipment"
 msgstr "Новое снаряжение"
 
-#: src/components/_political/partyMotion/PartyMotionFormModal.tsx:133
+#: src/components/_political/partyMotion/PartyMotionFormModal.tsx:157
 msgid "New ethics configuration"
 msgstr "Новые принципы"
 
@@ -4040,7 +4042,7 @@ msgstr "Выдвинуть {title}"
 msgid "Nominated at government"
 msgstr "Выдвинут в правительство"
 
-#: src/components/_political/law/LawFormModal.tsx:249
+#: src/components/_political/law/LawFormModal.tsx:272
 msgid "Normal"
 msgstr "Обычный"
 
@@ -4060,7 +4062,7 @@ msgstr "Вот это другое дело!"
 msgid "Number of Donors:"
 msgstr "Количество спонсоров:"
 
-#: src/components/_political/partyMotion/PartyMotionFormModal.tsx:118
+#: src/components/_political/partyMotion/PartyMotionFormModal.tsx:142
 msgid "Occupied region"
 msgstr "Оккупированный регион"
 
@@ -4507,7 +4509,7 @@ msgstr "Профиль"
 msgid "Promoted to Commander"
 msgstr "Повышен до командира"
 
-#: src/components/_political/partyMotion/PartyMotionFormModal.tsx:101
+#: src/components/_political/partyMotion/PartyMotionFormModal.tsx:125
 #: src/components/_political/partyMotion/PartyMotionList.tsx:48
 msgid "Propose a motion"
 msgstr "Предложить постановление"
@@ -4525,11 +4527,11 @@ msgstr "Предложить союз с <0/>, увеличив урон Ваш�
 msgid "Propose an alliance to another country"
 msgstr "Предложить союз другой стране"
 
-#: src/components/_political/law/LawFormModal.tsx:290
+#: src/components/_political/law/LawFormModal.tsx:319
 msgid "Propose law"
 msgstr "Предложить законопроект"
 
-#: src/components/_political/partyMotion/PartyMotionFormModal.tsx:157
+#: src/components/_political/partyMotion/PartyMotionFormModal.tsx:187
 msgid "Propose motion"
 msgstr "Предложить постановление"
 
@@ -4655,7 +4657,7 @@ msgid "Rear Admiral"
 msgstr "Контр-адмирал"
 
 #: src/components/_political/law/Law.tsx:71
-#: src/components/_political/law/LawFormModal.tsx:157
+#: src/components/_political/law/LawFormModal.tsx:180
 msgid "Reason"
 msgstr "Причина"
 
@@ -5081,7 +5083,7 @@ msgstr "Выбрать регион"
 msgid "Select all"
 msgstr "Выбрать все"
 
-#: src/components/_political/partyMotion/PartyMotionFormModal.tsx:119
+#: src/components/_political/partyMotion/PartyMotionFormModal.tsx:143
 msgid "Select an occupied region"
 msgstr "Выбрать оккупированный регион"
 
@@ -5093,7 +5095,7 @@ msgstr "Выбрать баннер"
 msgid "Select law type"
 msgstr "Выбрать законопроект"
 
-#: src/components/_political/law/LawFormModal.tsx:246
+#: src/components/_political/law/LawFormModal.tsx:269
 msgid "Select map accent"
 msgstr "Выбрать оттенок на карте"
 
@@ -5340,7 +5342,7 @@ msgstr "Ефрейтор"
 msgid "Specialization"
 msgstr "Специализация"
 
-#: src/components/_political/law/LawFormModal.tsx:272
+#: src/components/_political/law/LawFormModal.tsx:295
 msgid "Specialization item"
 msgstr "Специализация на товаре"
 
@@ -5539,19 +5541,19 @@ msgstr "Учитывать залежи ресурсов"
 msgid "Tank"
 msgstr "Танк"
 
-#: src/components/_political/law/LawFormModal.tsx:171
+#: src/components/_political/law/LawFormModal.tsx:194
 msgid "Target country"
 msgstr "Страна-цель"
 
-#: src/components/_political/law/LawFormModal.tsx:184
+#: src/components/_political/law/LawFormModal.tsx:207
 msgid "Target region"
 msgstr "Регион-цель"
 
-#: src/components/_political/law/LawFormModal.tsx:259
+#: src/components/_political/law/LawFormModal.tsx:282
 msgid "Target user"
 msgstr "Игрок-цель"
 
-#: src/components/_political/law/LawFormModal.tsx:204
+#: src/components/_political/law/LawFormModal.tsx:227
 msgid "Tax type"
 msgstr "Тип налогов"
 
@@ -6270,7 +6272,7 @@ msgstr "Когда Ваше <0>Здоровье</0> закончится, отк
 msgid "Whole Production"
 msgstr "Всё производство"
 
-#: src/components/_political/law/LawFormModal.tsx:158
+#: src/components/_political/law/LawFormModal.tsx:181
 msgid "Why do you want to propose this law?"
 msgstr "Почему Вы хотите предложить этот законопроект?"
 
@@ -6329,7 +6331,7 @@ msgstr "Работа на других — отличный способ зар�
 msgid "Wow congratulations! Anyway have you considered buying premium?"
 msgstr "Вау, поздравляем! Кстати, не думали о покупке премиума?"
 
-#: src/components/_political/law/LawFormModal.tsx:147
+#: src/components/_political/law/LawFormModal.tsx:170
 #: src/components/_political/law/LawList.tsx:58
 msgid "Write a law"
 msgstr "Выдвинуть законопроект"

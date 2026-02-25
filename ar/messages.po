@@ -996,7 +996,9 @@ msgid "Add User"
 msgstr "إضافة مستخدم"
 
 #: src/components/_political/law/Law.tsx:87
+#: src/components/_political/law/LawFormModal.tsx:304
 #: src/components/_political/partyMotion/PartyMotion.tsx:97
+#: src/components/_political/partyMotion/PartyMotionFormModal.tsx:172
 msgid "Additional cost"
 msgstr "تكلفة إضافية"
 
@@ -1128,8 +1130,8 @@ msgstr "جاهز تقريبًا..."
 msgid "Ammo"
 msgstr "ذخيرة"
 
-#: src/components/_political/law/LawFormModal.tsx:229
-#: src/components/_political/law/LawFormModal.tsx:230
+#: src/components/_political/law/LawFormModal.tsx:252
+#: src/components/_political/law/LawFormModal.tsx:253
 msgid "Amount"
 msgstr "الكمية"
 
@@ -1228,7 +1230,7 @@ msgstr "هل أنت متأكد أنك تريد تخطي هذا البرنامج 
 msgid "Armor"
 msgstr "درع"
 
-#: src/components/_political/law/LawFormModal.tsx:196
+#: src/components/_political/law/LawFormModal.tsx:219
 msgid "Article ID"
 msgstr "معرف المقال"
 
@@ -1982,7 +1984,7 @@ msgstr "عريف"
 msgid "Cost"
 msgstr "التكلفة"
 
-#: src/components/_political/partyMotion/PartyMotionFormModal.tsx:110
+#: src/components/_political/partyMotion/PartyMotionFormModal.tsx:134
 msgid "Council member to remove"
 msgstr "عضو المجلس المراد إزالته"
 
@@ -2133,7 +2135,7 @@ msgstr "أنت محظوظ جداً"
 msgid "Danger zone"
 msgstr "منطقة الخطر"
 
-#: src/components/_political/law/LawFormModal.tsx:250
+#: src/components/_political/law/LawFormModal.tsx:273
 msgid "Dark"
 msgstr "داكن"
 
@@ -2528,7 +2530,7 @@ msgstr "الطاقة"
 msgid "Ensign"
 msgstr "ملازم"
 
-#: src/components/_political/law/LawFormModal.tsx:197
+#: src/components/_political/law/LawFormModal.tsx:220
 msgid "Enter article ID"
 msgstr "أدخل معرف المقال"
 
@@ -3071,7 +3073,7 @@ msgid "Income from taxes increases by <0>{0}</0>."
 msgstr "يزداد الدخل من الضرائب بنسبة <0>{0}</0>."
 
 #: src/components/_political/country/CountryTaxes.tsx:21
-#: src/components/_political/law/LawFormModal.tsx:207
+#: src/components/_political/law/LawFormModal.tsx:230
 msgid "Income tax"
 msgstr "ضريبة الدخل"
 
@@ -3251,7 +3253,7 @@ msgstr "إطلاق الانتخابات التمهيدية"
 msgid "Law failed"
 msgstr "فشل القانون"
 
-#: src/components/_political/law/LawFormModal.tsx:72
+#: src/components/_political/law/LawFormModal.tsx:77
 #: src/components/_user/notification/notification.frontConfig.tsx:627
 msgid "Law proposed"
 msgstr "تم اقتراح القانون"
@@ -3328,7 +3330,7 @@ msgstr "تحرير منطقة"
 msgid "Lieutenant"
 msgstr "ملازم"
 
-#: src/components/_political/law/LawFormModal.tsx:248
+#: src/components/_political/law/LawFormModal.tsx:271
 msgid "Light"
 msgstr "فاتح"
 
@@ -3467,7 +3469,7 @@ msgstr "الإدارة"
 msgid "map"
 msgstr "الخريطة"
 
-#: src/components/_political/law/LawFormModal.tsx:245
+#: src/components/_political/law/LawFormModal.tsx:268
 msgid "Map Accent"
 msgstr "إبراز الخريطة"
 
@@ -3481,7 +3483,7 @@ msgid "Market"
 msgstr "السوق"
 
 #: src/components/_political/country/CountryTaxes.tsx:24
-#: src/components/_political/law/LawFormModal.tsx:211
+#: src/components/_political/law/LawFormModal.tsx:234
 msgid "Market tax"
 msgstr "ضريبة السوق"
 
@@ -3657,7 +3659,7 @@ msgstr "المزيد من الميزات المميزة قادمة قريباً!
 msgid "Motion failed"
 msgstr "فشل الاقتراح"
 
-#: src/components/_political/partyMotion/PartyMotionFormModal.tsx:46
+#: src/components/_political/partyMotion/PartyMotionFormModal.tsx:51
 msgid "Motion proposed"
 msgstr "تم تقديم الاقتراح"
 
@@ -3795,7 +3797,7 @@ msgstr "تعليق جديد"
 msgid "New equipment"
 msgstr "معدة جديدة"
 
-#: src/components/_political/partyMotion/PartyMotionFormModal.tsx:133
+#: src/components/_political/partyMotion/PartyMotionFormModal.tsx:157
 msgid "New ethics configuration"
 msgstr "تكوين أخلاقيات جديد"
 
@@ -4040,7 +4042,7 @@ msgstr "ترشيح {title}"
 msgid "Nominated at government"
 msgstr "تم ترشيحه في الحكومة"
 
-#: src/components/_political/law/LawFormModal.tsx:249
+#: src/components/_political/law/LawFormModal.tsx:272
 msgid "Normal"
 msgstr "عادي"
 
@@ -4060,7 +4062,7 @@ msgstr "الآن نتحدث بجدية!"
 msgid "Number of Donors:"
 msgstr "عدد المتبرعين:"
 
-#: src/components/_political/partyMotion/PartyMotionFormModal.tsx:118
+#: src/components/_political/partyMotion/PartyMotionFormModal.tsx:142
 msgid "Occupied region"
 msgstr "منطقة محتلة"
 
@@ -4507,7 +4509,7 @@ msgstr "الملف الشخصي"
 msgid "Promoted to Commander"
 msgstr "تمت الترقية إلى قائد"
 
-#: src/components/_political/partyMotion/PartyMotionFormModal.tsx:101
+#: src/components/_political/partyMotion/PartyMotionFormModal.tsx:125
 #: src/components/_political/partyMotion/PartyMotionList.tsx:48
 msgid "Propose a motion"
 msgstr "تقديم مقترح"
@@ -4525,11 +4527,11 @@ msgstr "اقتراح تحالف مع <0/>، مما يزيد من أضرار مو
 msgid "Propose an alliance to another country"
 msgstr "اقتراح تحالف مع دولة أخرى"
 
-#: src/components/_political/law/LawFormModal.tsx:290
+#: src/components/_political/law/LawFormModal.tsx:319
 msgid "Propose law"
 msgstr "اقتراح قانون"
 
-#: src/components/_political/partyMotion/PartyMotionFormModal.tsx:157
+#: src/components/_political/partyMotion/PartyMotionFormModal.tsx:187
 msgid "Propose motion"
 msgstr "تقديم مقترح"
 
@@ -4655,7 +4657,7 @@ msgid "Rear Admiral"
 msgstr "لواء بحري"
 
 #: src/components/_political/law/Law.tsx:71
-#: src/components/_political/law/LawFormModal.tsx:157
+#: src/components/_political/law/LawFormModal.tsx:180
 msgid "Reason"
 msgstr "السبب"
 
@@ -5081,7 +5083,7 @@ msgstr "اختر منطقة"
 msgid "Select all"
 msgstr "تحديد الكل"
 
-#: src/components/_political/partyMotion/PartyMotionFormModal.tsx:119
+#: src/components/_political/partyMotion/PartyMotionFormModal.tsx:143
 msgid "Select an occupied region"
 msgstr "اختر منطقة محتلة"
 
@@ -5093,7 +5095,7 @@ msgstr "اختر شعاراً"
 msgid "Select law type"
 msgstr "اختر نوع القانون"
 
-#: src/components/_political/law/LawFormModal.tsx:246
+#: src/components/_political/law/LawFormModal.tsx:269
 msgid "Select map accent"
 msgstr "اختر تمييز الخريطة"
 
@@ -5340,7 +5342,7 @@ msgstr "متخصص"
 msgid "Specialization"
 msgstr "التخصص"
 
-#: src/components/_political/law/LawFormModal.tsx:272
+#: src/components/_political/law/LawFormModal.tsx:295
 msgid "Specialization item"
 msgstr "عنصر التخصص"
 
@@ -5539,19 +5541,19 @@ msgstr "أخذ الودائع في الاعتبار"
 msgid "Tank"
 msgstr "دبابة"
 
-#: src/components/_political/law/LawFormModal.tsx:171
+#: src/components/_political/law/LawFormModal.tsx:194
 msgid "Target country"
 msgstr "الدولة المستهدفة"
 
-#: src/components/_political/law/LawFormModal.tsx:184
+#: src/components/_political/law/LawFormModal.tsx:207
 msgid "Target region"
 msgstr "المنطقة المستهدفة"
 
-#: src/components/_political/law/LawFormModal.tsx:259
+#: src/components/_political/law/LawFormModal.tsx:282
 msgid "Target user"
 msgstr "المستخدم المستهدف"
 
-#: src/components/_political/law/LawFormModal.tsx:204
+#: src/components/_political/law/LawFormModal.tsx:227
 msgid "Tax type"
 msgstr "نوع الضريبة"
 
@@ -6270,7 +6272,7 @@ msgstr "عندما تنفد <0>صحتك</0>، افتح هذه القائمة ل�
 msgid "Whole Production"
 msgstr "كامل الإنتاج"
 
-#: src/components/_political/law/LawFormModal.tsx:158
+#: src/components/_political/law/LawFormModal.tsx:181
 msgid "Why do you want to propose this law?"
 msgstr "لماذا تريد اقتراح هذا القانون؟"
 
@@ -6329,7 +6331,7 @@ msgstr "العمل لدى الآخرين طريقة رائعة لكسب الما
 msgid "Wow congratulations! Anyway have you considered buying premium?"
 msgstr "واو مبروك! على كل حال، هل فكرت في شراء العضوية المميزة؟"
 
-#: src/components/_political/law/LawFormModal.tsx:147
+#: src/components/_political/law/LawFormModal.tsx:170
 #: src/components/_political/law/LawList.tsx:58
 msgid "Write a law"
 msgstr "اكتب قانوناً"

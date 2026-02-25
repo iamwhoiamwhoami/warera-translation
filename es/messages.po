@@ -996,7 +996,9 @@ msgid "Add User"
 msgstr "Añadir usuario"
 
 #: src/components/_political/law/Law.tsx:87
+#: src/components/_political/law/LawFormModal.tsx:304
 #: src/components/_political/partyMotion/PartyMotion.tsx:97
+#: src/components/_political/partyMotion/PartyMotionFormModal.tsx:172
 msgid "Additional cost"
 msgstr "Costo adicional"
 
@@ -1128,8 +1130,8 @@ msgstr "Casi listo..."
 msgid "Ammo"
 msgstr "Munición"
 
-#: src/components/_political/law/LawFormModal.tsx:229
-#: src/components/_political/law/LawFormModal.tsx:230
+#: src/components/_political/law/LawFormModal.tsx:252
+#: src/components/_political/law/LawFormModal.tsx:253
 msgid "Amount"
 msgstr "Cantidad"
 
@@ -1228,7 +1230,7 @@ msgstr "¿Estás seguro de que quieres omitir este tutorial?"
 msgid "Armor"
 msgstr "Armadura"
 
-#: src/components/_political/law/LawFormModal.tsx:196
+#: src/components/_political/law/LawFormModal.tsx:219
 msgid "Article ID"
 msgstr "ID de artículo"
 
@@ -1982,7 +1984,7 @@ msgstr "Cabo"
 msgid "Cost"
 msgstr "Coste"
 
-#: src/components/_political/partyMotion/PartyMotionFormModal.tsx:110
+#: src/components/_political/partyMotion/PartyMotionFormModal.tsx:134
 msgid "Council member to remove"
 msgstr "Miembro del consejo que debe ser destituido"
 
@@ -2133,7 +2135,7 @@ msgstr "Qué suerte tienes"
 msgid "Danger zone"
 msgstr "Zona de peligro"
 
-#: src/components/_political/law/LawFormModal.tsx:250
+#: src/components/_political/law/LawFormModal.tsx:273
 msgid "Dark"
 msgstr "Oscuro"
 
@@ -2528,7 +2530,7 @@ msgstr "Energía"
 msgid "Ensign"
 msgstr "Alférez"
 
-#: src/components/_political/law/LawFormModal.tsx:197
+#: src/components/_political/law/LawFormModal.tsx:220
 msgid "Enter article ID"
 msgstr "Introduce el ID del artículo"
 
@@ -3071,7 +3073,7 @@ msgid "Income from taxes increases by <0>{0}</0>."
 msgstr "Los ingresos por impuestos aumentan <0>{0}</0>."
 
 #: src/components/_political/country/CountryTaxes.tsx:21
-#: src/components/_political/law/LawFormModal.tsx:207
+#: src/components/_political/law/LawFormModal.tsx:230
 msgid "Income tax"
 msgstr "Impuesto sobre la renta"
 
@@ -3251,7 +3253,7 @@ msgstr "Convocar a elecciones primarias"
 msgid "Law failed"
 msgstr "Ley fallida"
 
-#: src/components/_political/law/LawFormModal.tsx:72
+#: src/components/_political/law/LawFormModal.tsx:77
 #: src/components/_user/notification/notification.frontConfig.tsx:627
 msgid "Law proposed"
 msgstr "Ley propuesta"
@@ -3328,7 +3330,7 @@ msgstr "Liberar una región"
 msgid "Lieutenant"
 msgstr "Teniente"
 
-#: src/components/_political/law/LawFormModal.tsx:248
+#: src/components/_political/law/LawFormModal.tsx:271
 msgid "Light"
 msgstr "Clara"
 
@@ -3467,7 +3469,7 @@ msgstr "Gestión"
 msgid "map"
 msgstr "mapa"
 
-#: src/components/_political/law/LawFormModal.tsx:245
+#: src/components/_political/law/LawFormModal.tsx:268
 msgid "Map Accent"
 msgstr "Acento del mapa"
 
@@ -3481,7 +3483,7 @@ msgid "Market"
 msgstr "Mercado"
 
 #: src/components/_political/country/CountryTaxes.tsx:24
-#: src/components/_political/law/LawFormModal.tsx:211
+#: src/components/_political/law/LawFormModal.tsx:234
 msgid "Market tax"
 msgstr "IVA"
 
@@ -3657,7 +3659,7 @@ msgstr "¡Más funciones premium próximamente!"
 msgid "Motion failed"
 msgstr "Moción fallida"
 
-#: src/components/_political/partyMotion/PartyMotionFormModal.tsx:46
+#: src/components/_political/partyMotion/PartyMotionFormModal.tsx:51
 msgid "Motion proposed"
 msgstr "Moción propuesta"
 
@@ -3795,7 +3797,7 @@ msgstr "Nuevo comentario"
 msgid "New equipment"
 msgstr "Nuevo equipamiento"
 
-#: src/components/_political/partyMotion/PartyMotionFormModal.tsx:133
+#: src/components/_political/partyMotion/PartyMotionFormModal.tsx:157
 msgid "New ethics configuration"
 msgstr "Nueva configuración de ideología"
 
@@ -4040,7 +4042,7 @@ msgstr "Nombrar a {title}"
 msgid "Nominated at government"
 msgstr "Nombrado en el gobierno"
 
-#: src/components/_political/law/LawFormModal.tsx:249
+#: src/components/_political/law/LawFormModal.tsx:272
 msgid "Normal"
 msgstr "Neutra"
 
@@ -4060,7 +4062,7 @@ msgstr "¡Ahora sí!"
 msgid "Number of Donors:"
 msgstr "Número de donantes:"
 
-#: src/components/_political/partyMotion/PartyMotionFormModal.tsx:118
+#: src/components/_political/partyMotion/PartyMotionFormModal.tsx:142
 msgid "Occupied region"
 msgstr "Region ocupada"
 
@@ -4507,7 +4509,7 @@ msgstr "Perfil"
 msgid "Promoted to Commander"
 msgstr "Ascendido a Comandante"
 
-#: src/components/_political/partyMotion/PartyMotionFormModal.tsx:101
+#: src/components/_political/partyMotion/PartyMotionFormModal.tsx:125
 #: src/components/_political/partyMotion/PartyMotionList.tsx:48
 msgid "Propose a motion"
 msgstr "Proponer una moción"
@@ -4525,11 +4527,11 @@ msgstr "Proponer una alianza con <0/>, aumentando el daño de tus ciudadanos cua
 msgid "Propose an alliance to another country"
 msgstr "Proponer una alianza con otro país"
 
-#: src/components/_political/law/LawFormModal.tsx:290
+#: src/components/_political/law/LawFormModal.tsx:319
 msgid "Propose law"
 msgstr "Proponer ley"
 
-#: src/components/_political/partyMotion/PartyMotionFormModal.tsx:157
+#: src/components/_political/partyMotion/PartyMotionFormModal.tsx:187
 msgid "Propose motion"
 msgstr "Proponer una moción"
 
@@ -4655,7 +4657,7 @@ msgid "Rear Admiral"
 msgstr "Contraalmirante"
 
 #: src/components/_political/law/Law.tsx:71
-#: src/components/_political/law/LawFormModal.tsx:157
+#: src/components/_political/law/LawFormModal.tsx:180
 msgid "Reason"
 msgstr "Motivo"
 
@@ -5081,7 +5083,7 @@ msgstr "Selecciona una región"
 msgid "Select all"
 msgstr "Seleccionar todo"
 
-#: src/components/_political/partyMotion/PartyMotionFormModal.tsx:119
+#: src/components/_political/partyMotion/PartyMotionFormModal.tsx:143
 msgid "Select an occupied region"
 msgstr "Elegir una región ocupada"
 
@@ -5093,7 +5095,7 @@ msgstr "Seleccionar banner"
 msgid "Select law type"
 msgstr "Elegir el tipo de ley"
 
-#: src/components/_political/law/LawFormModal.tsx:246
+#: src/components/_political/law/LawFormModal.tsx:269
 msgid "Select map accent"
 msgstr "Seleccionar acento"
 
@@ -5340,7 +5342,7 @@ msgstr "Especialista"
 msgid "Specialization"
 msgstr "Especialización"
 
-#: src/components/_political/law/LawFormModal.tsx:272
+#: src/components/_political/law/LawFormModal.tsx:295
 msgid "Specialization item"
 msgstr "Producto de especialidad"
 
@@ -5539,19 +5541,19 @@ msgstr "Tener en cuenta los depósitos"
 msgid "Tank"
 msgstr "Tanque"
 
-#: src/components/_political/law/LawFormModal.tsx:171
+#: src/components/_political/law/LawFormModal.tsx:194
 msgid "Target country"
 msgstr "País objetivo"
 
-#: src/components/_political/law/LawFormModal.tsx:184
+#: src/components/_political/law/LawFormModal.tsx:207
 msgid "Target region"
 msgstr "Región objetivo"
 
-#: src/components/_political/law/LawFormModal.tsx:259
+#: src/components/_political/law/LawFormModal.tsx:282
 msgid "Target user"
 msgstr "Jugador objetivo"
 
-#: src/components/_political/law/LawFormModal.tsx:204
+#: src/components/_political/law/LawFormModal.tsx:227
 msgid "Tax type"
 msgstr "Tipo de impuesto"
 
@@ -6270,7 +6272,7 @@ msgstr "Cuando tu <0>Salud</0> se agote, abre este menú para restaurarla con co
 msgid "Whole Production"
 msgstr "Producción completa"
 
-#: src/components/_political/law/LawFormModal.tsx:158
+#: src/components/_political/law/LawFormModal.tsx:181
 msgid "Why do you want to propose this law?"
 msgstr "¿Cuál es el motivo de esta ley?"
 
@@ -6329,7 +6331,7 @@ msgstr "Trabajar para otros es una gran manera de ganar dinero al empezar."
 msgid "Wow congratulations! Anyway have you considered buying premium?"
 msgstr "¡Wow felicidades! Por cierto, ¿has pensado en comprar premium?"
 
-#: src/components/_political/law/LawFormModal.tsx:147
+#: src/components/_political/law/LawFormModal.tsx:170
 #: src/components/_political/law/LawList.tsx:58
 msgid "Write a law"
 msgstr "Proponer una ley"

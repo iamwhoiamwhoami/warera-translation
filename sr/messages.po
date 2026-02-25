@@ -996,7 +996,9 @@ msgid "Add User"
 msgstr "Додај корисника"
 
 #: src/components/_political/law/Law.tsx:87
+#: src/components/_political/law/LawFormModal.tsx:304
 #: src/components/_political/partyMotion/PartyMotion.tsx:97
+#: src/components/_political/partyMotion/PartyMotionFormModal.tsx:172
 msgid "Additional cost"
 msgstr "Додатни трошак"
 
@@ -1128,8 +1130,8 @@ msgstr "Учитавам..."
 msgid "Ammo"
 msgstr "Муниција"
 
-#: src/components/_political/law/LawFormModal.tsx:229
-#: src/components/_political/law/LawFormModal.tsx:230
+#: src/components/_political/law/LawFormModal.tsx:252
+#: src/components/_political/law/LawFormModal.tsx:253
 msgid "Amount"
 msgstr "Износ"
 
@@ -1228,7 +1230,7 @@ msgstr "Да ли сигурно желите да прескочите води
 msgid "Armor"
 msgstr "Панцир"
 
-#: src/components/_political/law/LawFormModal.tsx:196
+#: src/components/_political/law/LawFormModal.tsx:219
 msgid "Article ID"
 msgstr "ID чланка"
 
@@ -1982,7 +1984,7 @@ msgstr "Десетар"
 msgid "Cost"
 msgstr "Цена"
 
-#: src/components/_political/partyMotion/PartyMotionFormModal.tsx:110
+#: src/components/_political/partyMotion/PartyMotionFormModal.tsx:134
 msgid "Council member to remove"
 msgstr "Члан одбора за уклањање"
 
@@ -2133,7 +2135,7 @@ msgstr "Проклет био, срећниче"
 msgid "Danger zone"
 msgstr "Опасна зона"
 
-#: src/components/_political/law/LawFormModal.tsx:250
+#: src/components/_political/law/LawFormModal.tsx:273
 msgid "Dark"
 msgstr "Тамно"
 
@@ -2528,7 +2530,7 @@ msgstr "Енергија"
 msgid "Ensign"
 msgstr "Потпоручник"
 
-#: src/components/_political/law/LawFormModal.tsx:197
+#: src/components/_political/law/LawFormModal.tsx:220
 msgid "Enter article ID"
 msgstr "Унеси ID чланка"
 
@@ -3071,7 +3073,7 @@ msgid "Income from taxes increases by <0>{0}</0>."
 msgstr "Приход од пореза се повећава за <0>{0}</0>."
 
 #: src/components/_political/country/CountryTaxes.tsx:21
-#: src/components/_political/law/LawFormModal.tsx:207
+#: src/components/_political/law/LawFormModal.tsx:230
 msgid "Income tax"
 msgstr "Порез на приход"
 
@@ -3251,7 +3253,7 @@ msgstr "Покрени прелиминарне изборе"
 msgid "Law failed"
 msgstr "Закон није прошао"
 
-#: src/components/_political/law/LawFormModal.tsx:72
+#: src/components/_political/law/LawFormModal.tsx:77
 #: src/components/_user/notification/notification.frontConfig.tsx:627
 msgid "Law proposed"
 msgstr "Закон је предложен"
@@ -3328,7 +3330,7 @@ msgstr "Ослободи регион"
 msgid "Lieutenant"
 msgstr "Поручник"
 
-#: src/components/_political/law/LawFormModal.tsx:248
+#: src/components/_political/law/LawFormModal.tsx:271
 msgid "Light"
 msgstr "Лака"
 
@@ -3467,7 +3469,7 @@ msgstr "Менаџмент"
 msgid "map"
 msgstr "мапа"
 
-#: src/components/_political/law/LawFormModal.tsx:245
+#: src/components/_political/law/LawFormModal.tsx:268
 msgid "Map Accent"
 msgstr "Акцент мапе"
 
@@ -3481,7 +3483,7 @@ msgid "Market"
 msgstr "Тржиште"
 
 #: src/components/_political/country/CountryTaxes.tsx:24
-#: src/components/_political/law/LawFormModal.tsx:211
+#: src/components/_political/law/LawFormModal.tsx:234
 msgid "Market tax"
 msgstr "Порез на тржиште"
 
@@ -3657,7 +3659,7 @@ msgstr "Ускоро стиже још премиум функција!"
 msgid "Motion failed"
 msgstr "Предлог није успео"
 
-#: src/components/_political/partyMotion/PartyMotionFormModal.tsx:46
+#: src/components/_political/partyMotion/PartyMotionFormModal.tsx:51
 msgid "Motion proposed"
 msgstr "Предлог предложен"
 
@@ -3795,7 +3797,7 @@ msgstr "Нови коментар"
 msgid "New equipment"
 msgstr "Нова опрема"
 
-#: src/components/_political/partyMotion/PartyMotionFormModal.tsx:133
+#: src/components/_political/partyMotion/PartyMotionFormModal.tsx:157
 msgid "New ethics configuration"
 msgstr "Нова конфигурација етике"
 
@@ -4040,7 +4042,7 @@ msgstr "Номинуј {title}"
 msgid "Nominated at government"
 msgstr "Номинован у влади"
 
-#: src/components/_political/law/LawFormModal.tsx:249
+#: src/components/_political/law/LawFormModal.tsx:272
 msgid "Normal"
 msgstr "Нормално"
 
@@ -4060,7 +4062,7 @@ msgstr "Е сад причамо!"
 msgid "Number of Donors:"
 msgstr "Број донатора:"
 
-#: src/components/_political/partyMotion/PartyMotionFormModal.tsx:118
+#: src/components/_political/partyMotion/PartyMotionFormModal.tsx:142
 msgid "Occupied region"
 msgstr "Окупирана регија"
 
@@ -4507,7 +4509,7 @@ msgstr "Профил"
 msgid "Promoted to Commander"
 msgstr "Унапређен у команданта"
 
-#: src/components/_political/partyMotion/PartyMotionFormModal.tsx:101
+#: src/components/_political/partyMotion/PartyMotionFormModal.tsx:125
 #: src/components/_political/partyMotion/PartyMotionList.tsx:48
 msgid "Propose a motion"
 msgstr "Предложи предлог"
@@ -4525,11 +4527,11 @@ msgstr "Предложи савез са <0/>, повећавајући штет
 msgid "Propose an alliance to another country"
 msgstr "Предложи савез другој земљи"
 
-#: src/components/_political/law/LawFormModal.tsx:290
+#: src/components/_political/law/LawFormModal.tsx:319
 msgid "Propose law"
 msgstr "Предложи закон"
 
-#: src/components/_political/partyMotion/PartyMotionFormModal.tsx:157
+#: src/components/_political/partyMotion/PartyMotionFormModal.tsx:187
 msgid "Propose motion"
 msgstr "Предложи предлог"
 
@@ -4655,7 +4657,7 @@ msgid "Rear Admiral"
 msgstr "Контра-адмирал"
 
 #: src/components/_political/law/Law.tsx:71
-#: src/components/_political/law/LawFormModal.tsx:157
+#: src/components/_political/law/LawFormModal.tsx:180
 msgid "Reason"
 msgstr "Разлог"
 
@@ -5081,7 +5083,7 @@ msgstr "Изабери регион"
 msgid "Select all"
 msgstr "Изабери све"
 
-#: src/components/_political/partyMotion/PartyMotionFormModal.tsx:119
+#: src/components/_political/partyMotion/PartyMotionFormModal.tsx:143
 msgid "Select an occupied region"
 msgstr "Изабери окупиран регион"
 
@@ -5093,7 +5095,7 @@ msgstr "Изабери банер"
 msgid "Select law type"
 msgstr "Изабери врсту закона"
 
-#: src/components/_political/law/LawFormModal.tsx:246
+#: src/components/_political/law/LawFormModal.tsx:269
 msgid "Select map accent"
 msgstr "Изабери акцент мапе"
 
@@ -5340,7 +5342,7 @@ msgstr "Специјалиста"
 msgid "Specialization"
 msgstr "Специјализација"
 
-#: src/components/_political/law/LawFormModal.tsx:272
+#: src/components/_political/law/LawFormModal.tsx:295
 msgid "Specialization item"
 msgstr "Предмет спезијализације"
 
@@ -5539,19 +5541,19 @@ msgstr "Узми налазишта у обзир"
 msgid "Tank"
 msgstr "Тенк"
 
-#: src/components/_political/law/LawFormModal.tsx:171
+#: src/components/_political/law/LawFormModal.tsx:194
 msgid "Target country"
 msgstr "Циљна земља"
 
-#: src/components/_political/law/LawFormModal.tsx:184
+#: src/components/_political/law/LawFormModal.tsx:207
 msgid "Target region"
 msgstr "Циљни регион"
 
-#: src/components/_political/law/LawFormModal.tsx:259
+#: src/components/_political/law/LawFormModal.tsx:282
 msgid "Target user"
 msgstr "Циљни корисник"
 
-#: src/components/_political/law/LawFormModal.tsx:204
+#: src/components/_political/law/LawFormModal.tsx:227
 msgid "Tax type"
 msgstr "Тип пореза"
 
@@ -6270,7 +6272,7 @@ msgstr "Када потрошиш твоје <0>Здравље</0>, отвори
 msgid "Whole Production"
 msgstr "Цела производња"
 
-#: src/components/_political/law/LawFormModal.tsx:158
+#: src/components/_political/law/LawFormModal.tsx:181
 msgid "Why do you want to propose this law?"
 msgstr "Зашто желите да предложите овај закон?"
 
@@ -6329,7 +6331,7 @@ msgstr "Рад за друге је одличан начин да заради�
 msgid "Wow congratulations! Anyway have you considered buying premium?"
 msgstr "Честитке! Узгред, јеси ли размислио о куповини премиума?"
 
-#: src/components/_political/law/LawFormModal.tsx:147
+#: src/components/_political/law/LawFormModal.tsx:170
 #: src/components/_political/law/LawList.tsx:58
 msgid "Write a law"
 msgstr "Предложи закон"
