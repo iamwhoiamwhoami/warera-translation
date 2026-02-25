@@ -14,7 +14,7 @@ msgstr ""
 "X-Generator: Poedit 3.8\n"
 
 #. placeholder {0}: user.data.mute.reason
-#: src/components/_user/user/UserHeader.tsx:409
+#: src/components/_user/user/UserHeader.tsx:411
 msgid " - Reason: {0}"
 msgstr " - Iemesls: {0}"
 
@@ -335,15 +335,15 @@ msgstr "<0/> uzvarēja <1>{0}.</1> raundu <2/>"
 msgid "<0/> won the round <1>#{0}</1> in <2/>!"
 msgstr "<0/> uzvarēja <1>{0}.</1> raundu <2/>!"
 
-#: src/components/_user/user/UserHeader.tsx:276
+#: src/components/_user/user/UserHeader.tsx:278
 msgid "<0/><1>Buff</1> ends <2/>"
 msgstr "<0/><1>Pastiprinājums</1> beigsies <2/>"
 
-#: src/components/_user/user/UserHeader.tsx:285
+#: src/components/_user/user/UserHeader.tsx:287
 msgid "<0/><1>Debuff</1> ends <2/>"
 msgstr "<0/><1>Paģiras</1> beigsies <2/>"
 
-#: src/components/_user/user/UserHeader.tsx:348
+#: src/components/_user/user/UserHeader.tsx:350
 msgid "<0/>Last connection was <1><2/></1>"
 msgstr "<0/>Pēdējā pieslēgšanās bija <1><2/></1>"
 
@@ -950,7 +950,7 @@ msgid "Access war"
 msgstr "Apskatīt karu"
 
 #: src/components/_political/country/CountryHeader.tsx:70
-#: src/components/_user/user/UserHeader.tsx:162
+#: src/components/_user/user/UserHeader.tsx:164
 #: src/pages/country/[countryId]/account.tsx:36
 #: src/pages/country/[countryId]/index.tsx:328
 #: src/pages/user/[userId]/account.tsx:25
@@ -1007,7 +1007,7 @@ msgstr "Papildu maksa"
 msgid "Admin"
 msgstr "Administrators"
 
-#: src/pages/user/[userId]/bans.tsx:135
+#: src/pages/user/[userId]/bans.tsx:261
 msgid "Admin Actions"
 msgstr "Administratora Darbības"
 
@@ -1049,7 +1049,7 @@ msgstr "Agrārisms"
 msgid "All"
 msgstr "Viss"
 
-#: src/components/_social/ArticleList.tsx:119
+#: src/components/_social/ArticleList.tsx:130
 msgid "All categories"
 msgstr "Visas kategorijas"
 
@@ -1075,7 +1075,7 @@ msgstr "Visi uzņēmumi jūsu valstī saņem <0>+{0}</0> bonusu munīcijas vai c
 msgid "All event types"
 msgstr "Visi notikumi"
 
-#: src/components/_social/ArticleList.tsx:109
+#: src/components/_social/ArticleList.tsx:120
 msgid "All languages"
 msgstr "Visas valodas"
 
@@ -1192,10 +1192,6 @@ msgstr "Pieteikties"
 msgid "Are you sure you want to fire this worker?"
 msgstr "Vai esi pārliecināts, ka gribi atlaist šo strādnieku?"
 
-#: src/components/_user/user/UserDropdown.tsx:350
-msgid "Are you sure you want to give the \"Bug finder\" badge to {username}?"
-msgstr "Vai esi pārliecināts, ka gribi iedot \"Kļūmju meklētājs\" medaļu lietotājam {username}?"
-
 #: src/pages/country/[countryId]/government.tsx:93
 msgid "Are you sure you want to leave the congress?"
 msgstr "Vai esi pārliecināts, ka gribi pamest kongresu?"
@@ -1246,7 +1242,7 @@ msgstr "Dzeramnauda"
 msgid "Article tipped"
 msgstr "Dzeramnauda atstāta"
 
-#: src/components/_user/user/UserHeader.tsx:202
+#: src/components/_user/user/UserHeader.tsx:204
 #: src/pages/user/[userId]/index.tsx:199
 msgid "Articles"
 msgstr "Raksti"
@@ -1301,7 +1297,7 @@ msgstr "Automatizētais dzinējs"
 msgid "Automated Engine"
 msgstr "Automatizētais Dzinējs"
 
-#: src/components/_user/user/UserDropdown.tsx:153
+#: src/components/_user/user/UserDropdown.tsx:142
 msgid "Avatar removed"
 msgstr "Profila bilde noņemta"
 
@@ -1325,7 +1321,7 @@ msgstr "Centrisms"
 msgid "Balanced - No modifiers"
 msgstr "Centrisms - Nav modifikātoru"
 
-#: src/components/_user/user/UserDropdown.tsx:275
+#: src/components/_user/user/UserDropdown.tsx:264
 msgid "Ban user"
 msgstr "Nobanot lietotāju"
 
@@ -1333,7 +1329,7 @@ msgstr "Nobanot lietotāju"
 msgid "Bankruptcy"
 msgstr "Bankrots"
 
-#: src/components/_user/user/UserHeader.tsx:397
+#: src/components/_user/user/UserHeader.tsx:399
 msgid "Banned"
 msgstr "Nobanots"
 
@@ -1353,8 +1349,8 @@ msgstr "Banera dāvana nosūtīta"
 msgid "Banners"
 msgstr "Baneri"
 
-#: src/components/_user/user/UserHeader.tsx:180
-#: src/components/_user/user/UserHeader.tsx:221
+#: src/components/_user/user/UserHeader.tsx:182
+#: src/components/_user/user/UserHeader.tsx:223
 msgid "Bans"
 msgstr "Bani"
 
@@ -1429,7 +1425,7 @@ msgstr "Kandidēt"
 msgid "Better than nothing, right?"
 msgstr "Labāk nekā nekas, vai ne?"
 
-#: src/components/_user/user/UserDropdown.tsx:258
+#: src/components/_user/user/UserDropdown.tsx:247
 msgid "Block (hide content)"
 msgstr "Bloķēt (noslēpt saturu)"
 
@@ -1479,10 +1475,6 @@ msgstr "Pastiprinājums beidzies"
 msgid "Buff started"
 msgstr "Pastiprinājums sācies"
 
-#: src/components/_user/user/UserDropdown.tsx:138
-msgid "Bug Finder badge given"
-msgstr "Kļūmju Meklētāja medaļa iedota"
-
 #: src/components/_economy/company/CompanyList.tsx:156
 msgid "Build a company"
 msgstr "Jauns uzņēmums"
@@ -1494,6 +1486,10 @@ msgstr "Izveidot militāro vienību"
 #: src/components/_military/mu/MuFormModal.tsx:139
 msgid "Build the military unit"
 msgstr "Izveidot militāro vienību"
+
+#: src/pages/user/[userId]/bans.tsx:180
+msgid "Buy"
+msgstr ""
 
 #: src/components/_user/mission/mission.frontConfig.tsx:166
 msgid "Buy for <0>{count}</0> money on market"
@@ -1649,7 +1645,7 @@ msgstr "Izvēlies savu valsti"
 msgid "Choose your side and click to deal <0>Damages</0>! Keep hitting to help your team win."
 msgstr "Izvēlies savu pusi un spied, lai nodarītu <0>Bojājumus</0>! Turpini sist, lai palīdzētu savai komandai uzvarēt."
 
-#: src/components/_user/user/UserHeader.tsx:269
+#: src/components/_user/user/UserHeader.tsx:271
 msgid "Citizen since <0><1/></0>"
 msgstr "Pilsonis kopš <0><1/></0>"
 
@@ -1763,7 +1759,7 @@ msgstr "Aizvērt"
 msgid "Colonel"
 msgstr "Pulkvedis"
 
-#: src/components/_user/user/UserDropdown.tsx:198
+#: src/components/_user/user/UserDropdown.tsx:187
 msgid "Color scheme"
 msgstr "Krāsa"
 
@@ -1777,7 +1773,7 @@ msgstr "Komodors"
 
 #: src/components/_layout/LayoutMenu.tsx:182
 #: src/components/_user/user/MyAvatar.tsx:48
-#: src/components/_user/user/UserHeader.tsx:194
+#: src/components/_user/user/UserHeader.tsx:196
 #: src/pages/companies.tsx:96
 msgid "Companies"
 msgstr "Uzņēmumi"
@@ -1921,7 +1917,7 @@ msgstr "Pieslēgties ar Discord"
 msgid "Connect with email"
 msgstr "Pieslēgties ar e-pastu"
 
-#: src/pages/user/[userId]/bans.tsx:127
+#: src/pages/user/[userId]/bans.tsx:253
 msgid "Connection"
 msgstr "Savienojums"
 
@@ -2287,7 +2283,7 @@ msgstr "Apraksti savas partijas mērķus un vērtības"
 msgid "Description"
 msgstr "Apraksts"
 
-#: src/components/_user/user/UserDropdown.tsx:167
+#: src/components/_user/user/UserDropdown.tsx:156
 msgid "Description removed"
 msgstr "Apraksts noņemts"
 
@@ -2295,7 +2291,7 @@ msgstr "Apraksts noņemts"
 msgid "Description updated!"
 msgstr "Apraksts atjaunots!"
 
-#: src/components/_user/user/UserDropdown.tsx:330
+#: src/components/_user/user/UserDropdown.tsx:319
 msgid "Destroy item from inventory"
 msgstr "Iznīcināt ekipējumu no inventāra"
 
@@ -2440,7 +2436,7 @@ msgstr "Ekonomikas likumi"
 msgid "Economic skills"
 msgstr "Ekonomikas prasmes"
 
-#: src/components/_user/user/UserDropdown.tsx:189
+#: src/components/_user/user/UserDropdown.tsx:178
 msgid "Edit description"
 msgstr "Labot aprakstu"
 
@@ -2483,7 +2479,7 @@ msgstr "Violetā Ķivere"
 msgid "Elite Pants"
 msgstr "Violetās Bikses"
 
-#: src/pages/user/[userId]/bans.tsx:60
+#: src/pages/user/[userId]/bans.tsx:73
 msgid "Email"
 msgstr "E-pasts"
 
@@ -2728,7 +2724,7 @@ msgstr "Atrast militāro vienību"
 msgid "Find another job"
 msgstr "Atrast citu darbu"
 
-#: src/components/_user/user/UserDropdown.tsx:316
+#: src/components/_user/user/UserDropdown.tsx:305
 msgid "Fine (remove money)"
 msgstr "Sodīt (atskaitīt naudu)"
 
@@ -2757,7 +2753,7 @@ msgid "Fish"
 msgstr "Zivs"
 
 #: src/components/_layout/LayoutMapOptions.tsx:276
-#: src/pages/user/[userId]/bans.tsx:90
+#: src/pages/user/[userId]/bans.tsx:103
 msgid "Flags"
 msgstr "Karogi"
 
@@ -2769,7 +2765,7 @@ msgstr "Fonts"
 msgid "Font size"
 msgstr "Teksta izmērs"
 
-#: src/components/_user/user/UserDropdown.tsx:207
+#: src/components/_user/user/UserDropdown.tsx:196
 msgid "Font style"
 msgstr "Fonta stils"
 
@@ -2838,7 +2834,7 @@ msgstr "Dāvana nosūtīta! Saņēmējs ir dabūjis veidolu komplektu!"
 msgid "Gift sent! Thanks for supporting the game <3"
 msgstr "Dāvana nosūtīta! Paldies, ka atbalsti spēli <3"
 
-#: src/components/_user/user/UserDropdown.tsx:241
+#: src/components/_user/user/UserDropdown.tsx:230
 msgid "Gift Supporter Plan"
 msgstr "Dāvināt Atbalstītāja Plānu"
 
@@ -2850,15 +2846,11 @@ msgstr "Uzdāvini šo komplektu kādam"
 msgid "gifted"
 msgstr "uzdāvināja"
 
-#: src/components/_user/user/UserDropdown.tsx:344
-msgid "Give \"Bug finder\" badge"
-msgstr "Iedot ”Kļūmju atradējs” medaļu"
+#: src/components/_user/user/UserDropdown.tsx:333
+msgid "Give badge"
+msgstr ""
 
-#: src/components/_user/user/UserDropdown.tsx:349
-msgid "Give Bug Finder Badge"
-msgstr "Iedot Kļūmju Atradēja Medaļu"
-
-#: src/components/_user/user/UserDropdown.tsx:323
+#: src/components/_user/user/UserDropdown.tsx:312
 msgid "Give money"
 msgstr "Dot naudu"
 
@@ -2979,7 +2971,7 @@ msgstr "Kaujās iesit <0>{count}</0> reizes"
 
 #: src/components/_other/shop/ShopHeader.tsx:16
 #: src/components/_political/country/CountryHeader.tsx:57
-#: src/components/_user/user/UserHeader.tsx:148
+#: src/components/_user/user/UserHeader.tsx:150
 msgid "Home"
 msgstr "Sākums"
 
@@ -3097,12 +3089,11 @@ msgstr "Iesauktais"
 
 #: src/components/_layout/LayoutMenu.tsx:123
 #: src/components/_user/user/MyAvatar.tsx:35
-#: src/components/_user/user/UserHeader.tsx:154
+#: src/components/_user/user/UserHeader.tsx:156
 #: src/pages/companies.tsx:83
 #: src/pages/country/[countryId]/account.tsx:24
 #: src/pages/market/index.tsx:49
 #: src/pages/user/[userId]/account.tsx:19
-#: src/pages/user/[userId]/bans.tsx:100
 #: src/pages/user/[userId]/companies.tsx:46
 #: src/pages/user/[userId]/index.tsx:192
 #: src/pages/user/[userId]/inventory.tsx:30
@@ -3714,7 +3705,7 @@ msgstr "MV Ziedojums Saņemts"
 msgid "MU Ownership Transferred"
 msgstr "MV īpašuma tiesības nodotas"
 
-#: src/components/_user/user/UserDropdown.tsx:289
+#: src/components/_user/user/UserDropdown.tsx:278
 msgid "Mute user"
 msgstr "Apklusināt lietotāju"
 
@@ -3777,7 +3768,7 @@ msgstr "Nekad neatmet spēlēt azartspēles"
 
 #: src/components/_other/shop/SkinItem.tsx:119
 #: src/components/_other/shop/SkinPackItem.tsx:83
-#: src/components/_social/ArticleList.tsx:133
+#: src/components/_social/ArticleList.tsx:161
 msgid "New"
 msgstr "Jaunākie"
 
@@ -3945,7 +3936,7 @@ msgstr "Nav bojājumu kopvērtējumā."
 msgid "No donations yet"
 msgstr "Vēl nav ziedojumu"
 
-#: src/pages/user/[userId]/bans.tsx:68
+#: src/pages/user/[userId]/bans.tsx:81
 msgid "No email found"
 msgstr "E-pasta adrese nav atrasta"
 
@@ -4689,7 +4680,7 @@ msgstr "Samazina dzīvību zudumu, karojot kaujās"
 msgid "Referral link copied to clipboard"
 msgstr "Ielūguma saite nokopēta"
 
-#: src/components/_user/user/UserHeader.tsx:208
+#: src/components/_user/user/UserHeader.tsx:210
 #: src/components/_user/user/UserRankingsPanel.tsx:50
 #: src/pages/user/[userId]/index.tsx:210
 #: src/pages/user/[userId]/referrals.tsx:67
@@ -4815,7 +4806,7 @@ msgstr "Atlaist biedru no partijas padomes"
 msgid "Remove all"
 msgstr "Atcelt visus"
 
-#: src/components/_user/user/UserDropdown.tsx:337
+#: src/components/_user/user/UserDropdown.tsx:326
 msgid "Remove all offers"
 msgstr "Atcelt visus sludinājumus"
 
@@ -4823,7 +4814,7 @@ msgstr "Atcelt visus sludinājumus"
 msgid "Remove an inactive congress member from its position"
 msgstr "Atlaist neaktīvu kongresa deputātu"
 
-#: src/components/_user/user/UserDropdown.tsx:367
+#: src/components/_user/user/UserDropdown.tsx:351
 msgid "Remove Avatar"
 msgstr "Noņemt profila bildi"
 
@@ -4831,7 +4822,7 @@ msgstr "Noņemt profila bildi"
 msgid "Remove council member"
 msgstr "Atlaist padomes biedru"
 
-#: src/components/_user/user/UserDropdown.tsx:389
+#: src/components/_user/user/UserDropdown.tsx:373
 msgid "Remove Description"
 msgstr "Noņemt aprakstu"
 
@@ -4861,7 +4852,7 @@ msgstr "Pārsaukt uzņēmumu"
 msgid "Replace all party ethics with a new configuration"
 msgstr "Mainīt partijas vērtības jaunā konfigurācijā"
 
-#: src/components/_user/user/UserDropdown.tsx:248
+#: src/components/_user/user/UserDropdown.tsx:237
 msgid "Report user"
 msgstr "Ziņot par lietotāju"
 
@@ -4882,7 +4873,7 @@ msgstr "Atkārtoti izlozēt uzdevumu"
 msgid "Reset"
 msgstr "Pāriestatīt"
 
-#: src/components/_user/user/UserDropdown.tsx:362
+#: src/components/_user/user/UserDropdown.tsx:346
 msgid "Reset avatar"
 msgstr "Pāriestatīt profila bildi"
 
@@ -4890,7 +4881,7 @@ msgstr "Pāriestatīt profila bildi"
 msgid "Reset CAPTCHA"
 msgstr "Pāriestatīt CAPTCHA"
 
-#: src/components/_user/user/UserDropdown.tsx:384
+#: src/components/_user/user/UserDropdown.tsx:368
 msgid "Reset description"
 msgstr "Pāriestatīt aprakstu"
 
@@ -4898,11 +4889,11 @@ msgstr "Pāriestatīt aprakstu"
 msgid "Reset tutorials"
 msgstr "Pāriestatīt pamācību"
 
-#: src/components/_user/user/UserDropdown.tsx:373
+#: src/components/_user/user/UserDropdown.tsx:357
 msgid "Reset username"
 msgstr "Pāriestatīt lietotājvārdu"
 
-#: src/components/_user/user/UserDropdown.tsx:378
+#: src/components/_user/user/UserDropdown.tsx:362
 msgid "Reset Username"
 msgstr "Pāriestatīt Lietotājvārdu"
 
@@ -5017,7 +5008,7 @@ msgstr "Vadošā Partija"
 msgid "Running low on health?"
 msgstr "Maz dzīvību?"
 
-#: src/pages/user/[userId]/bans.tsx:153
+#: src/pages/user/[userId]/bans.tsx:279
 msgid "Sanction History"
 msgstr "Sankciju Vēsture"
 
@@ -5087,7 +5078,7 @@ msgstr "Atlasīt visu"
 msgid "Select an occupied region"
 msgstr "Izvēlies okupētu reģionu"
 
-#: src/components/_user/user/UserDropdown.tsx:221
+#: src/components/_user/user/UserDropdown.tsx:210
 msgid "Select banner"
 msgstr "Izvēlies baneri"
 
@@ -5103,7 +5094,7 @@ msgstr "Izvēlies kartes toni"
 msgid "Select motion type"
 msgstr "Izvēlies priekšlikuma tipu"
 
-#: src/components/_user/user/UserDropdown.tsx:228
+#: src/components/_user/user/UserDropdown.tsx:217
 msgid "Select skin"
 msgstr "Izvēlies veidolu"
 
@@ -5115,6 +5106,10 @@ msgstr "Pašdarbs"
 #: src/components/_user/mission/mission.frontConfig.tsx:62
 msgid "Self work <0>{count}</0> times in your companies"
 msgstr "Nostrādā savos uzņēmumos <0>{count}</0> reizes"
+
+#: src/pages/user/[userId]/bans.tsx:205
+msgid "Sell"
+msgstr ""
 
 #: src/components/_economy/company/CompanyDropdown.tsx:253
 msgid "Sell company?"
@@ -5157,7 +5152,7 @@ msgstr "Nosūtīt <0>{0}</0> uz <1/>"
 msgid "Send <0>{count}</0> messages"
 msgstr "Nosūti <0>{count}</0> ziņas"
 
-#: src/components/_user/user/UserDropdown.tsx:397
+#: src/components/_user/user/UserDropdown.tsx:381
 msgid "Send a message"
 msgstr "Nosūtīt ziņu"
 
@@ -5177,7 +5172,7 @@ msgstr "Nosūtīt Ziņu"
 msgid "Send money to another country"
 msgstr "Nosūtīt naudu kādai valstij"
 
-#: src/components/_user/user/UserDropdown.tsx:303
+#: src/components/_user/user/UserDropdown.tsx:292
 msgid "Send warning"
 msgstr "Nosūtīt brīdinājumu"
 
@@ -5247,7 +5242,7 @@ msgid "Set your username"
 msgstr "Nomaini savu lietotājvārdu"
 
 #: src/components/_user/user/MyAvatar.tsx:54
-#: src/components/_user/user/UserHeader.tsx:214
+#: src/components/_user/user/UserHeader.tsx:216
 msgid "Settings"
 msgstr "Iestatījumi"
 
@@ -5257,7 +5252,7 @@ msgstr "Iestatījumi"
 msgid "Shop"
 msgstr "Veikals"
 
-#: src/pages/user/[userId]/bans.tsx:119
+#: src/pages/user/[userId]/bans.tsx:245
 msgid "Show Inventory"
 msgstr "Rādīt Inventāru"
 
@@ -5267,12 +5262,16 @@ msgstr "Rādīt Inventāru"
 msgid "Show more"
 msgstr "Rādīt vairāk"
 
+#: src/components/_social/ArticleList.tsx:141
+msgid "Show only articles with positive score (score >= -5)"
+msgstr ""
+
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:19
 msgid "Skill issue?"
 msgstr "Neproti spēlēt?"
 
 #: src/components/_user/user/MyAvatar.tsx:41
-#: src/components/_user/user/UserHeader.tsx:169
+#: src/components/_user/user/UserHeader.tsx:171
 #: src/pages/user/[userId]/index.tsx:156
 msgid "Skills"
 msgstr "Prasmes"
@@ -5459,7 +5458,7 @@ msgstr "Stratēģiskais resurss"
 msgid "Strategic resources"
 msgstr "Stratēģiskie resursi"
 
-#: src/components/_social/ArticleList.tsx:161
+#: src/components/_social/ArticleList.tsx:189
 msgid "Subscribed"
 msgstr "Abonētie"
 
@@ -5489,9 +5488,9 @@ msgid "Supporter"
 msgstr "Atbalstītājiem"
 
 #: src/components/_economy/inventoryAccount/InventoryAccount.tsx:51
-#: src/components/_user/user/UserDropdown.tsx:192
-#: src/components/_user/user/UserDropdown.tsx:201
-#: src/components/_user/user/UserDropdown.tsx:210
+#: src/components/_user/user/UserDropdown.tsx:181
+#: src/components/_user/user/UserDropdown.tsx:190
+#: src/components/_user/user/UserDropdown.tsx:199
 msgid "Supporter feature"
 msgstr "Atbalstītāju funkcija"
 
@@ -5683,15 +5682,15 @@ msgstr "Atstāt dzeramnaudu"
 msgid "Token Name"
 msgstr "Žetona nosaukums"
 
-#: src/components/_social/ArticleList.tsx:153
+#: src/components/_social/ArticleList.tsx:181
 msgid "Top"
 msgstr "Labākie"
 
-#: src/components/_social/ArticleList.tsx:140
+#: src/components/_social/ArticleList.tsx:168
 msgid "Top (1d)"
 msgstr "Labākie (dienas)"
 
-#: src/components/_social/ArticleList.tsx:147
+#: src/components/_social/ArticleList.tsx:175
 msgid "Top (1w)"
 msgstr "Labākie (nedēļas)"
 
@@ -5783,7 +5782,7 @@ msgstr "Tirgus"
 msgid "Trainee"
 msgstr "Māceklis"
 
-#: src/components/_user/user/UserHeader.tsx:188
+#: src/components/_user/user/UserHeader.tsx:190
 msgid "Transac."
 msgstr "Darījumi"
 
@@ -5817,11 +5816,11 @@ msgstr "Pamācības"
 msgid "Tutorials reseted"
 msgstr "Pamācības atiestatītas"
 
-#: src/components/_user/user/UserDropdown.tsx:282
+#: src/components/_user/user/UserDropdown.tsx:271
 msgid "Unban user"
 msgstr "Atbanot lietotāju"
 
-#: src/components/_user/user/UserDropdown.tsx:257
+#: src/components/_user/user/UserDropdown.tsx:246
 msgid "Unblock (show content)"
 msgstr "Atbloķēt (rādīt saturu)"
 
@@ -5859,11 +5858,11 @@ msgstr "Iegūsti \"Ražot visu\" pogu"
 msgid "Unlocked pack"
 msgstr "Komplekts iegūts"
 
-#: src/components/_user/user/UserDropdown.tsx:296
+#: src/components/_user/user/UserDropdown.tsx:285
 msgid "Unmute user"
 msgstr "Atklusināt lietotāju"
 
-#: src/components/_user/user/UserHeader.tsx:405
+#: src/components/_user/user/UserHeader.tsx:407
 msgid "Unmuted <0/>"
 msgstr "Apklusināšana beigsies <0/>"
 
@@ -6012,7 +6011,7 @@ msgstr "Uzņēmumu, MV un celtņu uzlabošanai"
 msgid "user"
 msgstr "lietotāju"
 
-#: src/pages/user/[userId]/bans.tsx:144
+#: src/pages/user/[userId]/bans.tsx:270
 msgid "User Actions"
 msgstr "Lietotāja Darbības"
 
@@ -6020,7 +6019,7 @@ msgstr "Lietotāja Darbības"
 msgid "User already owns all skins"
 msgstr "Lietotājam jau pieder visi veidoli"
 
-#: src/components/_user/user/UserDropdown.tsx:124
+#: src/components/_user/user/UserDropdown.tsx:123
 msgid "User blocked"
 msgstr "Lietotājs nobloķēts"
 
@@ -6032,7 +6031,7 @@ msgstr "Lietotāju dalība ieņemšanas punktu ieguvē."
 msgid "User removed from family group"
 msgstr "Lietotājs noņemts no ģimenes grupas"
 
-#: src/components/_user/user/UserDropdown.tsx:128
+#: src/components/_user/user/UserDropdown.tsx:127
 msgid "User unblocked"
 msgstr "Lietotājs atbloķēts"
 
@@ -6044,7 +6043,7 @@ msgstr "Lietotājs atbloķēts"
 msgid "Username"
 msgstr "Lietotājvārds"
 
-#: src/components/_user/user/UserDropdown.tsx:160
+#: src/components/_user/user/UserDropdown.tsx:149
 msgid "Username removed"
 msgstr "Lietotājvārds noņemts"
 
@@ -6773,6 +6772,6 @@ msgstr "Tev ir jauni nedēļas uzdevumi! Izpildi tos, lai saņemtu atlīdzību."
 msgid "your@email.com"
 msgstr "tavs@e-pasts.lv"
 
-#: src/components/_social/ArticleList.tsx:167
+#: src/components/_social/ArticleList.tsx:195
 msgid "Yours"
 msgstr "Tavi"

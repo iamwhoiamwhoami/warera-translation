@@ -14,7 +14,7 @@ msgstr ""
 "Language-Team: \n"
 
 #. placeholder {0}: user.data.mute.reason
-#: src/components/_user/user/UserHeader.tsx:409
+#: src/components/_user/user/UserHeader.tsx:411
 msgid " - Reason: {0}"
 msgstr " - Grund: {0}"
 
@@ -335,15 +335,15 @@ msgstr "<0/> hat die Runde <1>#{0}</1> in <2/> gewonnen"
 msgid "<0/> won the round <1>#{0}</1> in <2/>!"
 msgstr "<0/> hat die Runde <1>#{0}</1> in <2/> gewonnen!"
 
-#: src/components/_user/user/UserHeader.tsx:276
+#: src/components/_user/user/UserHeader.tsx:278
 msgid "<0/><1>Buff</1> ends <2/>"
 msgstr "<0/><1>Buff</1> endet <2/>"
 
-#: src/components/_user/user/UserHeader.tsx:285
+#: src/components/_user/user/UserHeader.tsx:287
 msgid "<0/><1>Debuff</1> ends <2/>"
 msgstr "<0/><1>Debuff</1> endet <2/>"
 
-#: src/components/_user/user/UserHeader.tsx:348
+#: src/components/_user/user/UserHeader.tsx:350
 msgid "<0/>Last connection was <1><2/></1>"
 msgstr "<0/>Letzte Verbindung war <1><2/></1>"
 
@@ -950,7 +950,7 @@ msgid "Access war"
 msgstr "Krieg aufrufen"
 
 #: src/components/_political/country/CountryHeader.tsx:70
-#: src/components/_user/user/UserHeader.tsx:162
+#: src/components/_user/user/UserHeader.tsx:164
 #: src/pages/country/[countryId]/account.tsx:36
 #: src/pages/country/[countryId]/index.tsx:328
 #: src/pages/user/[userId]/account.tsx:25
@@ -1007,7 +1007,7 @@ msgstr "Zusatzkosten"
 msgid "Admin"
 msgstr "Admin"
 
-#: src/pages/user/[userId]/bans.tsx:135
+#: src/pages/user/[userId]/bans.tsx:261
 msgid "Admin Actions"
 msgstr "Admin-Aktionen"
 
@@ -1049,7 +1049,7 @@ msgstr "Agrarisch"
 msgid "All"
 msgstr "Alle"
 
-#: src/components/_social/ArticleList.tsx:119
+#: src/components/_social/ArticleList.tsx:130
 msgid "All categories"
 msgstr "Alle Kategorien"
 
@@ -1075,7 +1075,7 @@ msgstr "Alle Unternehmen innerhalb deiner Grenzen erhalten <0>+{0}</0> Bonus auf
 msgid "All event types"
 msgstr "Alle Ereignistypen"
 
-#: src/components/_social/ArticleList.tsx:109
+#: src/components/_social/ArticleList.tsx:120
 msgid "All languages"
 msgstr "Alle Sprachen"
 
@@ -1192,10 +1192,6 @@ msgstr "Beantragen"
 msgid "Are you sure you want to fire this worker?"
 msgstr "Sind Sie sicher, dass Sie diesen Arbeiter entlassen wollen?"
 
-#: src/components/_user/user/UserDropdown.tsx:350
-msgid "Are you sure you want to give the \"Bug finder\" badge to {username}?"
-msgstr "Sind Sie sicher, dass Sie {username} das \"Bugfinder\"-Abzeichen geben wollen?"
-
 #: src/pages/country/[countryId]/government.tsx:93
 msgid "Are you sure you want to leave the congress?"
 msgstr "Sind Sie sicher, dass Sie den Kongress verlassen wollen?"
@@ -1246,7 +1242,7 @@ msgstr "Artikel-Trinkgeld"
 msgid "Article tipped"
 msgstr "Artikel mit Trinkgeld belohnt"
 
-#: src/components/_user/user/UserHeader.tsx:202
+#: src/components/_user/user/UserHeader.tsx:204
 #: src/pages/user/[userId]/index.tsx:199
 msgid "Articles"
 msgstr "Artikel"
@@ -1301,7 +1297,7 @@ msgstr "Automatisierte Engine"
 msgid "Automated Engine"
 msgstr "Automatisierte Engine"
 
-#: src/components/_user/user/UserDropdown.tsx:153
+#: src/components/_user/user/UserDropdown.tsx:142
 msgid "Avatar removed"
 msgstr "Avatar entfernt"
 
@@ -1325,7 +1321,7 @@ msgstr "Ausgeglichen"
 msgid "Balanced - No modifiers"
 msgstr "Ausgeglichen - Keine Modifikatoren"
 
-#: src/components/_user/user/UserDropdown.tsx:275
+#: src/components/_user/user/UserDropdown.tsx:264
 msgid "Ban user"
 msgstr "Benutzer bannen"
 
@@ -1333,7 +1329,7 @@ msgstr "Benutzer bannen"
 msgid "Bankruptcy"
 msgstr "Bankrott"
 
-#: src/components/_user/user/UserHeader.tsx:397
+#: src/components/_user/user/UserHeader.tsx:399
 msgid "Banned"
 msgstr "Gebannt"
 
@@ -1353,8 +1349,8 @@ msgstr "Banner-Geschenk gesendet"
 msgid "Banners"
 msgstr "Banner"
 
-#: src/components/_user/user/UserHeader.tsx:180
-#: src/components/_user/user/UserHeader.tsx:221
+#: src/components/_user/user/UserHeader.tsx:182
+#: src/components/_user/user/UserHeader.tsx:223
 msgid "Bans"
 msgstr "Banns"
 
@@ -1429,7 +1425,7 @@ msgstr "Kandidat werden"
 msgid "Better than nothing, right?"
 msgstr "Besser als nichts, oder?"
 
-#: src/components/_user/user/UserDropdown.tsx:258
+#: src/components/_user/user/UserDropdown.tsx:247
 msgid "Block (hide content)"
 msgstr "Blockieren (Inhalt ausblenden)"
 
@@ -1479,10 +1475,6 @@ msgstr "Buff beendet"
 msgid "Buff started"
 msgstr "Buff gestartet"
 
-#: src/components/_user/user/UserDropdown.tsx:138
-msgid "Bug Finder badge given"
-msgstr "Bugfinder-Abzeichen verliehen"
-
 #: src/components/_economy/company/CompanyList.tsx:156
 msgid "Build a company"
 msgstr "Unternehmen gründen"
@@ -1494,6 +1486,10 @@ msgstr "Militäreinheit gründen"
 #: src/components/_military/mu/MuFormModal.tsx:139
 msgid "Build the military unit"
 msgstr "Die Militäreinheit gründen"
+
+#: src/pages/user/[userId]/bans.tsx:180
+msgid "Buy"
+msgstr ""
 
 #: src/components/_user/mission/mission.frontConfig.tsx:166
 msgid "Buy for <0>{count}</0> money on market"
@@ -1649,7 +1645,7 @@ msgstr "Wähle dein Land"
 msgid "Choose your side and click to deal <0>Damages</0>! Keep hitting to help your team win."
 msgstr "Wähle deine Seite und klicke, um <0>Schaden</0> zu verursachen! Schlage weiter zu, um deinem Team zum Sieg zu verhelfen."
 
-#: src/components/_user/user/UserHeader.tsx:269
+#: src/components/_user/user/UserHeader.tsx:271
 msgid "Citizen since <0><1/></0>"
 msgstr "Bürger seit <0><1/></0>"
 
@@ -1763,7 +1759,7 @@ msgstr "Schließen"
 msgid "Colonel"
 msgstr "Oberst"
 
-#: src/components/_user/user/UserDropdown.tsx:198
+#: src/components/_user/user/UserDropdown.tsx:187
 msgid "Color scheme"
 msgstr "Farbschema"
 
@@ -1777,7 +1773,7 @@ msgstr "Kommodore"
 
 #: src/components/_layout/LayoutMenu.tsx:182
 #: src/components/_user/user/MyAvatar.tsx:48
-#: src/components/_user/user/UserHeader.tsx:194
+#: src/components/_user/user/UserHeader.tsx:196
 #: src/pages/companies.tsx:96
 msgid "Companies"
 msgstr "Firmen"
@@ -1921,7 +1917,7 @@ msgstr "Mit Discord verbinden"
 msgid "Connect with email"
 msgstr "Mit E-Mail verbinden"
 
-#: src/pages/user/[userId]/bans.tsx:127
+#: src/pages/user/[userId]/bans.tsx:253
 msgid "Connection"
 msgstr "Verbindung"
 
@@ -2287,7 +2283,7 @@ msgstr "Beschreibe die Ziele und Werte deiner Partei"
 msgid "Description"
 msgstr "Beschreibung"
 
-#: src/components/_user/user/UserDropdown.tsx:167
+#: src/components/_user/user/UserDropdown.tsx:156
 msgid "Description removed"
 msgstr "Beschreibung entfernt"
 
@@ -2295,7 +2291,7 @@ msgstr "Beschreibung entfernt"
 msgid "Description updated!"
 msgstr "Beschreibung aktualisiert!"
 
-#: src/components/_user/user/UserDropdown.tsx:330
+#: src/components/_user/user/UserDropdown.tsx:319
 msgid "Destroy item from inventory"
 msgstr "Gegenstand aus Inventar zerstören"
 
@@ -2440,7 +2436,7 @@ msgstr "Wirtschaftsgesetze"
 msgid "Economic skills"
 msgstr "Wirtschaftsfertigkeiten"
 
-#: src/components/_user/user/UserDropdown.tsx:189
+#: src/components/_user/user/UserDropdown.tsx:178
 msgid "Edit description"
 msgstr "Beschreibung bearbeiten"
 
@@ -2483,7 +2479,7 @@ msgstr "Elite-Helm"
 msgid "Elite Pants"
 msgstr "Elite-Hose"
 
-#: src/pages/user/[userId]/bans.tsx:60
+#: src/pages/user/[userId]/bans.tsx:73
 msgid "Email"
 msgstr "E-Mail"
 
@@ -2728,7 +2724,7 @@ msgstr "Militäreinheit finden"
 msgid "Find another job"
 msgstr "Einen anderen Job finden"
 
-#: src/components/_user/user/UserDropdown.tsx:316
+#: src/components/_user/user/UserDropdown.tsx:305
 msgid "Fine (remove money)"
 msgstr "Geldstrafe (Geld entfernen)"
 
@@ -2757,7 +2753,7 @@ msgid "Fish"
 msgstr "Fisch"
 
 #: src/components/_layout/LayoutMapOptions.tsx:276
-#: src/pages/user/[userId]/bans.tsx:90
+#: src/pages/user/[userId]/bans.tsx:103
 msgid "Flags"
 msgstr "Flaggen"
 
@@ -2769,7 +2765,7 @@ msgstr "Schriftart"
 msgid "Font size"
 msgstr "Schriftgröße"
 
-#: src/components/_user/user/UserDropdown.tsx:207
+#: src/components/_user/user/UserDropdown.tsx:196
 msgid "Font style"
 msgstr "Schriftstil"
 
@@ -2838,7 +2834,7 @@ msgstr "Geschenk gesendet! Skin-Paket für Empfänger freigeschaltet!"
 msgid "Gift sent! Thanks for supporting the game <3"
 msgstr "Geschenk gesendet! Danke für die Unterstützung des Spiels <3"
 
-#: src/components/_user/user/UserDropdown.tsx:241
+#: src/components/_user/user/UserDropdown.tsx:230
 msgid "Gift Supporter Plan"
 msgstr "Supporter-Plan verschenken"
 
@@ -2850,15 +2846,11 @@ msgstr "Dieses Paket an jemanden verschenken"
 msgid "gifted"
 msgstr "geschenkt"
 
-#: src/components/_user/user/UserDropdown.tsx:344
-msgid "Give \"Bug finder\" badge"
-msgstr "\"Bugfinder\"-Abzeichen geben"
+#: src/components/_user/user/UserDropdown.tsx:333
+msgid "Give badge"
+msgstr ""
 
-#: src/components/_user/user/UserDropdown.tsx:349
-msgid "Give Bug Finder Badge"
-msgstr "Bugfinder-Abzeichen geben"
-
-#: src/components/_user/user/UserDropdown.tsx:323
+#: src/components/_user/user/UserDropdown.tsx:312
 msgid "Give money"
 msgstr "Geld geben"
 
@@ -2979,7 +2971,7 @@ msgstr "Triff <0>{count}</0> Mal in Schlachten"
 
 #: src/components/_other/shop/ShopHeader.tsx:16
 #: src/components/_political/country/CountryHeader.tsx:57
-#: src/components/_user/user/UserHeader.tsx:148
+#: src/components/_user/user/UserHeader.tsx:150
 msgid "Home"
 msgstr "Startseite"
 
@@ -3097,12 +3089,11 @@ msgstr "Initiant"
 
 #: src/components/_layout/LayoutMenu.tsx:123
 #: src/components/_user/user/MyAvatar.tsx:35
-#: src/components/_user/user/UserHeader.tsx:154
+#: src/components/_user/user/UserHeader.tsx:156
 #: src/pages/companies.tsx:83
 #: src/pages/country/[countryId]/account.tsx:24
 #: src/pages/market/index.tsx:49
 #: src/pages/user/[userId]/account.tsx:19
-#: src/pages/user/[userId]/bans.tsx:100
 #: src/pages/user/[userId]/companies.tsx:46
 #: src/pages/user/[userId]/index.tsx:192
 #: src/pages/user/[userId]/inventory.tsx:30
@@ -3714,7 +3705,7 @@ msgstr "ME-Spende erhalten"
 msgid "MU Ownership Transferred"
 msgstr "ME-Besitz übertragen"
 
-#: src/components/_user/user/UserDropdown.tsx:289
+#: src/components/_user/user/UserDropdown.tsx:278
 msgid "Mute user"
 msgstr "Benutzer stummschalten"
 
@@ -3777,7 +3768,7 @@ msgstr "Hör niemals auf zu spielen"
 
 #: src/components/_other/shop/SkinItem.tsx:119
 #: src/components/_other/shop/SkinPackItem.tsx:83
-#: src/components/_social/ArticleList.tsx:133
+#: src/components/_social/ArticleList.tsx:161
 msgid "New"
 msgstr "Neu"
 
@@ -3945,7 +3936,7 @@ msgstr "Noch keine Schadensrangliste."
 msgid "No donations yet"
 msgstr "Noch keine Spenden"
 
-#: src/pages/user/[userId]/bans.tsx:68
+#: src/pages/user/[userId]/bans.tsx:81
 msgid "No email found"
 msgstr "Keine E-Mail gefunden"
 
@@ -4689,7 +4680,7 @@ msgstr "Reduziert den Gesundheitsverlust beim Kämpfen in Schlachten"
 msgid "Referral link copied to clipboard"
 msgstr "Empfehlungslink in die Zwischenablage kopiert"
 
-#: src/components/_user/user/UserHeader.tsx:208
+#: src/components/_user/user/UserHeader.tsx:210
 #: src/components/_user/user/UserRankingsPanel.tsx:50
 #: src/pages/user/[userId]/index.tsx:210
 #: src/pages/user/[userId]/referrals.tsx:67
@@ -4815,7 +4806,7 @@ msgstr "Ein Mitglied aus dem Parteirat entfernen"
 msgid "Remove all"
 msgstr "Alle entfernen"
 
-#: src/components/_user/user/UserDropdown.tsx:337
+#: src/components/_user/user/UserDropdown.tsx:326
 msgid "Remove all offers"
 msgstr "Alle Angebote entfernen"
 
@@ -4823,7 +4814,7 @@ msgstr "Alle Angebote entfernen"
 msgid "Remove an inactive congress member from its position"
 msgstr "Ein inaktives Kongressmitglied von seiner Position entfernen"
 
-#: src/components/_user/user/UserDropdown.tsx:367
+#: src/components/_user/user/UserDropdown.tsx:351
 msgid "Remove Avatar"
 msgstr "Avatar entfernen"
 
@@ -4831,7 +4822,7 @@ msgstr "Avatar entfernen"
 msgid "Remove council member"
 msgstr "Ratsmitglied entfernen"
 
-#: src/components/_user/user/UserDropdown.tsx:389
+#: src/components/_user/user/UserDropdown.tsx:373
 msgid "Remove Description"
 msgstr "Beschreibung entfernen"
 
@@ -4861,7 +4852,7 @@ msgstr "Unternehmen umbenennen"
 msgid "Replace all party ethics with a new configuration"
 msgstr "Alle Parteiethiken durch eine neue Konfiguration ersetzen"
 
-#: src/components/_user/user/UserDropdown.tsx:248
+#: src/components/_user/user/UserDropdown.tsx:237
 msgid "Report user"
 msgstr "Benutzer melden"
 
@@ -4882,7 +4873,7 @@ msgstr "Mission neu würfeln"
 msgid "Reset"
 msgstr "Zurücksetzen"
 
-#: src/components/_user/user/UserDropdown.tsx:362
+#: src/components/_user/user/UserDropdown.tsx:346
 msgid "Reset avatar"
 msgstr "Avatar zurücksetzen"
 
@@ -4890,7 +4881,7 @@ msgstr "Avatar zurücksetzen"
 msgid "Reset CAPTCHA"
 msgstr "CAPTCHA zurücksetzen"
 
-#: src/components/_user/user/UserDropdown.tsx:384
+#: src/components/_user/user/UserDropdown.tsx:368
 msgid "Reset description"
 msgstr "Beschreibung zurücksetzen"
 
@@ -4898,11 +4889,11 @@ msgstr "Beschreibung zurücksetzen"
 msgid "Reset tutorials"
 msgstr "Tutorials zurücksetzen"
 
-#: src/components/_user/user/UserDropdown.tsx:373
+#: src/components/_user/user/UserDropdown.tsx:357
 msgid "Reset username"
 msgstr "Benutzernamen zurücksetzen"
 
-#: src/components/_user/user/UserDropdown.tsx:378
+#: src/components/_user/user/UserDropdown.tsx:362
 msgid "Reset Username"
 msgstr "Benutzernamen zurücksetzen"
 
@@ -5017,7 +5008,7 @@ msgstr "Regierungspartei"
 msgid "Running low on health?"
 msgstr "Wenig Gesundheit?"
 
-#: src/pages/user/[userId]/bans.tsx:153
+#: src/pages/user/[userId]/bans.tsx:279
 msgid "Sanction History"
 msgstr "Sanktionshistorie"
 
@@ -5087,7 +5078,7 @@ msgstr "Alle auswählen"
 msgid "Select an occupied region"
 msgstr "Wähle eine besetzte Region"
 
-#: src/components/_user/user/UserDropdown.tsx:221
+#: src/components/_user/user/UserDropdown.tsx:210
 msgid "Select banner"
 msgstr "Banner auswählen"
 
@@ -5103,7 +5094,7 @@ msgstr "Kartenakzent auswählen"
 msgid "Select motion type"
 msgstr "Antragstyp auswählen"
 
-#: src/components/_user/user/UserDropdown.tsx:228
+#: src/components/_user/user/UserDropdown.tsx:217
 msgid "Select skin"
 msgstr "Skin auswählen"
 
@@ -5115,6 +5106,10 @@ msgstr "Selbst arbeitend"
 #: src/components/_user/mission/mission.frontConfig.tsx:62
 msgid "Self work <0>{count}</0> times in your companies"
 msgstr "<0>{count}</0> Mal in deinen Unternehmen selbst arbeiten"
+
+#: src/pages/user/[userId]/bans.tsx:205
+msgid "Sell"
+msgstr ""
 
 #: src/components/_economy/company/CompanyDropdown.tsx:253
 msgid "Sell company?"
@@ -5157,7 +5152,7 @@ msgstr "<0>{0}</0> an <1/> senden"
 msgid "Send <0>{count}</0> messages"
 msgstr "<0>{count}</0> Nachrichten senden"
 
-#: src/components/_user/user/UserDropdown.tsx:397
+#: src/components/_user/user/UserDropdown.tsx:381
 msgid "Send a message"
 msgstr "Eine Nachricht senden"
 
@@ -5177,7 +5172,7 @@ msgstr "Nachricht senden"
 msgid "Send money to another country"
 msgstr "Geld an ein anderes Land senden"
 
-#: src/components/_user/user/UserDropdown.tsx:303
+#: src/components/_user/user/UserDropdown.tsx:292
 msgid "Send warning"
 msgstr "Warnung senden"
 
@@ -5247,7 +5242,7 @@ msgid "Set your username"
 msgstr "Lege deinen Benutzernamen fest"
 
 #: src/components/_user/user/MyAvatar.tsx:54
-#: src/components/_user/user/UserHeader.tsx:214
+#: src/components/_user/user/UserHeader.tsx:216
 msgid "Settings"
 msgstr "Einstellungen"
 
@@ -5257,7 +5252,7 @@ msgstr "Einstellungen"
 msgid "Shop"
 msgstr "Shop"
 
-#: src/pages/user/[userId]/bans.tsx:119
+#: src/pages/user/[userId]/bans.tsx:245
 msgid "Show Inventory"
 msgstr "Inventar anzeigen"
 
@@ -5267,12 +5262,16 @@ msgstr "Inventar anzeigen"
 msgid "Show more"
 msgstr "Mehr anzeigen"
 
+#: src/components/_social/ArticleList.tsx:141
+msgid "Show only articles with positive score (score >= -5)"
+msgstr ""
+
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:19
 msgid "Skill issue?"
 msgstr "Skill-Problem?"
 
 #: src/components/_user/user/MyAvatar.tsx:41
-#: src/components/_user/user/UserHeader.tsx:169
+#: src/components/_user/user/UserHeader.tsx:171
 #: src/pages/user/[userId]/index.tsx:156
 msgid "Skills"
 msgstr "Fähigkeiten"
@@ -5459,7 +5458,7 @@ msgstr "Strategische Ressource"
 msgid "Strategic resources"
 msgstr "Strategische Ressourcen"
 
-#: src/components/_social/ArticleList.tsx:161
+#: src/components/_social/ArticleList.tsx:189
 msgid "Subscribed"
 msgstr "Abonniert"
 
@@ -5489,9 +5488,9 @@ msgid "Supporter"
 msgstr "Supporter"
 
 #: src/components/_economy/inventoryAccount/InventoryAccount.tsx:51
-#: src/components/_user/user/UserDropdown.tsx:192
-#: src/components/_user/user/UserDropdown.tsx:201
-#: src/components/_user/user/UserDropdown.tsx:210
+#: src/components/_user/user/UserDropdown.tsx:181
+#: src/components/_user/user/UserDropdown.tsx:190
+#: src/components/_user/user/UserDropdown.tsx:199
 msgid "Supporter feature"
 msgstr "Supporter-Funktion"
 
@@ -5683,15 +5682,15 @@ msgstr "Trinkgeld für Artikel"
 msgid "Token Name"
 msgstr "Token-Name"
 
-#: src/components/_social/ArticleList.tsx:153
+#: src/components/_social/ArticleList.tsx:181
 msgid "Top"
 msgstr "Top"
 
-#: src/components/_social/ArticleList.tsx:140
+#: src/components/_social/ArticleList.tsx:168
 msgid "Top (1d)"
 msgstr "Top (1 T.)"
 
-#: src/components/_social/ArticleList.tsx:147
+#: src/components/_social/ArticleList.tsx:175
 msgid "Top (1w)"
 msgstr "Top (1 W.)"
 
@@ -5783,7 +5782,7 @@ msgstr "Handel"
 msgid "Trainee"
 msgstr "Auszubildender"
 
-#: src/components/_user/user/UserHeader.tsx:188
+#: src/components/_user/user/UserHeader.tsx:190
 msgid "Transac."
 msgstr "Transak."
 
@@ -5817,11 +5816,11 @@ msgstr "Tutorials"
 msgid "Tutorials reseted"
 msgstr "Tutorials zurückgesetzt"
 
-#: src/components/_user/user/UserDropdown.tsx:282
+#: src/components/_user/user/UserDropdown.tsx:271
 msgid "Unban user"
 msgstr "Benutzer entbannen"
 
-#: src/components/_user/user/UserDropdown.tsx:257
+#: src/components/_user/user/UserDropdown.tsx:246
 msgid "Unblock (show content)"
 msgstr "Entsperren (Inhalt anzeigen)"
 
@@ -5859,11 +5858,11 @@ msgstr "'Alle produzieren'-Button freischalten"
 msgid "Unlocked pack"
 msgstr "Paket freigeschaltet"
 
-#: src/components/_user/user/UserDropdown.tsx:296
+#: src/components/_user/user/UserDropdown.tsx:285
 msgid "Unmute user"
 msgstr "Benutzer entstummen"
 
-#: src/components/_user/user/UserHeader.tsx:405
+#: src/components/_user/user/UserHeader.tsx:407
 msgid "Unmuted <0/>"
 msgstr "<0/> entstummt"
 
@@ -6012,7 +6011,7 @@ msgstr "Wird zur Verbesserung von Unternehmen, MUs und Befestigungen verwendet"
 msgid "user"
 msgstr "Benutzer"
 
-#: src/pages/user/[userId]/bans.tsx:144
+#: src/pages/user/[userId]/bans.tsx:270
 msgid "User Actions"
 msgstr "Benutzeraktionen"
 
@@ -6020,7 +6019,7 @@ msgstr "Benutzeraktionen"
 msgid "User already owns all skins"
 msgstr "Benutzer besitzt bereits alle Skins"
 
-#: src/components/_user/user/UserDropdown.tsx:124
+#: src/components/_user/user/UserDropdown.tsx:123
 msgid "User blocked"
 msgstr "Benutzer blockiert"
 
@@ -6032,7 +6031,7 @@ msgstr "Beteiligung des Benutzers an den Bodenpunkten."
 msgid "User removed from family group"
 msgstr "Benutzer aus Familiengruppe entfernt"
 
-#: src/components/_user/user/UserDropdown.tsx:128
+#: src/components/_user/user/UserDropdown.tsx:127
 msgid "User unblocked"
 msgstr "Benutzer entsperrt"
 
@@ -6044,7 +6043,7 @@ msgstr "Benutzer entsperrt"
 msgid "Username"
 msgstr "Benutzername"
 
-#: src/components/_user/user/UserDropdown.tsx:160
+#: src/components/_user/user/UserDropdown.tsx:149
 msgid "Username removed"
 msgstr "Benutzername entfernt"
 
@@ -6773,6 +6772,6 @@ msgstr "Deine wöchentlichen Missionen wurden zurückgesetzt! Schließe sie ab, 
 msgid "your@email.com"
 msgstr "deine@email.de"
 
-#: src/components/_social/ArticleList.tsx:167
+#: src/components/_social/ArticleList.tsx:195
 msgid "Yours"
 msgstr "Deine"

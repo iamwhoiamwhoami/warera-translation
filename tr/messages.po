@@ -14,7 +14,7 @@ msgstr ""
 "Language-Team: \n"
 
 #. placeholder {0}: user.data.mute.reason
-#: src/components/_user/user/UserHeader.tsx:409
+#: src/components/_user/user/UserHeader.tsx:411
 msgid " - Reason: {0}"
 msgstr " - Sebep: {0}"
 
@@ -335,15 +335,15 @@ msgstr "<0/>, <2/> bölgesinde <1>#{0}</1>. turu kazandı"
 msgid "<0/> won the round <1>#{0}</1> in <2/>!"
 msgstr "<0/>, <2/> bölgesinde <1>#{0}</1>. turu kazandı!"
 
-#: src/components/_user/user/UserHeader.tsx:276
+#: src/components/_user/user/UserHeader.tsx:278
 msgid "<0/><1>Buff</1> ends <2/>"
 msgstr "<0/><1>Buff</1> <2/> saat sonra sona erecek"
 
-#: src/components/_user/user/UserHeader.tsx:285
+#: src/components/_user/user/UserHeader.tsx:287
 msgid "<0/><1>Debuff</1> ends <2/>"
 msgstr "<0/><1>Debuff</1> <2/> saat sonra sona erecek"
 
-#: src/components/_user/user/UserHeader.tsx:348
+#: src/components/_user/user/UserHeader.tsx:350
 msgid "<0/>Last connection was <1><2/></1>"
 msgstr "<0/>Son bağlantı <1><2/></1>"
 
@@ -950,7 +950,7 @@ msgid "Access war"
 msgstr "Savaşa eriş"
 
 #: src/components/_political/country/CountryHeader.tsx:70
-#: src/components/_user/user/UserHeader.tsx:162
+#: src/components/_user/user/UserHeader.tsx:164
 #: src/pages/country/[countryId]/account.tsx:36
 #: src/pages/country/[countryId]/index.tsx:328
 #: src/pages/user/[userId]/account.tsx:25
@@ -1007,7 +1007,7 @@ msgstr "Ek maliyet"
 msgid "Admin"
 msgstr "Admin"
 
-#: src/pages/user/[userId]/bans.tsx:135
+#: src/pages/user/[userId]/bans.tsx:261
 msgid "Admin Actions"
 msgstr "Admin Eylemleri"
 
@@ -1049,7 +1049,7 @@ msgstr "Tarımcılık"
 msgid "All"
 msgstr "Tümü"
 
-#: src/components/_social/ArticleList.tsx:119
+#: src/components/_social/ArticleList.tsx:130
 msgid "All categories"
 msgstr "Tüm kategoriler"
 
@@ -1075,7 +1075,7 @@ msgstr "Sınırlarınız içindeki tüm şirketler, mühimmat veya inşaat uzman
 msgid "All event types"
 msgstr "Tüm olay türleri"
 
-#: src/components/_social/ArticleList.tsx:109
+#: src/components/_social/ArticleList.tsx:120
 msgid "All languages"
 msgstr "Tüm diller"
 
@@ -1192,10 +1192,6 @@ msgstr "Başvur"
 msgid "Are you sure you want to fire this worker?"
 msgstr "Bu işçiyi kovmak istediğinizden emin misiniz?"
 
-#: src/components/_user/user/UserDropdown.tsx:350
-msgid "Are you sure you want to give the \"Bug finder\" badge to {username}?"
-msgstr "\"{username}\" kullanıcısına \"Hata bulucu\" rozeti vermek istediğinizden emin misiniz?"
-
 #: src/pages/country/[countryId]/government.tsx:93
 msgid "Are you sure you want to leave the congress?"
 msgstr "Meclisten ayrılmak istediğinizden emin misiniz?"
@@ -1246,7 +1242,7 @@ msgstr "Makale Bahşişi"
 msgid "Article tipped"
 msgstr "Makaleye bahşiş verildi"
 
-#: src/components/_user/user/UserHeader.tsx:202
+#: src/components/_user/user/UserHeader.tsx:204
 #: src/pages/user/[userId]/index.tsx:199
 msgid "Articles"
 msgstr "Makaleler"
@@ -1301,7 +1297,7 @@ msgstr "Otomatik makine"
 msgid "Automated Engine"
 msgstr "Otomatik Makine"
 
-#: src/components/_user/user/UserDropdown.tsx:153
+#: src/components/_user/user/UserDropdown.tsx:142
 msgid "Avatar removed"
 msgstr "Avatar kaldırıldı"
 
@@ -1325,7 +1321,7 @@ msgstr "Dengeli"
 msgid "Balanced - No modifiers"
 msgstr "Dengeli - Değiştirici yok"
 
-#: src/components/_user/user/UserDropdown.tsx:275
+#: src/components/_user/user/UserDropdown.tsx:264
 msgid "Ban user"
 msgstr "Kullanıcıyı yasakla"
 
@@ -1333,7 +1329,7 @@ msgstr "Kullanıcıyı yasakla"
 msgid "Bankruptcy"
 msgstr "İflas"
 
-#: src/components/_user/user/UserHeader.tsx:397
+#: src/components/_user/user/UserHeader.tsx:399
 msgid "Banned"
 msgstr "Yasaklandı"
 
@@ -1353,8 +1349,8 @@ msgstr "Banner hediyesi gönderildi"
 msgid "Banners"
 msgstr "Bannerlar"
 
-#: src/components/_user/user/UserHeader.tsx:180
-#: src/components/_user/user/UserHeader.tsx:221
+#: src/components/_user/user/UserHeader.tsx:182
+#: src/components/_user/user/UserHeader.tsx:223
 msgid "Bans"
 msgstr "Yasaklanmalar"
 
@@ -1429,7 +1425,7 @@ msgstr "Aday Ol"
 msgid "Better than nothing, right?"
 msgstr "Hiç yoktan iyidir, değil mi?"
 
-#: src/components/_user/user/UserDropdown.tsx:258
+#: src/components/_user/user/UserDropdown.tsx:247
 msgid "Block (hide content)"
 msgstr "Engelle (yazdığı herşeyi gizle)"
 
@@ -1479,10 +1475,6 @@ msgstr "Buff sona erdi"
 msgid "Buff started"
 msgstr "Buff başladı"
 
-#: src/components/_user/user/UserDropdown.tsx:138
-msgid "Bug Finder badge given"
-msgstr "Hata Bulucu rozeti verildi"
-
 #: src/components/_economy/company/CompanyList.tsx:156
 msgid "Build a company"
 msgstr "Şirket kur"
@@ -1494,6 +1486,10 @@ msgstr "Askeri birlik kur"
 #: src/components/_military/mu/MuFormModal.tsx:139
 msgid "Build the military unit"
 msgstr "Askeri birliği kur"
+
+#: src/pages/user/[userId]/bans.tsx:180
+msgid "Buy"
+msgstr ""
 
 #: src/components/_user/mission/mission.frontConfig.tsx:166
 msgid "Buy for <0>{count}</0> money on market"
@@ -1649,7 +1645,7 @@ msgstr "Ülkeni seç"
 msgid "Choose your side and click to deal <0>Damages</0>! Keep hitting to help your team win."
 msgstr "Tarafını seç ve <0>Hasar</0> vermek için tıkla! Takımının kazanmasına yardım etmek için vurmaya devam et."
 
-#: src/components/_user/user/UserHeader.tsx:269
+#: src/components/_user/user/UserHeader.tsx:271
 msgid "Citizen since <0><1/></0>"
 msgstr "<0><1/></0>'dan beri vatandaş"
 
@@ -1763,7 +1759,7 @@ msgstr "Kapat"
 msgid "Colonel"
 msgstr "Albay"
 
-#: src/components/_user/user/UserDropdown.tsx:198
+#: src/components/_user/user/UserDropdown.tsx:187
 msgid "Color scheme"
 msgstr "Renk şeması"
 
@@ -1777,7 +1773,7 @@ msgstr "Komodor"
 
 #: src/components/_layout/LayoutMenu.tsx:182
 #: src/components/_user/user/MyAvatar.tsx:48
-#: src/components/_user/user/UserHeader.tsx:194
+#: src/components/_user/user/UserHeader.tsx:196
 #: src/pages/companies.tsx:96
 msgid "Companies"
 msgstr "Şirketler"
@@ -1921,7 +1917,7 @@ msgstr "Discord ile bağlan"
 msgid "Connect with email"
 msgstr "E-posta ile bağlan"
 
-#: src/pages/user/[userId]/bans.tsx:127
+#: src/pages/user/[userId]/bans.tsx:253
 msgid "Connection"
 msgstr "Bağlantı"
 
@@ -2287,7 +2283,7 @@ msgstr "Partinizin hedeflerini ve değerlerini açıklayın"
 msgid "Description"
 msgstr "Açıklama"
 
-#: src/components/_user/user/UserDropdown.tsx:167
+#: src/components/_user/user/UserDropdown.tsx:156
 msgid "Description removed"
 msgstr "Açıklama kaldırıldı"
 
@@ -2295,7 +2291,7 @@ msgstr "Açıklama kaldırıldı"
 msgid "Description updated!"
 msgstr "Açıklama güncellendi!"
 
-#: src/components/_user/user/UserDropdown.tsx:330
+#: src/components/_user/user/UserDropdown.tsx:319
 msgid "Destroy item from inventory"
 msgstr "Envanterden eşya yok et"
 
@@ -2440,7 +2436,7 @@ msgstr "Ekonomik yasalar"
 msgid "Economic skills"
 msgstr "Ekonomik beceriler"
 
-#: src/components/_user/user/UserDropdown.tsx:189
+#: src/components/_user/user/UserDropdown.tsx:178
 msgid "Edit description"
 msgstr "Açıklamayı düzenle"
 
@@ -2483,7 +2479,7 @@ msgstr "Elit Miğfer"
 msgid "Elite Pants"
 msgstr "Elit Pantolon"
 
-#: src/pages/user/[userId]/bans.tsx:60
+#: src/pages/user/[userId]/bans.tsx:73
 msgid "Email"
 msgstr "E-posta"
 
@@ -2728,7 +2724,7 @@ msgstr "Askeri birlik bul"
 msgid "Find another job"
 msgstr "Başka iş bul"
 
-#: src/components/_user/user/UserDropdown.tsx:316
+#: src/components/_user/user/UserDropdown.tsx:305
 msgid "Fine (remove money)"
 msgstr "Para cezası ver"
 
@@ -2757,7 +2753,7 @@ msgid "Fish"
 msgstr "Balık"
 
 #: src/components/_layout/LayoutMapOptions.tsx:276
-#: src/pages/user/[userId]/bans.tsx:90
+#: src/pages/user/[userId]/bans.tsx:103
 msgid "Flags"
 msgstr "Bayraklar"
 
@@ -2769,7 +2765,7 @@ msgstr "Yazı tipi"
 msgid "Font size"
 msgstr "Yazı boyutu"
 
-#: src/components/_user/user/UserDropdown.tsx:207
+#: src/components/_user/user/UserDropdown.tsx:196
 msgid "Font style"
 msgstr "Yazı tipi stili"
 
@@ -2838,7 +2834,7 @@ msgstr "Hediye gönderildi! Kostüm paketi alıcı için açıldı!"
 msgid "Gift sent! Thanks for supporting the game <3"
 msgstr "Hediye gönderildi! Oyunu desteklediğin için teşekkürler <3"
 
-#: src/components/_user/user/UserDropdown.tsx:241
+#: src/components/_user/user/UserDropdown.tsx:230
 msgid "Gift Supporter Plan"
 msgstr "Destekçi Planı Hediye Et"
 
@@ -2850,15 +2846,11 @@ msgstr "Bu paketi birine hediye et"
 msgid "gifted"
 msgstr "hediye edildi"
 
-#: src/components/_user/user/UserDropdown.tsx:344
-msgid "Give \"Bug finder\" badge"
-msgstr "\"Hata bulucu\" rozeti ver"
+#: src/components/_user/user/UserDropdown.tsx:333
+msgid "Give badge"
+msgstr ""
 
-#: src/components/_user/user/UserDropdown.tsx:349
-msgid "Give Bug Finder Badge"
-msgstr "Hata Bulucu Rozeti Ver"
-
-#: src/components/_user/user/UserDropdown.tsx:323
+#: src/components/_user/user/UserDropdown.tsx:312
 msgid "Give money"
 msgstr "Para ver"
 
@@ -2979,7 +2971,7 @@ msgstr "Savaşlarda <0>{count}</0> kez vur"
 
 #: src/components/_other/shop/ShopHeader.tsx:16
 #: src/components/_political/country/CountryHeader.tsx:57
-#: src/components/_user/user/UserHeader.tsx:148
+#: src/components/_user/user/UserHeader.tsx:150
 msgid "Home"
 msgstr "Ana Sayfa"
 
@@ -3097,12 +3089,11 @@ msgstr "Acemi"
 
 #: src/components/_layout/LayoutMenu.tsx:123
 #: src/components/_user/user/MyAvatar.tsx:35
-#: src/components/_user/user/UserHeader.tsx:154
+#: src/components/_user/user/UserHeader.tsx:156
 #: src/pages/companies.tsx:83
 #: src/pages/country/[countryId]/account.tsx:24
 #: src/pages/market/index.tsx:49
 #: src/pages/user/[userId]/account.tsx:19
-#: src/pages/user/[userId]/bans.tsx:100
 #: src/pages/user/[userId]/companies.tsx:46
 #: src/pages/user/[userId]/index.tsx:192
 #: src/pages/user/[userId]/inventory.tsx:30
@@ -3714,7 +3705,7 @@ msgstr "AB Bağışı Alındı"
 msgid "MU Ownership Transferred"
 msgstr "AB Sahipliği Devredildi"
 
-#: src/components/_user/user/UserDropdown.tsx:289
+#: src/components/_user/user/UserDropdown.tsx:278
 msgid "Mute user"
 msgstr "Kullanıcıyı sustur"
 
@@ -3777,7 +3768,7 @@ msgstr "Kumar oynamayı bırakma"
 
 #: src/components/_other/shop/SkinItem.tsx:119
 #: src/components/_other/shop/SkinPackItem.tsx:83
-#: src/components/_social/ArticleList.tsx:133
+#: src/components/_social/ArticleList.tsx:161
 msgid "New"
 msgstr "Yeni"
 
@@ -3945,7 +3936,7 @@ msgstr "Henüz hasar sıralaması yok."
 msgid "No donations yet"
 msgstr "Henüz bağış yok"
 
-#: src/pages/user/[userId]/bans.tsx:68
+#: src/pages/user/[userId]/bans.tsx:81
 msgid "No email found"
 msgstr "E-posta bulunamadı"
 
@@ -4689,7 +4680,7 @@ msgstr "Savaşlarda dövüşürken kaybedilen sağlığı azaltır"
 msgid "Referral link copied to clipboard"
 msgstr "Davet linki panoya kopyalandı"
 
-#: src/components/_user/user/UserHeader.tsx:208
+#: src/components/_user/user/UserHeader.tsx:210
 #: src/components/_user/user/UserRankingsPanel.tsx:50
 #: src/pages/user/[userId]/index.tsx:210
 #: src/pages/user/[userId]/referrals.tsx:67
@@ -4815,7 +4806,7 @@ msgstr "Parti konseyinden bir üyeyi çıkarın"
 msgid "Remove all"
 msgstr "Hepsini kaldır"
 
-#: src/components/_user/user/UserDropdown.tsx:337
+#: src/components/_user/user/UserDropdown.tsx:326
 msgid "Remove all offers"
 msgstr "Tüm teklifleri kaldır"
 
@@ -4823,7 +4814,7 @@ msgstr "Tüm teklifleri kaldır"
 msgid "Remove an inactive congress member from its position"
 msgstr "Aktif olmayan bir meclis üyesini görevinden al"
 
-#: src/components/_user/user/UserDropdown.tsx:367
+#: src/components/_user/user/UserDropdown.tsx:351
 msgid "Remove Avatar"
 msgstr "Avatarı Kaldır"
 
@@ -4831,7 +4822,7 @@ msgstr "Avatarı Kaldır"
 msgid "Remove council member"
 msgstr "Konsey üyesini kaldır"
 
-#: src/components/_user/user/UserDropdown.tsx:389
+#: src/components/_user/user/UserDropdown.tsx:373
 msgid "Remove Description"
 msgstr "Açıklamayı Kaldır"
 
@@ -4861,7 +4852,7 @@ msgstr "Şirketi yeniden adlandır"
 msgid "Replace all party ethics with a new configuration"
 msgstr "Tüm parti ilkelerini yeni bir yapılandırmayla değiştirin."
 
-#: src/components/_user/user/UserDropdown.tsx:248
+#: src/components/_user/user/UserDropdown.tsx:237
 msgid "Report user"
 msgstr "Kullanıcıyı bildir"
 
@@ -4882,7 +4873,7 @@ msgstr "Görevi Yenile"
 msgid "Reset"
 msgstr "Sıfırla"
 
-#: src/components/_user/user/UserDropdown.tsx:362
+#: src/components/_user/user/UserDropdown.tsx:346
 msgid "Reset avatar"
 msgstr "Avatarı sıfırla"
 
@@ -4890,7 +4881,7 @@ msgstr "Avatarı sıfırla"
 msgid "Reset CAPTCHA"
 msgstr "CAPTCHA'yı Sıfırla"
 
-#: src/components/_user/user/UserDropdown.tsx:384
+#: src/components/_user/user/UserDropdown.tsx:368
 msgid "Reset description"
 msgstr "Açıklamayı sıfırla"
 
@@ -4898,11 +4889,11 @@ msgstr "Açıklamayı sıfırla"
 msgid "Reset tutorials"
 msgstr "Eğitimleri sıfırla"
 
-#: src/components/_user/user/UserDropdown.tsx:373
+#: src/components/_user/user/UserDropdown.tsx:357
 msgid "Reset username"
 msgstr "Kullanıcı adını sıfırla"
 
-#: src/components/_user/user/UserDropdown.tsx:378
+#: src/components/_user/user/UserDropdown.tsx:362
 msgid "Reset Username"
 msgstr "Kullanıcı Adını Sıfırla"
 
@@ -5017,7 +5008,7 @@ msgstr "İktidar Partisi"
 msgid "Running low on health?"
 msgstr "Sağlık mı azalıyor?"
 
-#: src/pages/user/[userId]/bans.tsx:153
+#: src/pages/user/[userId]/bans.tsx:279
 msgid "Sanction History"
 msgstr "Yaptırım Geçmişi"
 
@@ -5087,7 +5078,7 @@ msgstr "Tümünü seç"
 msgid "Select an occupied region"
 msgstr "İşgal edilmiş bir bölge seç"
 
-#: src/components/_user/user/UserDropdown.tsx:221
+#: src/components/_user/user/UserDropdown.tsx:210
 msgid "Select banner"
 msgstr "Banner seç"
 
@@ -5103,7 +5094,7 @@ msgstr "Harita tonu seç"
 msgid "Select motion type"
 msgstr "Önerge türü seç"
 
-#: src/components/_user/user/UserDropdown.tsx:228
+#: src/components/_user/user/UserDropdown.tsx:217
 msgid "Select skin"
 msgstr "Görünüm seç"
 
@@ -5115,6 +5106,10 @@ msgstr "Kendi İşin"
 #: src/components/_user/mission/mission.frontConfig.tsx:62
 msgid "Self work <0>{count}</0> times in your companies"
 msgstr "Şirketlerinde <0>{count}</0> kez kendi işini yap"
+
+#: src/pages/user/[userId]/bans.tsx:205
+msgid "Sell"
+msgstr ""
 
 #: src/components/_economy/company/CompanyDropdown.tsx:253
 msgid "Sell company?"
@@ -5157,7 +5152,7 @@ msgstr "<1/>'a <0>{0}</0> gönder"
 msgid "Send <0>{count}</0> messages"
 msgstr "<0>{count}</0> mesaj gönder"
 
-#: src/components/_user/user/UserDropdown.tsx:397
+#: src/components/_user/user/UserDropdown.tsx:381
 msgid "Send a message"
 msgstr "Mesaj gönder"
 
@@ -5177,7 +5172,7 @@ msgstr "Mesaj Gönder"
 msgid "Send money to another country"
 msgstr "Başka bir ülkeye para gönder"
 
-#: src/components/_user/user/UserDropdown.tsx:303
+#: src/components/_user/user/UserDropdown.tsx:292
 msgid "Send warning"
 msgstr "Uyarı gönder"
 
@@ -5247,7 +5242,7 @@ msgid "Set your username"
 msgstr "Kullanıcı adını ayarla"
 
 #: src/components/_user/user/MyAvatar.tsx:54
-#: src/components/_user/user/UserHeader.tsx:214
+#: src/components/_user/user/UserHeader.tsx:216
 msgid "Settings"
 msgstr "Ayarlar"
 
@@ -5257,7 +5252,7 @@ msgstr "Ayarlar"
 msgid "Shop"
 msgstr "Mağaza"
 
-#: src/pages/user/[userId]/bans.tsx:119
+#: src/pages/user/[userId]/bans.tsx:245
 msgid "Show Inventory"
 msgstr "Envanteri Göster"
 
@@ -5267,12 +5262,16 @@ msgstr "Envanteri Göster"
 msgid "Show more"
 msgstr "Daha fazla göster"
 
+#: src/components/_social/ArticleList.tsx:141
+msgid "Show only articles with positive score (score >= -5)"
+msgstr ""
+
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:19
 msgid "Skill issue?"
 msgstr "Yetenek meselesi"
 
 #: src/components/_user/user/MyAvatar.tsx:41
-#: src/components/_user/user/UserHeader.tsx:169
+#: src/components/_user/user/UserHeader.tsx:171
 #: src/pages/user/[userId]/index.tsx:156
 msgid "Skills"
 msgstr "Beceriler"
@@ -5459,7 +5458,7 @@ msgstr "Stratejik kaynak"
 msgid "Strategic resources"
 msgstr "Stratejik kaynaklar"
 
-#: src/components/_social/ArticleList.tsx:161
+#: src/components/_social/ArticleList.tsx:189
 msgid "Subscribed"
 msgstr "Abone Olundu"
 
@@ -5489,9 +5488,9 @@ msgid "Supporter"
 msgstr "Destekçi"
 
 #: src/components/_economy/inventoryAccount/InventoryAccount.tsx:51
-#: src/components/_user/user/UserDropdown.tsx:192
-#: src/components/_user/user/UserDropdown.tsx:201
-#: src/components/_user/user/UserDropdown.tsx:210
+#: src/components/_user/user/UserDropdown.tsx:181
+#: src/components/_user/user/UserDropdown.tsx:190
+#: src/components/_user/user/UserDropdown.tsx:199
 msgid "Supporter feature"
 msgstr "Destekçi özelliği"
 
@@ -5683,15 +5682,15 @@ msgstr "Makaleye Bahşiş Ver"
 msgid "Token Name"
 msgstr "Token Adı"
 
-#: src/components/_social/ArticleList.tsx:153
+#: src/components/_social/ArticleList.tsx:181
 msgid "Top"
 msgstr "En İyi"
 
-#: src/components/_social/ArticleList.tsx:140
+#: src/components/_social/ArticleList.tsx:168
 msgid "Top (1d)"
 msgstr "En İyi (1g)"
 
-#: src/components/_social/ArticleList.tsx:147
+#: src/components/_social/ArticleList.tsx:175
 msgid "Top (1w)"
 msgstr "En İyi (1h)"
 
@@ -5783,7 +5782,7 @@ msgstr "Alım Satım"
 msgid "Trainee"
 msgstr "Stajyer"
 
-#: src/components/_user/user/UserHeader.tsx:188
+#: src/components/_user/user/UserHeader.tsx:190
 msgid "Transac."
 msgstr "İşlem."
 
@@ -5817,11 +5816,11 @@ msgstr "Eğitimler"
 msgid "Tutorials reseted"
 msgstr "Eğitimler sıfırlandı"
 
-#: src/components/_user/user/UserDropdown.tsx:282
+#: src/components/_user/user/UserDropdown.tsx:271
 msgid "Unban user"
 msgstr "Kullanıcının yasağını kaldır"
 
-#: src/components/_user/user/UserDropdown.tsx:257
+#: src/components/_user/user/UserDropdown.tsx:246
 msgid "Unblock (show content)"
 msgstr "Engeli kaldır (içeriği göster)"
 
@@ -5859,11 +5858,11 @@ msgstr "Hepsini Üret butonunu aç"
 msgid "Unlocked pack"
 msgstr "Kilidi açılmış paket"
 
-#: src/components/_user/user/UserDropdown.tsx:296
+#: src/components/_user/user/UserDropdown.tsx:285
 msgid "Unmute user"
 msgstr "Kullanıcının susturmasını kaldır"
 
-#: src/components/_user/user/UserHeader.tsx:405
+#: src/components/_user/user/UserHeader.tsx:407
 msgid "Unmuted <0/>"
 msgstr "<0/> susturması kaldırıldı"
 
@@ -6012,7 +6011,7 @@ msgstr "Şirketleri, AB'leri ve tahkimatları yükseltmek için kullanılır"
 msgid "user"
 msgstr "kullanıcı"
 
-#: src/pages/user/[userId]/bans.tsx:144
+#: src/pages/user/[userId]/bans.tsx:270
 msgid "User Actions"
 msgstr "Kullanıcı Eylemleri"
 
@@ -6020,7 +6019,7 @@ msgstr "Kullanıcı Eylemleri"
 msgid "User already owns all skins"
 msgstr "Kullanıcı zaten bütün görünümlere sahip"
 
-#: src/components/_user/user/UserDropdown.tsx:124
+#: src/components/_user/user/UserDropdown.tsx:123
 msgid "User blocked"
 msgstr "Kullanıcı engellendi"
 
@@ -6032,7 +6031,7 @@ msgstr "Kullanıcının toprak puanlarına katılımı."
 msgid "User removed from family group"
 msgstr "Kullanıcı aile grubundan çıkarıldı"
 
-#: src/components/_user/user/UserDropdown.tsx:128
+#: src/components/_user/user/UserDropdown.tsx:127
 msgid "User unblocked"
 msgstr "Kullanıcının engeli kaldırıldı"
 
@@ -6044,7 +6043,7 @@ msgstr "Kullanıcının engeli kaldırıldı"
 msgid "Username"
 msgstr "Kullanıcı Adı"
 
-#: src/components/_user/user/UserDropdown.tsx:160
+#: src/components/_user/user/UserDropdown.tsx:149
 msgid "Username removed"
 msgstr "Kullanıcı adı kaldırıldı"
 
@@ -6773,6 +6772,6 @@ msgstr "Haftalık görevleriniz sıfırlandı! Ödüller almak için onları tam
 msgid "your@email.com"
 msgstr "senin@email.com"
 
-#: src/components/_social/ArticleList.tsx:167
+#: src/components/_social/ArticleList.tsx:195
 msgid "Yours"
 msgstr "Seninkiler"

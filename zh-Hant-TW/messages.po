@@ -14,7 +14,7 @@ msgstr ""
 "Plural-Forms: \n"
 
 #. placeholder {0}: user.data.mute.reason
-#: src/components/_user/user/UserHeader.tsx:409
+#: src/components/_user/user/UserHeader.tsx:411
 msgid " - Reason: {0}"
 msgstr " - 原因: {0}"
 
@@ -335,15 +335,15 @@ msgstr "<0/> 在 <2/> 的回合 <1>#{0}</1> 中取得勝利"
 msgid "<0/> won the round <1>#{0}</1> in <2/>!"
 msgstr "<0/> 在 <2/> 的回合 <1>#{0}</1> 中取得勝利！"
 
-#: src/components/_user/user/UserHeader.tsx:276
+#: src/components/_user/user/UserHeader.tsx:278
 msgid "<0/><1>Buff</1> ends <2/>"
 msgstr "<0/><1>加成</1> 結束於 <2/>"
 
-#: src/components/_user/user/UserHeader.tsx:285
+#: src/components/_user/user/UserHeader.tsx:287
 msgid "<0/><1>Debuff</1> ends <2/>"
 msgstr "<0/><1>減益</1> 結束於 <2/>"
 
-#: src/components/_user/user/UserHeader.tsx:348
+#: src/components/_user/user/UserHeader.tsx:350
 msgid "<0/>Last connection was <1><2/></1>"
 msgstr "<0/>上次連線是在 <1><2/></1>"
 
@@ -950,7 +950,7 @@ msgid "Access war"
 msgstr "訪問戰爭"
 
 #: src/components/_political/country/CountryHeader.tsx:70
-#: src/components/_user/user/UserHeader.tsx:162
+#: src/components/_user/user/UserHeader.tsx:164
 #: src/pages/country/[countryId]/account.tsx:36
 #: src/pages/country/[countryId]/index.tsx:328
 #: src/pages/user/[userId]/account.tsx:25
@@ -1007,7 +1007,7 @@ msgstr "額外花費"
 msgid "Admin"
 msgstr "管理員"
 
-#: src/pages/user/[userId]/bans.tsx:135
+#: src/pages/user/[userId]/bans.tsx:261
 msgid "Admin Actions"
 msgstr "管理員行為"
 
@@ -1049,7 +1049,7 @@ msgstr "農業主義"
 msgid "All"
 msgstr "全部"
 
-#: src/components/_social/ArticleList.tsx:119
+#: src/components/_social/ArticleList.tsx:130
 msgid "All categories"
 msgstr "全部分類"
 
@@ -1075,7 +1075,7 @@ msgstr "所有在你國境內生產子彈或建築用特產的公司皆會獲得
 msgid "All event types"
 msgstr "全部活動類型"
 
-#: src/components/_social/ArticleList.tsx:109
+#: src/components/_social/ArticleList.tsx:120
 msgid "All languages"
 msgstr "全部語言"
 
@@ -1192,10 +1192,6 @@ msgstr "申請"
 msgid "Are you sure you want to fire this worker?"
 msgstr "你確定要開除這位員工嗎？"
 
-#: src/components/_user/user/UserDropdown.tsx:350
-msgid "Are you sure you want to give the \"Bug finder\" badge to {username}?"
-msgstr "你確定要將 \"漏洞發現者\" 勳章給 {username} 嗎？"
-
 #: src/pages/country/[countryId]/government.tsx:93
 msgid "Are you sure you want to leave the congress?"
 msgstr "你確定要離開國會嗎？"
@@ -1246,7 +1242,7 @@ msgstr "文章小費"
 msgid "Article tipped"
 msgstr "文章已給小費"
 
-#: src/components/_user/user/UserHeader.tsx:202
+#: src/components/_user/user/UserHeader.tsx:204
 #: src/pages/user/[userId]/index.tsx:199
 msgid "Articles"
 msgstr "文章"
@@ -1301,7 +1297,7 @@ msgstr "自動化機械"
 msgid "Automated Engine"
 msgstr "自動化機械"
 
-#: src/components/_user/user/UserDropdown.tsx:153
+#: src/components/_user/user/UserDropdown.tsx:142
 msgid "Avatar removed"
 msgstr "頭像已移除"
 
@@ -1325,7 +1321,7 @@ msgstr "平衡"
 msgid "Balanced - No modifiers"
 msgstr "平衡 - 無調整"
 
-#: src/components/_user/user/UserDropdown.tsx:275
+#: src/components/_user/user/UserDropdown.tsx:264
 msgid "Ban user"
 msgstr "停權用戶"
 
@@ -1333,7 +1329,7 @@ msgstr "停權用戶"
 msgid "Bankruptcy"
 msgstr "破產"
 
-#: src/components/_user/user/UserHeader.tsx:397
+#: src/components/_user/user/UserHeader.tsx:399
 msgid "Banned"
 msgstr "已停權"
 
@@ -1353,8 +1349,8 @@ msgstr "已送出橫幅禮物"
 msgid "Banners"
 msgstr "橫幅"
 
-#: src/components/_user/user/UserHeader.tsx:180
-#: src/components/_user/user/UserHeader.tsx:221
+#: src/components/_user/user/UserHeader.tsx:182
+#: src/components/_user/user/UserHeader.tsx:223
 msgid "Bans"
 msgstr "用戶紀錄"
 
@@ -1429,7 +1425,7 @@ msgstr "成為一位參選人"
 msgid "Better than nothing, right?"
 msgstr "比沒有好，對吧？"
 
-#: src/components/_user/user/UserDropdown.tsx:258
+#: src/components/_user/user/UserDropdown.tsx:247
 msgid "Block (hide content)"
 msgstr "黑名單 (隱藏內容)"
 
@@ -1479,10 +1475,6 @@ msgstr "加成已結束"
 msgid "Buff started"
 msgstr "加成已開始"
 
-#: src/components/_user/user/UserDropdown.tsx:138
-msgid "Bug Finder badge given"
-msgstr "已給予漏洞尋找者徽章"
-
 #: src/components/_economy/company/CompanyList.tsx:156
 msgid "Build a company"
 msgstr "建造一個公司"
@@ -1494,6 +1486,10 @@ msgstr "建造一個軍團"
 #: src/components/_military/mu/MuFormModal.tsx:139
 msgid "Build the military unit"
 msgstr "建造一個軍團"
+
+#: src/pages/user/[userId]/bans.tsx:180
+msgid "Buy"
+msgstr ""
 
 #: src/components/_user/mission/mission.frontConfig.tsx:166
 msgid "Buy for <0>{count}</0> money on market"
@@ -1649,7 +1645,7 @@ msgstr "選擇你的國家"
 msgid "Choose your side and click to deal <0>Damages</0>! Keep hitting to help your team win."
 msgstr "選邊後點擊來造成<0>傷害</0>！持續攻擊來為你的隊伍取得勝利。"
 
-#: src/components/_user/user/UserHeader.tsx:269
+#: src/components/_user/user/UserHeader.tsx:271
 msgid "Citizen since <0><1/></0>"
 msgstr "自 <0><1/></0> 以來是公民"
 
@@ -1763,7 +1759,7 @@ msgstr "關閉"
 msgid "Colonel"
 msgstr "上校"
 
-#: src/components/_user/user/UserDropdown.tsx:198
+#: src/components/_user/user/UserDropdown.tsx:187
 msgid "Color scheme"
 msgstr "顏色主題"
 
@@ -1777,7 +1773,7 @@ msgstr "準將"
 
 #: src/components/_layout/LayoutMenu.tsx:182
 #: src/components/_user/user/MyAvatar.tsx:48
-#: src/components/_user/user/UserHeader.tsx:194
+#: src/components/_user/user/UserHeader.tsx:196
 #: src/pages/companies.tsx:96
 msgid "Companies"
 msgstr "公司"
@@ -1921,7 +1917,7 @@ msgstr "與 Discord 連結"
 msgid "Connect with email"
 msgstr "與電子郵件連結"
 
-#: src/pages/user/[userId]/bans.tsx:127
+#: src/pages/user/[userId]/bans.tsx:253
 msgid "Connection"
 msgstr "連線"
 
@@ -2287,7 +2283,7 @@ msgstr "說明你的政黨的目標與價值"
 msgid "Description"
 msgstr "說明"
 
-#: src/components/_user/user/UserDropdown.tsx:167
+#: src/components/_user/user/UserDropdown.tsx:156
 msgid "Description removed"
 msgstr "描述已移除"
 
@@ -2295,7 +2291,7 @@ msgstr "描述已移除"
 msgid "Description updated!"
 msgstr "說明已更新！"
 
-#: src/components/_user/user/UserDropdown.tsx:330
+#: src/components/_user/user/UserDropdown.tsx:319
 msgid "Destroy item from inventory"
 msgstr "在倉庫中摧毀物品"
 
@@ -2440,7 +2436,7 @@ msgstr "經濟法案"
 msgid "Economic skills"
 msgstr "經濟技能"
 
-#: src/components/_user/user/UserDropdown.tsx:189
+#: src/components/_user/user/UserDropdown.tsx:178
 msgid "Edit description"
 msgstr "編輯描述"
 
@@ -2483,7 +2479,7 @@ msgstr "精英頭盔"
 msgid "Elite Pants"
 msgstr "精英褲子"
 
-#: src/pages/user/[userId]/bans.tsx:60
+#: src/pages/user/[userId]/bans.tsx:73
 msgid "Email"
 msgstr "電子郵件"
 
@@ -2728,7 +2724,7 @@ msgstr "找個軍團"
 msgid "Find another job"
 msgstr "找別的工作"
 
-#: src/components/_user/user/UserDropdown.tsx:316
+#: src/components/_user/user/UserDropdown.tsx:305
 msgid "Fine (remove money)"
 msgstr "罰款 (移除金錢)"
 
@@ -2757,7 +2753,7 @@ msgid "Fish"
 msgstr "魚"
 
 #: src/components/_layout/LayoutMapOptions.tsx:276
-#: src/pages/user/[userId]/bans.tsx:90
+#: src/pages/user/[userId]/bans.tsx:103
 msgid "Flags"
 msgstr "旗幟"
 
@@ -2769,7 +2765,7 @@ msgstr "字體"
 msgid "Font size"
 msgstr "字體大小"
 
-#: src/components/_user/user/UserDropdown.tsx:207
+#: src/components/_user/user/UserDropdown.tsx:196
 msgid "Font style"
 msgstr "字體"
 
@@ -2838,7 +2834,7 @@ msgstr "禮物已送出！造型包已為接收者解鎖！"
 msgid "Gift sent! Thanks for supporting the game <3"
 msgstr "禮物已送出！謝謝你支持這個遊戲 <3"
 
-#: src/components/_user/user/UserDropdown.tsx:241
+#: src/components/_user/user/UserDropdown.tsx:230
 msgid "Gift Supporter Plan"
 msgstr "贈送支持者計畫"
 
@@ -2850,15 +2846,11 @@ msgstr "贈送這個組合包給某人"
 msgid "gifted"
 msgstr "已贈送"
 
-#: src/components/_user/user/UserDropdown.tsx:344
-msgid "Give \"Bug finder\" badge"
-msgstr "給予 \"漏洞尋找者\" 徽章"
+#: src/components/_user/user/UserDropdown.tsx:333
+msgid "Give badge"
+msgstr ""
 
-#: src/components/_user/user/UserDropdown.tsx:349
-msgid "Give Bug Finder Badge"
-msgstr "給予漏洞尋找者徽章"
-
-#: src/components/_user/user/UserDropdown.tsx:323
+#: src/components/_user/user/UserDropdown.tsx:312
 msgid "Give money"
 msgstr "給予金錢"
 
@@ -2979,7 +2971,7 @@ msgstr "在戰鬥中攻擊 <0>{count}</0> 次"
 
 #: src/components/_other/shop/ShopHeader.tsx:16
 #: src/components/_political/country/CountryHeader.tsx:57
-#: src/components/_user/user/UserHeader.tsx:148
+#: src/components/_user/user/UserHeader.tsx:150
 msgid "Home"
 msgstr "主頁"
 
@@ -3097,12 +3089,11 @@ msgstr "新兵"
 
 #: src/components/_layout/LayoutMenu.tsx:123
 #: src/components/_user/user/MyAvatar.tsx:35
-#: src/components/_user/user/UserHeader.tsx:154
+#: src/components/_user/user/UserHeader.tsx:156
 #: src/pages/companies.tsx:83
 #: src/pages/country/[countryId]/account.tsx:24
 #: src/pages/market/index.tsx:49
 #: src/pages/user/[userId]/account.tsx:19
-#: src/pages/user/[userId]/bans.tsx:100
 #: src/pages/user/[userId]/companies.tsx:46
 #: src/pages/user/[userId]/index.tsx:192
 #: src/pages/user/[userId]/inventory.tsx:30
@@ -3714,7 +3705,7 @@ msgstr "已收到軍團捐款"
 msgid "MU Ownership Transferred"
 msgstr "已轉移軍團所有權"
 
-#: src/components/_user/user/UserDropdown.tsx:289
+#: src/components/_user/user/UserDropdown.tsx:278
 msgid "Mute user"
 msgstr "禁言用戶"
 
@@ -3777,7 +3768,7 @@ msgstr "不要停止賭博"
 
 #: src/components/_other/shop/SkinItem.tsx:119
 #: src/components/_other/shop/SkinPackItem.tsx:83
-#: src/components/_social/ArticleList.tsx:133
+#: src/components/_social/ArticleList.tsx:161
 msgid "New"
 msgstr "最新"
 
@@ -3945,7 +3936,7 @@ msgstr "還沒有傷害排名"
 msgid "No donations yet"
 msgstr "尚無捐款"
 
-#: src/pages/user/[userId]/bans.tsx:68
+#: src/pages/user/[userId]/bans.tsx:81
 msgid "No email found"
 msgstr "找不到電子郵件"
 
@@ -4689,7 +4680,7 @@ msgstr "降低戰鬥中損失的生命值"
 msgid "Referral link copied to clipboard"
 msgstr "邀請連結已複製到剪貼簿"
 
-#: src/components/_user/user/UserHeader.tsx:208
+#: src/components/_user/user/UserHeader.tsx:210
 #: src/components/_user/user/UserRankingsPanel.tsx:50
 #: src/pages/user/[userId]/index.tsx:210
 #: src/pages/user/[userId]/referrals.tsx:67
@@ -4815,7 +4806,7 @@ msgstr "移除一位中常委"
 msgid "Remove all"
 msgstr "移除所有"
 
-#: src/components/_user/user/UserDropdown.tsx:337
+#: src/components/_user/user/UserDropdown.tsx:326
 msgid "Remove all offers"
 msgstr "移除所有訂單"
 
@@ -4823,7 +4814,7 @@ msgstr "移除所有訂單"
 msgid "Remove an inactive congress member from its position"
 msgstr "移除一位不活躍的國會議員"
 
-#: src/components/_user/user/UserDropdown.tsx:367
+#: src/components/_user/user/UserDropdown.tsx:351
 msgid "Remove Avatar"
 msgstr "移除頭像"
 
@@ -4831,7 +4822,7 @@ msgstr "移除頭像"
 msgid "Remove council member"
 msgstr "移除中常委"
 
-#: src/components/_user/user/UserDropdown.tsx:389
+#: src/components/_user/user/UserDropdown.tsx:373
 msgid "Remove Description"
 msgstr "移除描述"
 
@@ -4861,7 +4852,7 @@ msgstr "重新命名公司"
 msgid "Replace all party ethics with a new configuration"
 msgstr "以新的配置取代舊的政黨傳統"
 
-#: src/components/_user/user/UserDropdown.tsx:248
+#: src/components/_user/user/UserDropdown.tsx:237
 msgid "Report user"
 msgstr "舉報用戶"
 
@@ -4882,7 +4873,7 @@ msgstr "重骰任務"
 msgid "Reset"
 msgstr "重置"
 
-#: src/components/_user/user/UserDropdown.tsx:362
+#: src/components/_user/user/UserDropdown.tsx:346
 msgid "Reset avatar"
 msgstr "重置頭像"
 
@@ -4890,7 +4881,7 @@ msgstr "重置頭像"
 msgid "Reset CAPTCHA"
 msgstr "重置 CAPTCHA"
 
-#: src/components/_user/user/UserDropdown.tsx:384
+#: src/components/_user/user/UserDropdown.tsx:368
 msgid "Reset description"
 msgstr "重置描述"
 
@@ -4898,11 +4889,11 @@ msgstr "重置描述"
 msgid "Reset tutorials"
 msgstr "重置教學"
 
-#: src/components/_user/user/UserDropdown.tsx:373
+#: src/components/_user/user/UserDropdown.tsx:357
 msgid "Reset username"
 msgstr "重置用戶名稱"
 
-#: src/components/_user/user/UserDropdown.tsx:378
+#: src/components/_user/user/UserDropdown.tsx:362
 msgid "Reset Username"
 msgstr "重置用戶名稱"
 
@@ -5017,7 +5008,7 @@ msgstr "執政黨"
 msgid "Running low on health?"
 msgstr "生命值要用完了嗎？"
 
-#: src/pages/user/[userId]/bans.tsx:153
+#: src/pages/user/[userId]/bans.tsx:279
 msgid "Sanction History"
 msgstr "懲罰歷史"
 
@@ -5087,7 +5078,7 @@ msgstr "全選"
 msgid "Select an occupied region"
 msgstr "選擇一個被占領地區"
 
-#: src/components/_user/user/UserDropdown.tsx:221
+#: src/components/_user/user/UserDropdown.tsx:210
 msgid "Select banner"
 msgstr "選擇橫幅"
 
@@ -5103,7 +5094,7 @@ msgstr "選擇地圖深淺"
 msgid "Select motion type"
 msgstr "選擇提案類型"
 
-#: src/components/_user/user/UserDropdown.tsx:228
+#: src/components/_user/user/UserDropdown.tsx:217
 msgid "Select skin"
 msgstr "選擇造型"
 
@@ -5115,6 +5106,10 @@ msgstr "在自己公司工作"
 #: src/components/_user/mission/mission.frontConfig.tsx:62
 msgid "Self work <0>{count}</0> times in your companies"
 msgstr "在自己公司工作 <0>{count}</0> 次"
+
+#: src/pages/user/[userId]/bans.tsx:205
+msgid "Sell"
+msgstr ""
 
 #: src/components/_economy/company/CompanyDropdown.tsx:253
 msgid "Sell company?"
@@ -5157,7 +5152,7 @@ msgstr "匯款 <0>{0}</0> 給 <1/>"
 msgid "Send <0>{count}</0> messages"
 msgstr "傳送 <0>{count}</0> 則訊息"
 
-#: src/components/_user/user/UserDropdown.tsx:397
+#: src/components/_user/user/UserDropdown.tsx:381
 msgid "Send a message"
 msgstr "傳送一則訊息"
 
@@ -5177,7 +5172,7 @@ msgstr "傳送訊息"
 msgid "Send money to another country"
 msgstr "匯錢給其他國家"
 
-#: src/components/_user/user/UserDropdown.tsx:303
+#: src/components/_user/user/UserDropdown.tsx:292
 msgid "Send warning"
 msgstr "傳送警告"
 
@@ -5247,7 +5242,7 @@ msgid "Set your username"
 msgstr "設置你的用戶名稱"
 
 #: src/components/_user/user/MyAvatar.tsx:54
-#: src/components/_user/user/UserHeader.tsx:214
+#: src/components/_user/user/UserHeader.tsx:216
 msgid "Settings"
 msgstr "設定"
 
@@ -5257,7 +5252,7 @@ msgstr "設定"
 msgid "Shop"
 msgstr "商店"
 
-#: src/pages/user/[userId]/bans.tsx:119
+#: src/pages/user/[userId]/bans.tsx:245
 msgid "Show Inventory"
 msgstr "顯示倉庫"
 
@@ -5267,12 +5262,16 @@ msgstr "顯示倉庫"
 msgid "Show more"
 msgstr "顯示更多"
 
+#: src/components/_social/ArticleList.tsx:141
+msgid "Show only articles with positive score (score >= -5)"
+msgstr ""
+
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:19
 msgid "Skill issue?"
 msgstr "技術問題？"
 
 #: src/components/_user/user/MyAvatar.tsx:41
-#: src/components/_user/user/UserHeader.tsx:169
+#: src/components/_user/user/UserHeader.tsx:171
 #: src/pages/user/[userId]/index.tsx:156
 msgid "Skills"
 msgstr "技能"
@@ -5459,7 +5458,7 @@ msgstr "戰略資源"
 msgid "Strategic resources"
 msgstr "戰略資源"
 
-#: src/components/_social/ArticleList.tsx:161
+#: src/components/_social/ArticleList.tsx:189
 msgid "Subscribed"
 msgstr "已訂閱"
 
@@ -5489,9 +5488,9 @@ msgid "Supporter"
 msgstr "支持者"
 
 #: src/components/_economy/inventoryAccount/InventoryAccount.tsx:51
-#: src/components/_user/user/UserDropdown.tsx:192
-#: src/components/_user/user/UserDropdown.tsx:201
-#: src/components/_user/user/UserDropdown.tsx:210
+#: src/components/_user/user/UserDropdown.tsx:181
+#: src/components/_user/user/UserDropdown.tsx:190
+#: src/components/_user/user/UserDropdown.tsx:199
 msgid "Supporter feature"
 msgstr "支持者功能"
 
@@ -5683,15 +5682,15 @@ msgstr "給文章小費"
 msgid "Token Name"
 msgstr "Token 名稱"
 
-#: src/components/_social/ArticleList.tsx:153
+#: src/components/_social/ArticleList.tsx:181
 msgid "Top"
 msgstr "熱門"
 
-#: src/components/_social/ArticleList.tsx:140
+#: src/components/_social/ArticleList.tsx:168
 msgid "Top (1d)"
 msgstr "熱門 (1天)"
 
-#: src/components/_social/ArticleList.tsx:147
+#: src/components/_social/ArticleList.tsx:175
 msgid "Top (1w)"
 msgstr "熱門 (1周)"
 
@@ -5783,7 +5782,7 @@ msgstr "交易"
 msgid "Trainee"
 msgstr "訓練兵"
 
-#: src/components/_user/user/UserHeader.tsx:188
+#: src/components/_user/user/UserHeader.tsx:190
 msgid "Transac."
 msgstr "交易紀錄"
 
@@ -5817,11 +5816,11 @@ msgstr "教學"
 msgid "Tutorials reseted"
 msgstr "重置教學"
 
-#: src/components/_user/user/UserDropdown.tsx:282
+#: src/components/_user/user/UserDropdown.tsx:271
 msgid "Unban user"
 msgstr "解封用戶"
 
-#: src/components/_user/user/UserDropdown.tsx:257
+#: src/components/_user/user/UserDropdown.tsx:246
 msgid "Unblock (show content)"
 msgstr "解除黑名單（顯示內容）"
 
@@ -5859,11 +5858,11 @@ msgstr "解鎖一鍵生產"
 msgid "Unlocked pack"
 msgstr "已解鎖組合包"
 
-#: src/components/_user/user/UserDropdown.tsx:296
+#: src/components/_user/user/UserDropdown.tsx:285
 msgid "Unmute user"
 msgstr "解除用戶禁言"
 
-#: src/components/_user/user/UserHeader.tsx:405
+#: src/components/_user/user/UserHeader.tsx:407
 msgid "Unmuted <0/>"
 msgstr "對 <0/> 解除禁言"
 
@@ -6012,7 +6011,7 @@ msgstr "用於升級公司、軍團和防禦工事"
 msgid "user"
 msgstr "用戶"
 
-#: src/pages/user/[userId]/bans.tsx:144
+#: src/pages/user/[userId]/bans.tsx:270
 msgid "User Actions"
 msgstr "用戶行為"
 
@@ -6020,7 +6019,7 @@ msgstr "用戶行為"
 msgid "User already owns all skins"
 msgstr "用戶已擁有所有造型"
 
-#: src/components/_user/user/UserDropdown.tsx:124
+#: src/components/_user/user/UserDropdown.tsx:123
 msgid "User blocked"
 msgstr "用戶遭屏蔽"
 
@@ -6032,7 +6031,7 @@ msgstr "用戶對優勢點的貢獻"
 msgid "User removed from family group"
 msgstr "用戶已從家庭群組中被移除"
 
-#: src/components/_user/user/UserDropdown.tsx:128
+#: src/components/_user/user/UserDropdown.tsx:127
 msgid "User unblocked"
 msgstr "已解除用戶屏蔽"
 
@@ -6044,7 +6043,7 @@ msgstr "已解除用戶屏蔽"
 msgid "Username"
 msgstr "用戶名"
 
-#: src/components/_user/user/UserDropdown.tsx:160
+#: src/components/_user/user/UserDropdown.tsx:149
 msgid "Username removed"
 msgstr "用戶名已刪除"
 
@@ -6773,6 +6772,6 @@ msgstr "你的每週任務已重置，完成它們以賺取獎勵！"
 msgid "your@email.com"
 msgstr "your@email.com"
 
-#: src/components/_social/ArticleList.tsx:167
+#: src/components/_social/ArticleList.tsx:195
 msgid "Yours"
 msgstr "你的"
